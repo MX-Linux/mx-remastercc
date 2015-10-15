@@ -59,7 +59,9 @@
         <string>Configure live persistence</string>
        </property>
        <property name="icon">
-        <iconset theme="applications-system"/>
+        <iconset theme="applications-system">
+         <normaloff/>
+        </iconset>
        </property>
       </widget>
      </item>
@@ -69,7 +71,9 @@
         <string>Setup live persistence</string>
        </property>
        <property name="icon">
-        <iconset theme="applications-development"/>
+        <iconset theme="applications-development">
+         <normaloff/>
+        </iconset>
        </property>
        <property name="flat">
         <bool>false</bool>
@@ -82,7 +86,9 @@
         <string>Save root persistence</string>
        </property>
        <property name="icon">
-        <iconset theme="filesave"/>
+        <iconset theme="filesave">
+         <normaloff/>
+        </iconset>
        </property>
       </widget>
      </item>
@@ -91,10 +97,13 @@
        <property name="orientation">
         <enum>Qt::Vertical</enum>
        </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::MinimumExpanding</enum>
+       </property>
        <property name="sizeHint" stdset="0">
         <size>
          <width>20</width>
-         <height>40</height>
+         <height>20</height>
         </size>
        </property>
       </spacer>
@@ -105,7 +114,9 @@
         <string>Remaster</string>
        </property>
        <property name="icon">
-        <iconset theme="media-cdrom"/>
+        <iconset theme="media-cdrom">
+         <normaloff/>
+        </iconset>
        </property>
       </widget>
      </item>
@@ -128,7 +139,10 @@
      <item row="1" column="0" colspan="4">
       <widget class="QLabel" name="label">
        <property name="text">
-        <string>TextLabel</string>
+        <string>This tool allows you to rework an ISO while running Live. Remaster allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. Persistence allows you to retain data, settings and installed programs when the machine gets switched off for personal use.</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
