@@ -15,14 +15,14 @@ Changes:
  .
    * initial release
 Checksums-Sha1:
- de7ab5f445a1d8bf8e77cd07ba68d1cd3a52e427 653 mx-remastercc_0.15.10mx15.dsc
- 3bbbbed9b7060e98eb8cd94187f8ad699cdd0bd4 188688 mx-remastercc_0.15.10mx15.tar.xz
- bb2e4b63b1545f477416912ad5991b9953799eb5 24228 mx-remastercc_0.15.10mx15_i386.deb
+ e2cd09e6110563cd181a824031d85f528457a8a3 653 mx-remastercc_0.15.10mx15.dsc
+ 1eebcf74f0f363217a8a232cf21b387663114070 211896 mx-remastercc_0.15.10mx15.tar.xz
+ 2dded194301b5182a1e0739a53c6597922d5157c 24272 mx-remastercc_0.15.10mx15_i386.deb
 Checksums-Sha256:
- e585f06f9066bc24b4e4adc5f84ec0f543cbbf91aa017643e1f56f1eadc66119 653 mx-remastercc_0.15.10mx15.dsc
- 713484460d9248a0011e7ecf8dd9ae5ab33e03fca667cf4a410d1ce66a7e9518 188688 mx-remastercc_0.15.10mx15.tar.xz
- 1f21bd8ca39c0c132b32a820d422cd80a63ccd3b6b2186c8b790bd190b75c38c 24228 mx-remastercc_0.15.10mx15_i386.deb
+ 1693b1ab9c9e660b52dd840189fbc482f0b45ec78bca61fdad9a0c66f3d76829 653 mx-remastercc_0.15.10mx15.dsc
+ 77983d7cadbae4d0088d01503e7c9dbb3a37b66c3183f2b33e15db22b965c24f 211896 mx-remastercc_0.15.10mx15.tar.xz
+ d3fb44294a818cf7becd27591cba8195facd54ff9cc2b4f56463c4af05882bb5 24272 mx-remastercc_0.15.10mx15_i386.deb
 Files:
- 07cdf26779f7853607e329fa8c7f513a 653 admin optional mx-remastercc_0.15.10mx15.dsc
- 0f5457ef1905750fe43bc70fd50a2fdf 188688 admin optional mx-remastercc_0.15.10mx15.tar.xz
- d7da759ebb21becd3df5d1da33d23c7d 24228 admin optional mx-remastercc_0.15.10mx15_i386.deb
+ ed6d61963404d75aeb38680c1009bbc9 653 admin optional mx-remastercc_0.15.10mx15.dsc
+ 488057649d517d2c22657a18ae64b379 211896 admin optional mx-remastercc_0.15.10mx15.tar.xz
+ 09e207bccead41a6bb131337569ce3eb 24272 admin optional mx-remastercc_0.15.10mx15_i386.deb

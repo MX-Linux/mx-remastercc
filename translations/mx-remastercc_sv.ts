@@ -14,77 +14,77 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="92"/>
+        <location filename="../mxremastercc.ui" line="80"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="285"/>
+        <location filename="../mxremastercc.ui" line="304"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="295"/>
+        <location filename="../mxremastercc.ui" line="257"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="305"/>
+        <location filename="../mxremastercc.ui" line="314"/>
         <source>Configure live persistence</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="80"/>
+        <location filename="../mxremastercc.ui" line="292"/>
         <source>Save root persistence</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="317"/>
+        <location filename="../mxremastercc.ui" line="267"/>
         <source>Remaster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="160"/>
+        <location filename="../mxremastercc.ui" line="132"/>
         <source>Display help </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="163"/>
+        <location filename="../mxremastercc.ui" line="135"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="170"/>
+        <location filename="../mxremastercc.ui" line="142"/>
         <source>Alt+H</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="199"/>
+        <location filename="../mxremastercc.ui" line="171"/>
         <source>About this application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="202"/>
+        <location filename="../mxremastercc.ui" line="174"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="209"/>
+        <location filename="../mxremastercc.ui" line="181"/>
         <source>Alt+B</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="241"/>
+        <location filename="../mxremastercc.ui" line="213"/>
         <source>Quit application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="244"/>
+        <location filename="../mxremastercc.ui" line="216"/>
         <source>Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="251"/>
+        <location filename="../mxremastercc.ui" line="223"/>
         <source>Alt+N</source>
         <translation type="unfinished"></translation>
     </message>

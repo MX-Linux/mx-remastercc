@@ -98,7 +98,7 @@ void mxremastercc::on_buttonAbout_clicked()
 // Help button clicked
 void mxremastercc::on_buttonHelp_clicked()
 {
-    QString cmd = QString("mx-viewer http://www.mepiscommunity.org/user_manual_mx15/mxum.html# '%1'").arg(tr("MX RemasterCC"));
+    QString cmd = QString("mx-viewer http://mepiscommunity.org/wiki/help-files/help-mx-remaster '%1'").arg(tr("MX RemasterCC"));
     system(cmd.toUtf8());
 }
 

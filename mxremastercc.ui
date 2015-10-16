@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>760</width>
-    <height>252</height>
+    <height>274</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,7 +21,7 @@
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="0" column="0">
     <layout class="QGridLayout" name="gridLayout">
-     <item row="7" column="2" colspan="2">
+     <item row="8" column="2" colspan="2">
       <spacer name="verticalSpacer">
        <property name="orientation">
         <enum>Qt::Vertical</enum>
@@ -37,7 +37,7 @@
        </property>
       </spacer>
      </item>
-     <item row="4" column="0">
+     <item row="5" column="0">
       <spacer name="horizontalSpacer">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -47,13 +47,13 @@
        </property>
        <property name="sizeHint" stdset="0">
         <size>
-         <width>5</width>
-         <height>5</height>
+         <width>40</width>
+         <height>20</height>
         </size>
        </property>
       </spacer>
      </item>
-     <item row="4" column="2">
+     <item row="5" column="2">
       <widget class="QPushButton" name="buttonSetupPersistence">
        <property name="minimumSize">
         <size>
@@ -74,19 +74,7 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="3">
-      <widget class="QPushButton" name="buttonSaveRootPersist">
-       <property name="text">
-        <string>Save root persistence</string>
-       </property>
-       <property name="icon">
-        <iconset theme="filesave">
-         <normaloff/>
-        </iconset>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0" colspan="6">
+     <item row="1" column="0" colspan="7">
       <widget class="QLabel" name="label">
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -96,23 +84,7 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="2" colspan="2">
-      <spacer name="verticalSpacer_2">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::MinimumExpanding</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="4" column="5">
+     <item row="5" column="6">
       <spacer name="horizontalSpacer_2">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
@@ -122,13 +94,13 @@
        </property>
        <property name="sizeHint" stdset="0">
         <size>
-         <width>5</width>
-         <height>5</height>
+         <width>40</width>
+         <height>20</height>
         </size>
        </property>
       </spacer>
      </item>
-     <item row="8" column="0" colspan="6">
+     <item row="9" column="0" colspan="7">
       <layout class="QGridLayout" name="buttonBar" columnstretch="0,0,0,0,0,0,0,0,0">
        <property name="sizeConstraint">
         <enum>QLayout::SetDefaultConstraint</enum>
@@ -279,17 +251,7 @@
        </item>
       </layout>
      </item>
-     <item row="3" column="3">
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="2">
+     <item row="4" column="2">
       <widget class="QLabel" name="label_2">
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -299,7 +261,54 @@
        </property>
       </widget>
      </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="buttonRemaster">
+       <property name="text">
+        <string>Remaster</string>
+       </property>
+       <property name="icon">
+        <iconset theme="media-cdrom">
+         <normaloff/>
+        </iconset>
+       </property>
+      </widget>
+     </item>
      <item row="5" column="3">
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="5" column="4">
+      <widget class="QPushButton" name="buttonSaveRootPersist">
+       <property name="text">
+        <string>Save root persistence</string>
+       </property>
+       <property name="icon">
+        <iconset theme="filesave">
+         <normaloff/>
+        </iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
       <widget class="QPushButton" name="buttonConfigPersistence">
        <property name="text">
         <string>Configure live persistence</string>
@@ -311,17 +320,21 @@
        </property>
       </widget>
      </item>
-     <item row="5" column="2">
-      <widget class="QPushButton" name="buttonRemaster">
-       <property name="text">
-        <string>Remaster</string>
+     <item row="2" column="0" colspan="7">
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
        </property>
-       <property name="icon">
-        <iconset theme="media-cdrom">
-         <normaloff/>
-        </iconset>
+       <property name="sizeType">
+        <enum>QSizePolicy::MinimumExpanding</enum>
        </property>
-      </widget>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
      </item>
     </layout>
    </item>
