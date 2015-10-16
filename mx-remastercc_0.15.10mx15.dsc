@@ -10,8 +10,8 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List: 
  mx-remastercc deb admin optional
 Checksums-Sha1: 
- 1aeaea7d7f72661ac37788862b2c321856437cf4 238539 mx-remastercc_0.15.10mx15.tar.gz
+ aebcadcfe23ff57f6e3216ecc4f4ffaea54aceb2 237994 mx-remastercc_0.15.10mx15.tar.gz
 Checksums-Sha256: 
- c2c0bbafc3c0c2a57517200b20ba3b6726a71a70d3d579f08132af61c82e1761 238539 mx-remastercc_0.15.10mx15.tar.gz
+ dbb0da5181952d0906f09d5f83d90ef8f6f649249430b0d6f0b62c865208a4a6 237994 mx-remastercc_0.15.10mx15.tar.gz
 Files: 
- 8c724516bed50f38b965723e17bf3615 238539 mx-remastercc_0.15.10mx15.tar.gz
+ 7d51d104601aa3dc75e7333052a63a27 237994 mx-remastercc_0.15.10mx15.tar.gz

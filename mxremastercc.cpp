@@ -84,7 +84,7 @@ void mxremastercc::on_buttonAbout_clicked()
 {
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Remaster Control Center"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Remaster Command Center") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + version + "</p><p align=\"center\"><h3>" +
+                       tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + version + "</p><p align=\"center\"><h3>" +
                        tr("This program provides access to different remaster and persistence tools in MX Linux") +
                        "</h3></p><p align=\"center\"><a href=\"http://www.mepiscommunity.org/mx\">http://www.mepiscommunity.org/mx</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>", 0, this);
