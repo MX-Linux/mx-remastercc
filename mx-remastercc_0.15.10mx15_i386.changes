@@ -8,21 +8,21 @@ Distribution: mx
 Urgency: medium
 Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
 Changed-By: Adrian <adrian@mxlinux.org>
-Description:
+Description: 
  mx-remastercc - MX Remastercc
-Changes:
+Changes: 
  mx-remastercc (0.15.10mx15) mx; urgency=medium
  .
    * initial release
-Checksums-Sha1:
- e2cd09e6110563cd181a824031d85f528457a8a3 653 mx-remastercc_0.15.10mx15.dsc
- 1eebcf74f0f363217a8a232cf21b387663114070 211896 mx-remastercc_0.15.10mx15.tar.xz
- 2dded194301b5182a1e0739a53c6597922d5157c 24272 mx-remastercc_0.15.10mx15_i386.deb
-Checksums-Sha256:
- 1693b1ab9c9e660b52dd840189fbc482f0b45ec78bca61fdad9a0c66f3d76829 653 mx-remastercc_0.15.10mx15.dsc
- 77983d7cadbae4d0088d01503e7c9dbb3a37b66c3183f2b33e15db22b965c24f 211896 mx-remastercc_0.15.10mx15.tar.xz
- d3fb44294a818cf7becd27591cba8195facd54ff9cc2b4f56463c4af05882bb5 24272 mx-remastercc_0.15.10mx15_i386.deb
-Files:
- ed6d61963404d75aeb38680c1009bbc9 653 admin optional mx-remastercc_0.15.10mx15.dsc
- 488057649d517d2c22657a18ae64b379 211896 admin optional mx-remastercc_0.15.10mx15.tar.xz
- 09e207bccead41a6bb131337569ce3eb 24272 admin optional mx-remastercc_0.15.10mx15_i386.deb
+Checksums-Sha1: 
+ 6bd096f6464bf6bc1cf028267adbee4c7f7c66d5 648 mx-remastercc_0.15.10mx15.dsc
+ 1aeaea7d7f72661ac37788862b2c321856437cf4 238539 mx-remastercc_0.15.10mx15.tar.gz
+ e26deb82e18aa3630500cadd4594bac2d106c062 24618 mx-remastercc_0.15.10mx15_i386.deb
+Checksums-Sha256: 
+ 0e26848bab41ae710069948334b82bf704cdaf2c1da8b911d865af4cfc963277 648 mx-remastercc_0.15.10mx15.dsc
+ c2c0bbafc3c0c2a57517200b20ba3b6726a71a70d3d579f08132af61c82e1761 238539 mx-remastercc_0.15.10mx15.tar.gz
+ 0e89e2b5bdbbd04b942c67e3ec7a4db5f6249637f29839de01ada4a739f966d9 24618 mx-remastercc_0.15.10mx15_i386.deb
+Files: 
+ 9a025a27d4da4b403d320f0bbb8c8b34 648 admin optional mx-remastercc_0.15.10mx15.dsc
+ 8c724516bed50f38b965723e17bf3615 238539 admin optional mx-remastercc_0.15.10mx15.tar.gz
+ 4ff402a1d957662c3ac9cd9408ca7155 24618 admin optional mx-remastercc_0.15.10mx15_i386.deb

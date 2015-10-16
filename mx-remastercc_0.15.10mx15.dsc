@@ -7,11 +7,11 @@ Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
 Standards-Version: 3.9.5
 Vcs-Git: git://github.com/AdrianTM/mx-remastercc
 Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
-Package-List:
- mx-remastercc deb admin optional arch=any
-Checksums-Sha1:
- 1eebcf74f0f363217a8a232cf21b387663114070 211896 mx-remastercc_0.15.10mx15.tar.xz
-Checksums-Sha256:
- 77983d7cadbae4d0088d01503e7c9dbb3a37b66c3183f2b33e15db22b965c24f 211896 mx-remastercc_0.15.10mx15.tar.xz
-Files:
- 488057649d517d2c22657a18ae64b379 211896 mx-remastercc_0.15.10mx15.tar.xz
+Package-List: 
+ mx-remastercc deb admin optional
+Checksums-Sha1: 
+ 1aeaea7d7f72661ac37788862b2c321856437cf4 238539 mx-remastercc_0.15.10mx15.tar.gz
+Checksums-Sha256: 
+ c2c0bbafc3c0c2a57517200b20ba3b6726a71a70d3d579f08132af61c82e1761 238539 mx-remastercc_0.15.10mx15.tar.gz
+Files: 
+ 8c724516bed50f38b965723e17bf3615 238539 mx-remastercc_0.15.10mx15.tar.gz

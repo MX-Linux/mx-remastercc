@@ -45,7 +45,7 @@ mxremastercc::~mxremastercc()
 void mxremastercc::setup()
 {
     version = getVersion("mx-remastercc");
-    this->setWindowTitle(tr("MX Remaster Command Center"));
+    this->setWindowTitle(tr("MX Remaster Control Center"));
     this->adjustSize();
     ui->buttonSetupPersistence->setStyleSheet("text-align:left;");
     ui->buttonConfigPersistence ->setStyleSheet("text-align:left;");

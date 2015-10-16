@@ -89,7 +89,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="48"/>
         <location filename="../mxremastercc.cpp" line="87"/>
         <source>MX Remaster Command Center</source>
         <translation type="unfinished"></translation>
@@ -97,6 +96,11 @@
     <message>
         <location filename="../mxremastercc.cpp" line="86"/>
         <source>About MX Remaster Control Center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxremastercc.cpp" line="48"/>
+        <source>MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
