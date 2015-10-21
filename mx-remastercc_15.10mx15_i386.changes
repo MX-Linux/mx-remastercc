@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 21 Oct 2015 09:54:42 -0400
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source i386
+Version: 15.10mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description: 
+ mx-remastercc - MX Remastercc
+Changes: 
+ mx-remastercc (15.10mx15) mx; urgency=medium
+ .
+   * updated license
+Checksums-Sha1: 
+ 8212bb05fd6dbe4bafded99b02a2328c7ed5f55b 640 mx-remastercc_15.10mx15.dsc
+ 80c152c6b26db56167a3cd2c605e72b3cd72ceb8 239017 mx-remastercc_15.10mx15.tar.gz
+ e3f35a2408f87548bdc169c5ec5b4250918e19ca 24780 mx-remastercc_15.10mx15_i386.deb
+Checksums-Sha256: 
+ dc5510390cc6e8bf691bc5dadd3503d9275e21f9c0fb75bc4b6195942012d632 640 mx-remastercc_15.10mx15.dsc
+ af9782ec2eb97484e59ebc638a99bfd0e2b805af28e3e3bc4397cf6a5c64a508 239017 mx-remastercc_15.10mx15.tar.gz
+ ff83631eb7ec1e466c901fddfc205ed178d6d234269c1b7cdc71b00c7c685f23 24780 mx-remastercc_15.10mx15_i386.deb
+Files: 
+ 08ac55fd8cb9fec66cdc4dd40293a830 640 admin optional mx-remastercc_15.10mx15.dsc
+ 3d533dd8f51a3f4f60d73856fbd3df73 239017 admin optional mx-remastercc_15.10mx15.tar.gz
+ bff90d4463596e84223ea05f1f42c657 24780 admin optional mx-remastercc_15.10mx15_i386.deb

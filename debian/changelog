@@ -1,3 +1,9 @@
+mx-remastercc (15.10mx15) mx; urgency=medium
+
+  * updated license
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 21 Oct 2015 09:54:42 -0400
+
 mx-remastercc (0.15.10mx15) mx; urgency=medium
 
   * initial release
