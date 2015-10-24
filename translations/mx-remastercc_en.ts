@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="el" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.0">
 <context>
     <name>mxremastercc</name>
     <message>
@@ -14,32 +14,32 @@
     <message>
         <location filename="../mxremastercc.ui" line="80"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Αυτό το εργαλείο σας επιτρέπει να επαναλάβει την πιστοποίηση ISO, ενώ εκτελεί το Live.  &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; σας επιτρέπει να αλλάξετε τα αρχεία, εφαρμογές και ρυθμίσεις με στόχο την παραγωγή ενός νέου αντίγραφο για αποθήκευση ή διανομή. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; σας επιτρέπει να διατηρήσετε τα δεδομένα, τις ρυθμίσεις και τα εγκατεστημένα προγράμματα, όταν  απενεργοποιείται για προσωπική χρήση.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="132"/>
         <source>Display help </source>
-        <translation>Δείτε Βοήθεια</translation>
+        <translation>Display help </translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="135"/>
         <source>Help</source>
-        <translation>Βοήθεια </translation>
+        <translation>Help</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="142"/>
         <source>Alt+H</source>
-        <translation>Alt+H </translation>
+        <translation>Alt+H</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="171"/>
         <source>About this application</source>
-        <translation>Περί εφαρμογής.</translation>
+        <translation>About this application</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="174"/>
         <source>About...</source>
-        <translation>Περί</translation>
+        <translation>About...</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="181"/>
@@ -49,12 +49,12 @@
     <message>
         <location filename="../mxremastercc.ui" line="213"/>
         <source>Quit application</source>
-        <translation>Κλείστε την εφαρμογή </translation>
+        <translation>Quit application</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="216"/>
         <source>Close</source>
-        <translation>Κλείσιμο</translation>
+        <translation>Close</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="223"/>
@@ -64,7 +64,7 @@
     <message>
         <location filename="../mxremastercc.ui" line="257"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Βασικές λειτουργίες&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="267"/>
@@ -74,54 +74,54 @@
     <message>
         <location filename="../mxremastercc.ui" line="292"/>
         <source>Save root persistence</source>
-        <translation>root persistence</translation>
+        <translation>Save root persistence</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="304"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Προαιρετικές λειτουργίες&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="314"/>
         <source>Configure live persistence</source>
-        <translation>Διαμόρφωση </translation>
+        <translation>Configure live persistence</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="48"/>
         <location filename="../mxremastercc.cpp" line="87"/>
         <source>MX Remaster Control Center</source>
-        <translation>Κέντρο Ελέγχου του MX Remaster</translation>
+        <translation>MX Remaster Control Center</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="86"/>
         <source>About MX Remaster Control Center</source>
-        <translation>Περί Κέντρο Ελέγχου του MX Remaster</translation>
+        <translation>About MX Remaster Control Center</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="87"/>
         <source>Version: </source>
-        <translation>Έκδοση:</translation>
+        <translation>Version: </translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="88"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation>Αυτό το πρόγραμμα παρέχει πρόσβαση σε διάφορα εργαλεία ρεμίξ και persist σε MX Linux</translation>
+        <translation>This program provides access to different remaster and persistence tools in MX Linux</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="90"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c)  MX Linux </translation>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="91"/>
         <source>Cancel</source>
-        <translation>Ακύρωση</translation>
+        <translation>Cancel</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="92"/>
         <location filename="../mxremastercc.cpp" line="94"/>
         <source>License</source>
-        <translation>Άδεια</translation>
+        <translation>License</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="94"/>
