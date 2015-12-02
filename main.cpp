@@ -32,7 +32,7 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);    
+    QApplication a(argc, argv);
 
     QTranslator qtTran;
     qtTran.load(QString("qt_") + QLocale::system().name());
