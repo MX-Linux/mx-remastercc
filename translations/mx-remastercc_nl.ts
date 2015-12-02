@@ -1,22 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="nl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.0">
 <context>
     <name>mxremastercc</name>
     <message>
         <location filename="../mxremastercc.ui" line="14"/>
         <source>MX Remastercc</source>
-        <translation type="unfinished"></translation>
+        <translation>MX Remastercc</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="65"/>
         <source>Persistence</source>
-        <translation type="unfinished"></translation>
+        <translation>Persistentie</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="80"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Dit gereedschap staat u toe een ISO te bewerken terwijl u Live draait. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; staat u toe bestanden, toepassingen en instellingen te veranderen met het doel een nieuwe masterkopie voor opslag en distributie te produceren. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistentie&lt;/span&gt; staat u toe om data, instellingen en geïnstalleerde programma&apos;s te bewaren voor persoonlijk gebruik wanneer de machine uitgeschakeld wordt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="132"/>
@@ -66,7 +64,7 @@
     <message>
         <location filename="../mxremastercc.ui" line="257"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basis operaties&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="267"/>
@@ -82,7 +80,7 @@
     <message>
         <location filename="../mxremastercc.ui" line="304"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optionele operaties&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="314"/>
@@ -93,12 +91,12 @@
         <location filename="../mxremastercc.cpp" line="48"/>
         <location filename="../mxremastercc.cpp" line="87"/>
         <source>MX Remaster Control Center</source>
-        <translation type="unfinished"></translation>
+        <translation>MX Remaster Controle Centrum</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="86"/>
         <source>About MX Remaster Control Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Over MX Remaster Controle Centrum</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="87"/>
@@ -108,7 +106,7 @@
     <message>
         <location filename="../mxremastercc.cpp" line="88"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit programma biedt toegang tot verschillende remaster- en persistentiegereedschappen in MX Linux</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="90"/>
@@ -130,7 +128,7 @@
         <location filename="../mxremastercc.cpp" line="94"/>
         <location filename="../mxremastercc.cpp" line="101"/>
         <source>MX RemasterCC</source>
-        <translation type="unfinished"></translation>
+        <translation>MX RemasterCC</translation>
     </message>
 </context>
 </TS>
