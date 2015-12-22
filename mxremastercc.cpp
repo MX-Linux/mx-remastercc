@@ -82,6 +82,7 @@ QString mxremastercc::getVersion(QString name)
 // About button clicked
 void mxremastercc::on_buttonAbout_clicked()
 {
+    this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Remaster Control Center"), "<p align=\"center\"><b><h2>" +
                        tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + version + "</p><p align=\"center\"><h3>" +
@@ -93,13 +94,16 @@ void mxremastercc::on_buttonAbout_clicked()
     if (msgBox.exec() == QMessageBox::RejectRole) {
         system("mx-viewer file:///usr/share/doc/mx-remastercc/license.html '" + tr("MX RemasterCC").toUtf8() + " " + tr("License").toUtf8() + "'");
     }
+    this->show();
 }
 
 // Help button clicked
 void mxremastercc::on_buttonHelp_clicked()
 {
+    this->hide();
     QString cmd = QString("mx-viewer http://mepiscommunity.org/wiki/help-files/help-mx-remaster '%1'").arg(tr("MX RemasterCC"));
     system(cmd.toUtf8());
+    this->show();
 }
 
 void mxremastercc::on_buttonSetupPersistence_clicked()

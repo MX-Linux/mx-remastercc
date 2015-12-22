@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 22 Dec 2015 18:31:14 -0500
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: i386
+Version: 15.12.1mx15
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (15.12.1mx15) mx; urgency=medium
+ .
+   * hide GUI when displaying help/license
+Checksums-Sha1:
+ 7a15628db141212b24c16ed75ae63a828fe056ef 30746 mx-remastercc_15.12.1mx15_i386.deb
+Checksums-Sha256:
+ 9ee8c813299286b24854e5b0352c0722111d6d632ba79c6404540d26731918cb 30746 mx-remastercc_15.12.1mx15_i386.deb
+Files:
+ c969b88b6b91162aa0d0a81d026bfef1 30746 admin optional mx-remastercc_15.12.1mx15_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJWed5zAAoJEHCTjHgGee6YvBgIAKXt9wh9k8mGgJk5RE+WRNzR
+t/dbrCXI7JCka5b2hJ0WU3gPI6pR9i0gh8BACQcMBpvnbqLV2paQXhycCfWrwLzp
+/iUvbARcAembll/S68w67FgRQZw/jPGhcqJ3NgD7S9LYTaJOXtvwkS/FLkoTRc8n
+yUdc1YNBmlqC7QSb849KrsfSiIDCPRRr8N+V/K7SJlbbYxbRd/tO39CWX97I28RD
+ZFDLfNXtQaAQvxPQCyCssFKcSYTjlYGJZyyI5RVYnfnaO3rmcXDDqxrlYgGSb24k
+Ste48tCa76bGrsYa2DEVghjrTP7/3FO0PJg35B/dkhOxbzPeDLors9J3SIQXRH0=
+=KKK+
+-----END PGP SIGNATURE-----
