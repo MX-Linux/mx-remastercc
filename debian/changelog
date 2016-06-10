@@ -1,3 +1,9 @@
+mx-remastercc (16.6mx15) mx; urgency=medium
+
+  * new .desktop file
+
+ -- Adrian <adrian@mxlinux.org>  Fri, 10 Jun 2016 18:32:57 -0400
+
 mx-remastercc (15.12.1mx15) mx; urgency=medium
 
   * hide GUI when displaying help/license

@@ -26,5 +26,5 @@ Exec=mx-remastercc
 Terminal=false
 Type=Application
 Icon=preferences-desktop.png
-Categories=GNOME;GTK;System;
+Categories=GNOME;GTK;System;MX-Live
 NoDisplay=false
