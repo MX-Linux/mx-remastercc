@@ -1,3 +1,9 @@
+mx-remastercc (16.10mx16) mx; urgency=medium
+
+  * changed URLs
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 10 Oct 2016 13:53:33 -0400
+
 mx-remastercc (16.6mx15) mx; urgency=medium
 
   * new .desktop file

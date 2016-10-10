@@ -4,7 +4,7 @@
  * Copyright (C) 2015 MX Authors
  *
  * Authors: Adrian
- *          MX & MEPIS Community <http://forum.mepiscommunity.org>
+ *          MX Linux <http://mxlinux.org>
  *
  * This file is part of mx-remastercc.
  *
@@ -87,7 +87,7 @@ void mxremastercc::on_buttonAbout_clicked()
                        tr("About MX Remaster Control Center"), "<p align=\"center\"><b><h2>" +
                        tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + version + "</p><p align=\"center\"><h3>" +
                        tr("This program provides access to different remaster and persistence tools in MX Linux") +
-                       "</h3></p><p align=\"center\"><a href=\"http://www.mepiscommunity.org/mx\">http://www.mepiscommunity.org/mx</a><br /></p><p align=\"center\">" +
+                       "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>", 0, this);
     msgBox.addButton(tr("Cancel"), QMessageBox::AcceptRole); // because we want to display the buttons in reverse order we use counter-intuitive roles.
     msgBox.addButton(tr("License"), QMessageBox::RejectRole);
@@ -101,7 +101,7 @@ void mxremastercc::on_buttonAbout_clicked()
 void mxremastercc::on_buttonHelp_clicked()
 {
     this->hide();
-    QString cmd = QString("mx-viewer http://mepiscommunity.org/wiki/help-files/help-mx-remaster '%1'").arg(tr("MX RemasterCC"));
+    QString cmd = QString("mx-viewer https://mxlinux.org/wiki/help-files/help-mx-remaster '%1'").arg(tr("MX RemasterCC"));
     system(cmd.toUtf8());
     this->show();
 }

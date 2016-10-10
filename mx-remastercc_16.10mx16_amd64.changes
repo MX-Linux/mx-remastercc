@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 10 Oct 2016 13:53:33 -0400
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 16.10mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (16.10mx16) mx; urgency=medium
+ .
+   * changed URLs
+Checksums-Sha1:
+ 93157c8bda9edcf5d2c12d4d72b9ffad61265cdd 1163 mx-remastercc_16.10mx16.dsc
+ 6c67a57b2d0f111e9856effc1f1b9c496dde7054 27356 mx-remastercc_16.10mx16.tar.xz
+ 3e2d086ef3cf76584a46bacefa4ffbe83a0f0a37 30798 mx-remastercc_16.10mx16_amd64.deb
+Checksums-Sha256:
+ abf66d64a145bfadd891316564bf69178bcf5a5c9986a77384d8c7e7e4b5421a 1163 mx-remastercc_16.10mx16.dsc
+ fc2f559092fe7b64c240e236edb7453f5a0da0568336a9d2c152c62f59fbeb87 27356 mx-remastercc_16.10mx16.tar.xz
+ 358b9b78f74b2fc9b314b7e07a6818b260b7478464fb2fbd12cae84c83ffacdb 30798 mx-remastercc_16.10mx16_amd64.deb
+Files:
+ 535c14e2df034f8e8ef5ed5de83e19ce 1163 admin optional mx-remastercc_16.10mx16.dsc
+ e87e1478c4cbedd400e742be097ef7c1 27356 admin optional mx-remastercc_16.10mx16.tar.xz
+ 3b14d188343699e4baab7e035868dacb 30798 admin optional mx-remastercc_16.10mx16_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJX+9YvAAoJEHCTjHgGee6YCtwIAI1wqicF0dd/vu2/lMW1TQU5
+u0sOoBjbc1IphGYJZsCK6GszKCs74Xk6KMyihZfR4ZSWttIIoYFCO4a9qqRm7BAy
+tiUey1gcD3drhbbk003kz/JE9ZlMMhaXiyWvHwqnHKxBk3cVe+siMuKZg2EQrMQM
+lHek4V2Fhiep1IQiDM+FYrqc5Hcq0GYXqSQ8BhU+7Y0kVnp0C422ElOixyrworvF
+svYJ9JK10bWlvOCYhU3M/edr91Uzq/+4x3kJkqOhdUBa0cirTJrTfhPJnTguB55h
+c6DX8NP2jCR76zB27VyiSJ8zVN667PSSWTlGuCBKwMHsOQ2OlX2WwfnUjv8broc=
+=mNZB
+-----END PGP SIGNATURE-----
