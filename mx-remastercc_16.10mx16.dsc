@@ -13,20 +13,20 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-remastercc deb admin optional arch=any
 Checksums-Sha1:
- 6c67a57b2d0f111e9856effc1f1b9c496dde7054 27356 mx-remastercc_16.10mx16.tar.xz
+ ad14a65d690b568e34944a9b2c26b063573581cf 93252 mx-remastercc_16.10mx16.tar.xz
 Checksums-Sha256:
- fc2f559092fe7b64c240e236edb7453f5a0da0568336a9d2c152c62f59fbeb87 27356 mx-remastercc_16.10mx16.tar.xz
+ 548b011bd55941fb1a6290c7e809ffd7f01549b4a19fc37a8ef4e7f7c45ffb58 93252 mx-remastercc_16.10mx16.tar.xz
 Files:
- e87e1478c4cbedd400e742be097ef7c1 27356 mx-remastercc_16.10mx16.tar.xz
+ 6ddd2d273c0f983f003d0d3d13b9f465 93252 mx-remastercc_16.10mx16.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJX+9YnAAoJEHCTjHgGee6Y5aEIALVyBcAObfsKbUjlSI29hwhW
-Z0IgTILXakC1ylouWFLKDRavJfOuieCrxNmVmBBwsEqIodFp9P+RG+yeqYZA9caM
-CFlhgd5rIp6Xc6MKK6JpqzFRX19qAXW9G9B+APvuomfTvrfyzeo6LL2gqOcHal2z
-CK6EdcCtp/1Ut6dh/+8wmKRKcYyLyWrNlgOmsc5+X0Thl6YDH38nDGdrs2hB2SyY
-QN5xiJK5c080zHfps1sF8CBDfPALIYF9arlLTLD0R3ukMOXxRmEk1Tb+i2eyIqSA
-sDNCtJ9Q/UYeKAMfgMtPlSe25xnUeuSLFH8WWj3cjyQ6R5ndcMDlufOfKvYiKuk=
-=CjHl
+iQEcBAEBAgAGBQJX/OIGAAoJEHCTjHgGee6Y02kH/0pWTWV0J/SyL1UsbnSZhpE0
+ZDz7QH3jz7pbHPaik0jcrxYz9U8rXh/uFjZ59uWpO9Gd68jUwhIIYKMpvd5pTNrC
+6/yxFiOj7s1cI1PGo8MbIaDqhXTWzSRkNVruu5NV4ZRwoUH383O52AJnZAiRFhxG
+AmrmuEy0W59BqplNGv/4cYd+unuVbgb5qFhba3t/0cK8koJxT9fkIaa5awzUyoqE
+ty82FZzFftrHWUI6tJ2XCo+LhpelR1U+G/506x+sG6WK7LQ52MSDaY0FzOcPzS28
+VTcg4+Xrm8u2yNBU04riR2tn7KPbUBfShvNoSLFQgLeftHfZ+/8pUkCOy/KPEVg=
+=INdc
 -----END PGP SIGNATURE-----
