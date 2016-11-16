@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.1">
 <context>
     <name>mxremastercc</name>
     <message>
@@ -88,44 +88,44 @@
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="48"/>
-        <location filename="../mxremastercc.cpp" line="87"/>
+        <location filename="../mxremastercc.cpp" line="88"/>
         <source>MX Remaster Control Center</source>
         <translation>MX Remaster Control Center</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="86"/>
+        <location filename="../mxremastercc.cpp" line="87"/>
         <source>About MX Remaster Control Center</source>
         <translation>About MX Remaster Control Center</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="87"/>
+        <location filename="../mxremastercc.cpp" line="88"/>
         <source>Version: </source>
         <translation>Version: </translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="88"/>
+        <location filename="../mxremastercc.cpp" line="89"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation>This program provides access to different remaster and persistence tools in MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="90"/>
+        <location filename="../mxremastercc.cpp" line="91"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="91"/>
+        <location filename="../mxremastercc.cpp" line="92"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="92"/>
-        <location filename="../mxremastercc.cpp" line="94"/>
+        <location filename="../mxremastercc.cpp" line="93"/>
+        <location filename="../mxremastercc.cpp" line="95"/>
         <source>License</source>
         <translation>License</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="94"/>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="95"/>
+        <location filename="../mxremastercc.cpp" line="104"/>
         <source>MX RemasterCC</source>
         <translation>MX RemasterCC</translation>
     </message>
