@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 30 Nov 2016 12:17:43 -0500
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 16.11mx16+1
+Distribution: mx
+Urgency: medium
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (16.11mx16+1) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 240e1fa6177aacf7e87582b0afd5f9df4a1f2e99 1171 mx-remastercc_16.11mx16+1.dsc
+ 05d59b0353bd48249ffc6380daff55fc12510d88 28140 mx-remastercc_16.11mx16+1.tar.xz
+ 899eba3874124189df00ce04d0daae1e68a3062f 31670 mx-remastercc_16.11mx16+1_amd64.deb
+Checksums-Sha256:
+ 3b81ab129a6fb5ffe6d53899aa6ef50fff1f34b5b406481014ba265acdd1a52e 1171 mx-remastercc_16.11mx16+1.dsc
+ 22e9f518785ec289fc3f5c2c2ee948144309c571412de0c1b1e39309b0f205bf 28140 mx-remastercc_16.11mx16+1.tar.xz
+ 16bfb5029922e188f5f005565bfeb9f4cac9f56352021d7b1e8dcff8e5670e1d 31670 mx-remastercc_16.11mx16+1_amd64.deb
+Files:
+ 872c837f3f770ae50d1b378573a38a2f 1171 admin optional mx-remastercc_16.11mx16+1.dsc
+ 5128576f424e5f58a225f72e2555876c 28140 admin optional mx-remastercc_16.11mx16+1.tar.xz
+ 18270026489555cd0d96e9720cfbb6f3 31670 admin optional mx-remastercc_16.11mx16+1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJYPwnVAAoJEHCTjHgGee6Y8v8H/iLaKg4SLDPn4sHW0Z6KV5rS
+HgA16/Xh6Rz2dSaZ4TQdBxCSngjsT7SH25PfXTHCbFqDAk3lUgOubKm6ceSkjAM/
+pASGsXIFSXGfiIMyJHtd9T/a1niX1BISzF/267gjMyTKIfk4c+NA9gBi5R/s3IxF
+gOtezNWUrG9tbyOPS70aDLH0YgPq9M3UO5E/FZ+nwq+GgkV+734Gq6t2FrOhFGT8
+Ndy9N5HVz2jv7NyExlSt50qpFui2lU5s/cPh6k3F9zxLLykHAyI4jVxcuWNAgFxo
+sduw2zarfAPOGB2P+0kMHxz8ZHYyU9WWHytqcd5B/rfqG7I/XyRBbzuv4/iaujw=
+=gOlM
+-----END PGP SIGNATURE-----
