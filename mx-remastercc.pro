@@ -36,12 +36,14 @@ HEADERS  += mxremastercc.h
 FORMS    += mxremastercc.ui
 
 TRANSLATIONS += translations/mx-remastercc_ca.ts \
+                translations/mx-remastercc_cs.ts \
                 translations/mx-remastercc_de.ts \
                 translations/mx-remastercc_el.ts \
                 translations/mx-remastercc_es.ts \
                 translations/mx-remastercc_fr.ts \
                 translations/mx-remastercc_it.ts \
                 translations/mx-remastercc_ja.ts \
+                translations/mx-remastercc_lt.ts \
                 translations/mx-remastercc_nl.ts \
                 translations/mx-remastercc_pl.ts \
                 translations/mx-remastercc_pt.ts \
