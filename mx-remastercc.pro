@@ -52,4 +52,7 @@ TRANSLATIONS += translations/mx-remastercc_ca.ts \
                 translations/mx-remastercc_sv.ts \
                 translations/mx-remastercc_tr.ts
 
+RESOURCES += \
+    images.qrc
+
 

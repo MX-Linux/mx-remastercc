@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 10 May 2017 14:12:21 -0400
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 17.5mx16
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (17.5mx16) mx; urgency=medium
+ .
+   * update icons
+Checksums-Sha1:
+ 032f709b7145e1e97ad25c061c761fbb580e89c8 1133 mx-remastercc_17.5mx16.dsc
+ 698176cb359cb7c5dba66cfb14b460b3c49c8898 43960 mx-remastercc_17.5mx16.tar.xz
+ 277c98c678937bccc310b1ea42acc6d0c7a1beb5 29620 mx-remastercc_17.5mx16_amd64.deb
+Checksums-Sha256:
+ 377c3864223fcbb096d776c9e279ee8172f85d558775472b00c5d26dae7fc562 1133 mx-remastercc_17.5mx16.dsc
+ 4e345d6ff60d8cbd1340f08dca797f3bfe63421e0a1bb9b3362038085be43d60 43960 mx-remastercc_17.5mx16.tar.xz
+ 4c7fc0451d3df8c26737aea4359f1427ecf22e02ebd85b81ed21c6df9850250b 29620 mx-remastercc_17.5mx16_amd64.deb
+Files:
+ 4352dc4734645b2cc2957594dd9a1bec 1133 admin optional mx-remastercc_17.5mx16.dsc
+ b627ede0274a89b525840c75695f542b 43960 admin optional mx-remastercc_17.5mx16.tar.xz
+ 34d37f239b5185cd8ab72e9083c729b7 29620 admin optional mx-remastercc_17.5mx16_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJZE1kIAAoJEHCTjHgGee6YCiYIAIqmLW01ny9T4EjlhRMQ75hH
+HzwYjUIWtjhXXp65DBPrvFX8+BoLQVG/TbeCKJoN3cTC++Vgu68JSejMnDBUkKnG
+rooxL7IVMHU5irjLhs0b46oSx6YJmINZ5d6zGQII2O/3pZnxlxpV6/GNzkPLyhlr
+M8oEicNlctNYe4JDZTJ5/zjPRCWv7w7bTrA8ks2GUfkcyXUojOwtQiFoAl3rCWJj
+O6isc6sfONVrgSzZdZiYIE+Chzw2JJGONaHAbe3wVvSJ//nRJYzDUIjaI20pPNfo
+eFYQXZhXY+7CWJGrs7QC1/S6XXigom979o82R+bwIf0W3VLyAmO2XihFZc5lsRY=
+=Sldz
+-----END PGP SIGNATURE-----

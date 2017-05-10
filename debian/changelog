@@ -1,3 +1,9 @@
+mx-remastercc (17.5mx16) mx; urgency=medium
+
+  * update icons
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 10 May 2017 14:12:21 -0400
+
 mx-remastercc (16.11mx16+1) mx; urgency=medium
 
   * new translations
@@ -51,4 +57,3 @@ mx-remastercc (0.15.10mx15) mx; urgency=medium
   * initial release
 
  -- Adrian <adrian@mxlinux.org>  Wed, 14 Oct 2015 14:51:35 -0400
-

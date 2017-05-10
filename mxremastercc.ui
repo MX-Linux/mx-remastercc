@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>760</width>
-    <height>274</height>
+    <height>288</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -135,8 +135,7 @@
           <string>Help</string>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../../../../../../../../usr/share/mx-remastercc/icons/gnome-help.png</normaloff>../../../../../../../../usr/share/mx-remastercc/icons/gnome-help.png</iconset>
+          <iconset theme="help-contents"/>
          </property>
          <property name="shortcut">
           <string>Alt+H</string>
@@ -174,8 +173,7 @@
           <string>About...</string>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../../../../../../../../usr/share/mx-remastercc/icons/accessories-text-editor.png</normaloff>../../../../../../../../usr/share/mx-remastercc/icons/accessories-text-editor.png</iconset>
+          <iconset theme="help-about"/>
          </property>
          <property name="shortcut">
           <string>Alt+B</string>
@@ -216,8 +214,7 @@
           <string>Close</string>
          </property>
          <property name="icon">
-          <iconset>
-           <normaloff>../../../../../../../../usr/share/mx-remastercc/icons/gtk-cancel.png</normaloff>../../../../../../../../usr/share/mx-remastercc/icons/gtk-cancel.png</iconset>
+          <iconset theme="window-close"/>
          </property>
          <property name="shortcut">
           <string>Alt+N</string>
@@ -242,7 +239,7 @@
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap>../../../../../../../../usr/share/mx-remastercc/icons/mxfcelogo.png</pixmap>
+          <pixmap resource="images.qrc">:/icons/logo.png</pixmap>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -340,7 +337,9 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonCancel</sender>

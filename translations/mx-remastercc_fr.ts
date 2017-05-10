@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="fr">
 <context>
     <name>mxremastercc</name>
     <message>
@@ -27,62 +29,62 @@
         <translation>Aide </translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="142"/>
+        <location filename="../mxremastercc.ui" line="141"/>
         <source>Alt+H</source>
         <translation>Alt+H</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="171"/>
+        <location filename="../mxremastercc.ui" line="170"/>
         <source>About this application</source>
         <translation>A propos de cette application</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="174"/>
+        <location filename="../mxremastercc.ui" line="173"/>
         <source>About...</source>
         <translation>A propos...</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="181"/>
+        <location filename="../mxremastercc.ui" line="179"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="213"/>
+        <location filename="../mxremastercc.ui" line="211"/>
         <source>Quit application</source>
         <translation>Quitter l&apos;application</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="216"/>
+        <location filename="../mxremastercc.ui" line="214"/>
         <source>Close</source>
         <translation>Fermer</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="223"/>
+        <location filename="../mxremastercc.ui" line="220"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="257"/>
+        <location filename="../mxremastercc.ui" line="254"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Opérations de base&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="267"/>
+        <location filename="../mxremastercc.ui" line="264"/>
         <source>Remaster</source>
         <translation>Remastériser</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="292"/>
+        <location filename="../mxremastercc.ui" line="289"/>
         <source>Save root persistence</source>
         <translation>Enregistrer la persistance &quot;racine&quot;</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="304"/>
+        <location filename="../mxremastercc.ui" line="301"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Opérations facultatives&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="314"/>
+        <location filename="../mxremastercc.ui" line="311"/>
         <source>Configure live persistence</source>
         <translation>Configurer la persistance &quot;live&quot;</translation>
     </message>
@@ -113,12 +115,12 @@
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="92"/>
+        <location filename="../mxremastercc.cpp" line="93"/>
         <source>Cancel</source>
         <translation>Annuler</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="93"/>
+        <location filename="../mxremastercc.cpp" line="92"/>
         <location filename="../mxremastercc.cpp" line="95"/>
         <source>License</source>
         <translation>Licence</translation>
