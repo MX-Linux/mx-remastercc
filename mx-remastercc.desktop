@@ -2,6 +2,7 @@
 Encoding=UTF-8
 Name=MX RemasterCC
 Name[ca]=MX RemasterCC
+Name[cs]=MX RemasterCC
 Name[de]=MX RemasterCC
 Name[el]=MX RemasterCC
 Name[es]=MX RemasterCC
@@ -14,6 +15,7 @@ Name[ru]=MX Центр ремастеринга
 Name[sv]=MX RemasterCC
 Comment=Live persistence and remastering tools
 Comment[ca]=Persistència en USB autònom i eines per a gravar imatges ISO
+Comment[cs]=LIVE persistence a nástroje pro remástrování
 Comment[de]=Werkzeuge für Live (persistence) und Remaster
 Comment[el]=ζωντανή persistence και εργαλεία για ρεμίξ.
 Comment[es]=Persistencia viva y herramientas para grabar imágenes
