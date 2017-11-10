@@ -101,8 +101,19 @@ void mxremastercc::on_buttonAbout_clicked()
 void mxremastercc::on_buttonHelp_clicked()
 {
     this->hide();
-    QString cmd = QString("mx-viewer https://mxlinux.org/wiki/help-files/help-mx-remaster '%1'").arg(tr("MX RemasterCC"));
+
+    QLocale locale;
+    QString lang = locale.bcp47Name();
+
+    QString url = "https://mxlinux.org/wiki/help-files/help-mx-remaster";
+
+    if (lang == "fr") {
+        url = "https://mxlinux.org/wiki/help-files/help-mx-r%C3%A9masterisation";
+    }
+
+    QString cmd = QString("mx-viewer %1 '%2'").arg(url).arg(tr("MX RemasterCC"));
     system(cmd.toUtf8());
+
     this->show();
 }
 
