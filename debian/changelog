@@ -1,3 +1,9 @@
+mx-remastercc (17.11+1) mx; urgency=medium
+
+  * fix LANG detection
+
+ -- Adrian <adrian@mxlinux.org>  Sat, 11 Nov 2017 18:41:47 -0500
+
 mx-remastercc (17.11) mx; urgency=medium
 
   * added FR help

@@ -107,7 +107,7 @@ void mxremastercc::on_buttonHelp_clicked()
 
     QString url = "https://mxlinux.org/wiki/help-files/help-mx-remaster";
 
-    if (lang == "fr") {
+    if (lang.startsWith("fr")) {
         url = "https://mxlinux.org/wiki/help-files/help-mx-r%C3%A9masterisation";
     }
 
