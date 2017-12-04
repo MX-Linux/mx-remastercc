@@ -361,6 +361,15 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>buttonCancel</tabstop>
+  <tabstop>buttonSetupPersistence</tabstop>
+  <tabstop>buttonRemaster</tabstop>
+  <tabstop>buttonSaveRootPersist</tabstop>
+  <tabstop>buttonConfigPersistence</tabstop>
+  <tabstop>buttonAbout</tabstop>
+  <tabstop>buttonHelp</tabstop>
+ </tabstops>
  <resources>
   <include location="images.qrc"/>
  </resources>

@@ -13,20 +13,20 @@ Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
 Package-List:
  mx-remastercc deb admin optional arch=any
 Checksums-Sha1:
- 1199d35cdd5d64799aa1744eeaa561f1fb2f96b9 26872 mx-remastercc_17.12.tar.xz
+ 9ae63922f912f1c0842d5fe9500a478a8af7e6a8 26880 mx-remastercc_17.12.tar.xz
 Checksums-Sha256:
- 8e8f16c62e8617dd703b101aadbd806c7eee51deb144851b484ae63567f624d4 26872 mx-remastercc_17.12.tar.xz
+ c8fb732d7f21847a93d19242407e47cf1506315a91f8923d445ce9bcfadb9028 26880 mx-remastercc_17.12.tar.xz
 Files:
- 5b1921a707093dde509b3f23a687ed6d 26872 mx-remastercc_17.12.tar.xz
+ 6052d8cb234b4de1c4e2008575cdfa22 26880 mx-remastercc_17.12.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJaJacrAAoJEHCTjHgGee6YhIMH/1N8kSUsRdLOB2hzyWhOH3P4
-lief/QT37c/BnFZWL0bXGMUQq6RGRTrcXgsOxPKQ16XXqQ5wXfA7bqzqxmH6q8DX
-VVagLJOJYdtKHHcs5Abu5EuVa3kQi5ZCuCF7xlrWVwPgMu5mE/fEuV2mHWeYiA8t
-JRyqsEG7I1nx4luPZ1hBnJGcz3JrCtngftZeFSCF6AdksX8UMhBgkQ4+e/f2lyCt
-MdOI7iLBjtARWEtIBOyM9Gv7+BTbF72GYlea7TErUacuFjtHb+JtVTSw+FgJ/Q2N
-xGFufOZP/PzbUO/dnQGZxM1zT84hzaTnZLOcwT3mjc4MRFO88a6RPpMKLsF2xSQ=
-=tC4W
+iQEcBAEBAgAGBQJaJamkAAoJEHCTjHgGee6YzhoH/3eIVhhUtVWR3UoNXltI2qRM
+ARs3FlMebp+1uvcvhhdgFO/PwtS4zCBLvZD8T4UMHJ09R10P0Nb3WOO/i5KgjsUY
+ZLlWU7CrbC9rLTsrtlvJo5NhCwNoByZlDTVVGRfs2YBYrbe4JU0XSe6YqPjGTfcj
++s94L1pP72yaqH14nNXB5kKhyNRP5MVLA8doA6hj+Tc3xF56qN6fPzcWO3bcnK1R
+W/iQjYk464Hjre3SlPvrUwjQ+RFeSvsVeAtAR8nnGn7bM6v9GHhgmw5afWyen4tC
+4n0baJv0HeyeyX1vtmQh2VMPKS6cUB9XHzmVqAPxTm4jT0hXVWQdBtGmCqgIXEE=
+=kIdW
 -----END PGP SIGNATURE-----
