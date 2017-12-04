@@ -1,3 +1,9 @@
+mx-remastercc (17.12) mx; urgency=medium
+
+  * new translations
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 04 Dec 2017 14:49:32 -0500
+
 mx-remastercc (17.11+1) mx; urgency=medium
 
   * fix LANG detection

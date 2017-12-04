@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 04 Dec 2017 14:49:32 -0500
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 17.12
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (17.12) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 5c89f3e2eb4a90f165ac964c23e0368b0425ed44 1121 mx-remastercc_17.12.dsc
+ 1199d35cdd5d64799aa1744eeaa561f1fb2f96b9 26872 mx-remastercc_17.12.tar.xz
+ bb0872f85a94e5681ac2e8d1ed266cfd853d14ce 30970 mx-remastercc_17.12_amd64.deb
+Checksums-Sha256:
+ 22f2c2119bbcba351a093a70f3df19b26af24ac997cce565658d7accc3b805dc 1121 mx-remastercc_17.12.dsc
+ 8e8f16c62e8617dd703b101aadbd806c7eee51deb144851b484ae63567f624d4 26872 mx-remastercc_17.12.tar.xz
+ aebd7406e33c8f44c45aa3e42b48fc4f1054b1845c8278bdcf2315853c5b50e3 30970 mx-remastercc_17.12_amd64.deb
+Files:
+ a56f3e9fccfd40620f8e58d76dfd167d 1121 admin optional mx-remastercc_17.12.dsc
+ 5b1921a707093dde509b3f23a687ed6d 26872 admin optional mx-remastercc_17.12.tar.xz
+ d71b4ca73602416558ba606a797dacc9 30970 admin optional mx-remastercc_17.12_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaJacvAAoJEHCTjHgGee6Yv2EH/1lqbeH5hqYTUhztZvm+P5DS
+m2pbxbAep1nsF1om2CwgL5/lY7Zvf57s0VVPkplx1Cv60M3oRxXJjq35Pr8otzBy
+vwBtyexTKHCOZSnJlaZScYdEM4m71Ky/nb7a4lAG7yIukQJrNYlZzrDzvSsakNfJ
+WZWnLM2lzWJdGx91QhBBjwl9XLoYl/7PCKXRPsEd8+ewBF9WdRmhEOOP4cAqdkdU
+SqFy+am8zAZvzy4hF9ddi5dkwx1CijHSysaJBJlgoXQTcpU5m2dc0gArr2YO4EQ/
+KtXHlJRwmUTRyMrdtvjfnqok1YRfggnYrUQG3Fe0TlWvWnmkBI9UiiCfciNp6ag=
+=bVaz
+-----END PGP SIGNATURE-----

@@ -70,7 +70,7 @@
         </iconset>
        </property>
        <property name="autoDefault">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="flat">
         <bool>false</bool>
@@ -146,7 +146,7 @@
           <string>Alt+H</string>
          </property>
          <property name="autoDefault">
-          <bool>false</bool>
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -189,7 +189,7 @@
           <string>Alt+B</string>
          </property>
          <property name="autoDefault">
-          <bool>false</bool>
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -232,7 +232,10 @@
           <string>Alt+N</string>
          </property>
          <property name="autoDefault">
-          <bool>false</bool>
+          <bool>true</bool>
+         </property>
+         <property name="default">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -281,7 +284,7 @@
         </iconset>
        </property>
        <property name="autoDefault">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -309,7 +312,7 @@
         </iconset>
        </property>
        <property name="autoDefault">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -334,7 +337,7 @@
         </iconset>
        </property>
        <property name="autoDefault">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
       </widget>
      </item>

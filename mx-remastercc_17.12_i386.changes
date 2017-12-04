@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 04 Dec 2017 14:49:32 -0500
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: i386
+Version: 17.12
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (17.12) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 0d33548a9e2ceba8bba3cc96de44caeadb0f10ca 31094 mx-remastercc_17.12_i386.deb
+Checksums-Sha256:
+ 80e38254a7faadd9e79fa844c5f27dc3c43eb62c193ec0766d29343a9f0772c2 31094 mx-remastercc_17.12_i386.deb
+Files:
+ 1e895abe602f71aadd2d763cd170fe87 31094 admin optional mx-remastercc_17.12_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaJah+AAoJEHCTjHgGee6YyB4H/2StmDDUgS8R4wdNlalNfwr/
+HYPNoUBLDsgMdOm7zcpmHXiMGrhvLUPuUxDG/X20uX9i+f6+8nd+s4zefApwZ5+M
+TK0dApQFU7GhEWiiLvhh/syIZy9u7EHtN1mdiySfqxwmZ3jr7KgPXw98+74514MD
+cblaAqdyXtQvtkWT1oOhG/+FDWvp7XY8tV2RJG9udyNTxr4w3IsgXMKrcYvZhAUH
+m/udr5YN9qDUoaBg5Mh4KabWDSZYNXAx3Cv81pyBDSGQCehk1scLwx7GHU9wJR5e
+Qa/J4UGVmh3Qw4OqYqMhIGcPNAC6EJyCvLwc7VevEkXXMGW91i2NwvPEAhqTD1w=
+=8Ns+
+-----END PGP SIGNATURE-----

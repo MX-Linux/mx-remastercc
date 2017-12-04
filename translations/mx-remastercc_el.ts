@@ -64,27 +64,27 @@
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="266"/>
+        <location filename="../mxremastercc.ui" line="269"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Βασικές λειτουργίες&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="276"/>
+        <location filename="../mxremastercc.ui" line="279"/>
         <source>Remaster</source>
         <translation>Remaster</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="304"/>
+        <location filename="../mxremastercc.ui" line="307"/>
         <source>Save root persistence</source>
         <translation>root persistence</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="319"/>
+        <location filename="../mxremastercc.ui" line="322"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Προαιρετικές λειτουργίες&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.ui" line="329"/>
+        <location filename="../mxremastercc.ui" line="332"/>
         <source>Configure live persistence</source>
         <translation>Διαμόρφωση </translation>
     </message>
