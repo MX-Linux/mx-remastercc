@@ -1,25 +1,25 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.1">
 <context>
     <name>mxremastercc</name>
     <message>
         <location filename="../mxremastercc.ui" line="14"/>
         <source>MX Remastercc</source>
-        <translation>MX_CC de Recomposição</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="65"/>
         <source>Persistence</source>
-        <translation>Persistência</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="80"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Esta ferramenta permite recompor a imagem ISO de instalação externa enquanto o sistema está em execução. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Recomposição&lt;/span&gt; o recompor (remaster) permite a alteração de ficheiros, aplicações e definições para produção de nova imagem mestra (master) destinada a ser guardada or distribuída como versão modificada. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistência&lt;/span&gt; permite reter a informação introduzida em sessão externa (dados, definições e programas instalados) quando o computador é desligado.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="132"/>
         <source>Display help </source>
-        <translation>Mostrar a ajuda</translation>
+        <translation>Exibir ajuda</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="135"/>
@@ -49,7 +49,7 @@
     <message>
         <location filename="../mxremastercc.ui" line="211"/>
         <source>Quit application</source>
-        <translation>Sair da aplicação</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="214"/>
@@ -64,22 +64,22 @@
     <message>
         <location filename="../mxremastercc.ui" line="254"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Operações básicas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="264"/>
         <source>Remaster</source>
-        <translation>Recomposição</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="289"/>
         <source>Save root persistence</source>
-        <translation>Guardar persistência de root</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="301"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Operações opcionais&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="311"/>
@@ -90,33 +90,33 @@
         <location filename="../mxremastercc.cpp" line="48"/>
         <location filename="../mxremastercc.cpp" line="88"/>
         <source>MX Remaster Control Center</source>
-        <translation>MX_Centro de Controlo de Recomposição</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="87"/>
         <source>About MX Remaster Control Center</source>
-        <translation>Sobre o MX_Centro de Controlo de Recomposição</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="88"/>
         <source>Version: </source>
-        <translation>Versão:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="89"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation>Este programa dá acesso a diferentes ferramentas de recomposição (remaster) e de persistência do Linix MX</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="91"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="92"/>
         <location filename="../mxremastercc.cpp" line="95"/>
         <source>License</source>
-        <translation>Licença</translation>
+        <translation>licença</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="93"/>
@@ -127,7 +127,7 @@
         <location filename="../mxremastercc.cpp" line="95"/>
         <location filename="../mxremastercc.cpp" line="104"/>
         <source>MX RemasterCC</source>
-        <translation>MX_CC de Recomposição</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
