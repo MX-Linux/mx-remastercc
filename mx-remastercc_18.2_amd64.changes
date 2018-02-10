@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 10 Feb 2018 02:17:08 -0500
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 18.2
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (18.2) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 72a7333b8df6279a67451999110f3a29a9ceb3c0 1117 mx-remastercc_18.2.dsc
+ 5ec8340b4363b598e992960ff77cae2a24b0e8bb 27708 mx-remastercc_18.2.tar.xz
+ 9eaf9cb2b042bff93e4a020b755505ba94d97761 32006 mx-remastercc_18.2_amd64.deb
+Checksums-Sha256:
+ 3f5ad8cf614df299c9e5255aa45a95bc8da7a166176a444c15112e82fbd8cb1f 1117 mx-remastercc_18.2.dsc
+ e232884066cd2d966d1aed8307520d080815189043313bd2a60e6a7b23458700 27708 mx-remastercc_18.2.tar.xz
+ 1bcd59bb50f360fff16a3be308d1c8377bc99f9c96d76ff3222cb42c18ba9ff8 32006 mx-remastercc_18.2_amd64.deb
+Files:
+ 445ce321b0a3cce500369a3579fc6765 1117 admin optional mx-remastercc_18.2.dsc
+ 7f16d155ef79b649c3bb8efff28e2e54 27708 admin optional mx-remastercc_18.2.tar.xz
+ 9b5c33bcd703c4b4d4b431a9f3786c28 32006 admin optional mx-remastercc_18.2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJafpyRAAoJEHCTjHgGee6Yz8UH/0Zg/3iour/ILeeqwnhMpYMy
+PbZtZcWMNKD2DR1h2m9NNaJ54ZFRmjhtFAsqxNVZwQpGbTXZEj+0Rd/3Rz6z26ap
+m3xz2OLMN7nVRU6KaDp+VJyn7EHwAMQXRrEx/WYbmgGgulj6GmgirXEQ1ybkL+vP
+tLbkgYp5rRGnvC7n3kBAorTIQJX/6+yKuKwiXPcbTO8v7+9rpDlLbFYUmkS6GWTD
+voNWQ92EUjRnKzrIqZkNqgLyh+cZ/Wb/5APf2rKp65Gaw2qXUgWNetPLW1mJUtxn
+4ZR60mXaj0cqVvJZamKn14SatQQINfYhfjWscNiKJX4xNbTq5eQ7QmET88CB8UA=
+=kyn7
+-----END PGP SIGNATURE-----

@@ -35,28 +35,28 @@ HEADERS  += mxremastercc.h
 
 FORMS    += mxremastercc.ui
 
-TRANSLATIONS += translations/mx-bootrepair_am.ts \
-                translations/mx-bootrepair_ca.ts \
-                translations/mx-bootrepair_cs.ts \
-                translations/mx-bootrepair_de.ts \
-                translations/mx-bootrepair_el.ts \
-                translations/mx-bootrepair_es.ts \
-                translations/mx-bootrepair_fr.ts \
-                translations/mx-bootrepair_hu.ts \
-                translations/mx-bootrepair_it.ts \
-                translations/mx-bootrepair_ja.ts \
-                translations/mx-bootrepair_kk.ts \
-                translations/mx-bootrepair_lt.ts \
-                translations/mx-bootrepair_nl.ts \
-                translations/mx-bootrepair_pl.ts \
-                translations/mx-bootrepair_pt.ts \
-                translations/mx-bootrepair_pt_BR.ts \
-                translations/mx-bootrepair_ro.ts \
-                translations/mx-bootrepair_ru.ts \
-                translations/mx-bootrepair_sk.ts \
-                translations/mx-bootrepair_sv.ts \
-                translations/mx-bootrepair_tr.ts \
-                translations/mx-bootrepair_uk.ts
+TRANSLATIONS += translations/mx-remastercc_am.ts \
+                translations/mx-remastercc_ca.ts \
+                translations/mx-remastercc_cs.ts \
+                translations/mx-remastercc_de.ts \
+                translations/mx-remastercc_el.ts \
+                translations/mx-remastercc_es.ts \
+                translations/mx-remastercc_fr.ts \
+                translations/mx-remastercc_hu.ts \
+                translations/mx-remastercc_it.ts \
+                translations/mx-remastercc_ja.ts \
+                translations/mx-remastercc_kk.ts \
+                translations/mx-remastercc_lt.ts \
+                translations/mx-remastercc_nl.ts \
+                translations/mx-remastercc_pl.ts \
+                translations/mx-remastercc_pt.ts \
+                translations/mx-remastercc_pt_BR.ts \
+                translations/mx-remastercc_ro.ts \
+                translations/mx-remastercc_ru.ts \
+                translations/mx-remastercc_sk.ts \
+                translations/mx-remastercc_sv.ts \
+                translations/mx-remastercc_tr.ts \
+                translations/mx-remastercc_uk.ts
 
 RESOURCES += \
     images.qrc
