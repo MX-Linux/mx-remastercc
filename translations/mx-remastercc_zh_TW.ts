@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.1">
 <context>
     <name>mxremastercc</name>
     <message>
@@ -19,12 +19,12 @@
     <message>
         <location filename="../mxremastercc.ui" line="132"/>
         <source>Display help </source>
-        <translation>Yardımı görüntüle</translation>
+        <translation>顯示說明</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="135"/>
         <source>Help</source>
-        <translation>Yardım</translation>
+        <translation>說明</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="141"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="../mxremastercc.ui" line="170"/>
         <source>About this application</source>
-        <translation>Uygulama hakkında</translation>
+        <translation>關於本程式</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="173"/>
         <source>About...</source>
-        <translation>Hakkında...</translation>
+        <translation>關於……</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="179"/>
@@ -49,12 +49,12 @@
     <message>
         <location filename="../mxremastercc.ui" line="211"/>
         <source>Quit application</source>
-        <translation>Uygulamadan çık</translation>
+        <translation>退出程式</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="214"/>
         <source>Close</source>
-        <translation>Kapat</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="220"/>
@@ -69,12 +69,12 @@
     <message>
         <location filename="../mxremastercc.ui" line="264"/>
         <source>Remaster</source>
-        <translation>Yeniden düzenle</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="289"/>
         <source>Save root persistence</source>
-        <translation>kalıcı root&apos;u kaydedin</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="301"/>
@@ -84,7 +84,7 @@
     <message>
         <location filename="../mxremastercc.ui" line="311"/>
         <source>Configure live persistence</source>
-        <translation>live persistence Yapılandırma</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="48"/>
@@ -100,7 +100,7 @@
     <message>
         <location filename="../mxremastercc.cpp" line="88"/>
         <source>Version: </source>
-        <translation>Sürüm</translation>
+        <translation>版本：</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="89"/>
@@ -110,18 +110,18 @@
     <message>
         <location filename="../mxremastercc.cpp" line="91"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>版權所有 (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="92"/>
         <location filename="../mxremastercc.cpp" line="95"/>
         <source>License</source>
-        <translation>Ruhsat</translation>
+        <translation>授權條款</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="93"/>
         <source>Cancel</source>
-        <translation>İptal</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="95"/>

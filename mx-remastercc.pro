@@ -56,7 +56,8 @@ TRANSLATIONS += translations/mx-remastercc_am.ts \
                 translations/mx-remastercc_sk.ts \
                 translations/mx-remastercc_sv.ts \
                 translations/mx-remastercc_tr.ts \
-                translations/mx-remastercc_uk.ts
+                translations/mx-remastercc_uk.ts \
+                translations/mx-remastercc_zh_TW.ts
 
 RESOURCES += \
     images.qrc
