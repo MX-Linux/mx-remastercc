@@ -7,26 +7,26 @@ Binary: mx-remastercc
 Architecture: any
 Version: 18.3
 Maintainer: Adrian <adrian@mxlinux.org>
-Standards-Version: 3.9.5
+Standards-Version: 3.9.8
 Vcs-Git: git://github.com/AdrianTM/mx-remastercc
-Build-Depends: qt5-qmake, debhelper (>= 7.0.50~)
+Build-Depends: qt5-qmake, debhelper (>= 9)
 Package-List:
  mx-remastercc deb admin optional arch=any
 Checksums-Sha1:
- a5687abec7765c177542deaad082e9b69d10ae08 28032 mx-remastercc_18.3.tar.xz
+ e5091e293f2a13586680b3dd1ecbedf401eac9ae 28020 mx-remastercc_18.3.tar.xz
 Checksums-Sha256:
- ff3cee5f0f11aedb14ae9c3a8272eb6f40d6ef8f411f6250c1b4f3023bdfbea7 28032 mx-remastercc_18.3.tar.xz
+ 83f0d2459c383bcca5964f61518c06d9832484014ff0b4a6b661bfa39125a34a 28020 mx-remastercc_18.3.tar.xz
 Files:
- aaacfa56da1c134a421c467f604da5dd 28032 mx-remastercc_18.3.tar.xz
+ 1bf345390a6ae228e46de0d5c8e3da52 28020 mx-remastercc_18.3.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJamXSkAAoJEHCTjHgGee6YB9YIAMsX5aaDRWt9Uqd+n0A4kKY5
-JiO3bUTV+UUajSfspiXQuezamxVJJB0I8YiMFq6aYCXMFZq424HEKQlP7E2a7sYi
-e+gBhuyT5Ncd8iKfI6B5Vy9u8HRJ7KqzB83i1V1p4j4969gUiUQzudW8yZoW8Cm3
-mNEFvdGleIz5tA+jx5kQPT3eHRs4Lm2P9Dr+LJsK3OUUImjmkTFBl57+0LJ3RWLq
-l/atCJhVKBI2t/3Pqk7tob7WrZfBvkJp7J6hSlG4rd5EF7t/rNFHLYIbTst4tX8K
-aWAWpPAaFdJaUWv69xSDgsX8VnXKAnubYll1UL8IQ1gQC7V0SEw8Z0fBHruNkW0=
-=b7Fb
+iQEcBAEBAgAGBQJamXz4AAoJEHCTjHgGee6YxHgIAL+HDkkKxhzapYZNQE8nWCP3
+JM7fd3VJwIB/k1qOhB3CHvl7tzfJJA5icwJrhAvNLom5OcGBG2AsN8uOBg69a4fa
+P3jCO1aAYfZ54Gwv+dmmQCn4k0DNCTTXOa+Xed7hSFQ554di5T7UP98YvuZm+TGH
+jZxJjVdXYJ7gu+fpxLw/0Rnuk4EhbH5dDxM9kEZo/9HIs4eO3m9zVsgdi1Q4qyxo
+ahyUMTMXre+oPjxp6TMj9F51UZNxBS8K5CnXN5fo7Dmdz6bnvXDimIeNgARe+vMj
+Vbh5alrt1Fx836J++WaQtSZ7JjwI+thaIz0CAvVBFIbNQegJ8zkMzsaBRB6h5PU=
+=MsgZ
 -----END PGP SIGNATURE-----

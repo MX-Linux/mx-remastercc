@@ -18,20 +18,20 @@ Changes:
  .
    * new translations
 Checksums-Sha1:
- 06f772ba12dfe42e3b0574a1edc8087f4c461a97 32508 mx-remastercc_18.3_i386.deb
+ c3285691a233819fca67fed03a51ea6e4ca10687 32656 mx-remastercc_18.3_i386.deb
 Checksums-Sha256:
- 0c27f73d0e3c97645d9e73702cc7e58ec12e2ca50e181733ea478bb30c3b8453 32508 mx-remastercc_18.3_i386.deb
+ 4c4b0ec6911c4fa5ca406b9f6b6d37dfb6f31bca3da64b861ab380a632e14dd1 32656 mx-remastercc_18.3_i386.deb
 Files:
- d8bbb3078b6ca57f797a27b5fff3b22f 32508 admin optional mx-remastercc_18.3_i386.deb
+ 1240ef36d5f0da4bdcab7131c08412ce 32656 admin optional mx-remastercc_18.3_i386.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJamXS8AAoJEHCTjHgGee6YRhIIAMbHvV5qUQoQXwEKb0m7oOFx
-Me5aWaZff7Pa7zihsr0BR1bBsAD0YlJmZZ75qmRjpTxo74V8xD+i/HRgiq3cULNZ
-zmus2pcePyG+1hZqDvxkdXDS2Y9EY6OFRJt3WD07i6ZdBHCdITWm5FpXbtk1OvQm
-O9z2T8e+DDtWb31o8difKQJoZmTxp0LYB8gfVWZeXMIjfqPnWrNkmqNfgf8OIJBx
-/yvhdfZgOZrprxafwwRv+albGFHATQY6oFXigDqEazuGkBE1oN6aimfFH005Qzq/
-Sgc1r7AVVdDCKg7o6p5rwAsH2Kz1GZmQiKi+CKxknWSqrSVrzR1QdtkB5P+3Jg0=
-=/A0r
+iQEcBAEBAgAGBQJamX0VAAoJEHCTjHgGee6YsjMH/1dISddBeJVNZ0okEbHnetaF
+7JHgLY7CEzmQKfq77SwIS5W4E58uQqOcOvEr0LYaSw0vQlXVc4rjsua09fggFlYE
+qKWYYVK2a7d96YItdf9ibl0yBnG+c5nZDOYuJUyUZ6tHLiQdZVpTy+glAp6ryAxH
+iemiM0cRhzdYQkUsBGs0zn+EtATBZOhxKIr7AlteNWITlRvRjx/5NDHrYF4xVGtK
+6Mu3c4+uq8Mf+2dgp58qTWT48RHM7RLzoQqJMFGFSdkt/XA4z7Zftr463o3q4wAo
+03BisuaGEP6a1fkvV+JWIIFYzxhN/0Zz2HYRz6HaNf9qpqxEhuzA0TUySbiNk9g=
+=rp0u
 -----END PGP SIGNATURE-----

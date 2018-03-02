@@ -18,26 +18,26 @@ Changes:
  .
    * new translations
 Checksums-Sha1:
- 41f85b62a33e03befe4086f0f8276d992a798c57 1117 mx-remastercc_18.3.dsc
- a5687abec7765c177542deaad082e9b69d10ae08 28032 mx-remastercc_18.3.tar.xz
- 752a6f8ae07966402bb31a1cedc0c0838433435c 32394 mx-remastercc_18.3_amd64.deb
+ 7ffd4f51ffe81a6524f2aa5db9d7259b244c01ca 1111 mx-remastercc_18.3.dsc
+ e5091e293f2a13586680b3dd1ecbedf401eac9ae 28020 mx-remastercc_18.3.tar.xz
+ cfc63e6856601c12be59357d1d59e87ad9e2aa2e 32536 mx-remastercc_18.3_amd64.deb
 Checksums-Sha256:
- 64c83ea889e15ed5c1026dccbc6ce9066af923964c7ffa052fe384144c8789f4 1117 mx-remastercc_18.3.dsc
- ff3cee5f0f11aedb14ae9c3a8272eb6f40d6ef8f411f6250c1b4f3023bdfbea7 28032 mx-remastercc_18.3.tar.xz
- cacd13807a8891e4980dbb8bd64b5769e0e249564d1cf450ae75e732c0235912 32394 mx-remastercc_18.3_amd64.deb
+ 5e64dd8a53a7a86805382d38d050291676dd0ee3fe63ae35b081640c8264d57a 1111 mx-remastercc_18.3.dsc
+ 83f0d2459c383bcca5964f61518c06d9832484014ff0b4a6b661bfa39125a34a 28020 mx-remastercc_18.3.tar.xz
+ dbfa9b5080ea277b06c3908e947d9dfb2e60358c1280cff9972f655e4668f50d 32536 mx-remastercc_18.3_amd64.deb
 Files:
- 2e4f1365bbf047ee4a068cfe9b4ea846 1117 admin optional mx-remastercc_18.3.dsc
- aaacfa56da1c134a421c467f604da5dd 28032 admin optional mx-remastercc_18.3.tar.xz
- 93aeb26d7e3b0f0c21082060353fc102 32394 admin optional mx-remastercc_18.3_amd64.deb
+ 3222be4a2b9fbdfb2b626fda5edaae8e 1111 admin optional mx-remastercc_18.3.dsc
+ 1bf345390a6ae228e46de0d5c8e3da52 28020 admin optional mx-remastercc_18.3.tar.xz
+ 9332b53d2a07939aea56e27c0780ee7e 32536 admin optional mx-remastercc_18.3_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJamXSqAAoJEHCTjHgGee6YZ/kH/A9DKGr3MSZRSlsEnN7T2b6S
-pHYcf8uNn0hwmJITRQ8NdoYlZu/0qF/g118Xuof85zWPmA1LrMCCgpJDl/3vzZcr
-Xze41QAdJN2+GV4Axl1jgR87QESApnvelOMnaF2vWqmBz0sF06DBcYmHsdWZGsUq
-xwo3lmLK9KhMAxBc2Vo+S3uvPwuvoB3sC5GdEJt7DY0zSBs4I2VxOqz4nvXc1a9e
-QFaKRFMz7I2Bw34a+pccUliuxp8BI/6FJZFETrFCw9o5zoYfWUCgTs1eMuKV0FO1
-AjmD9z42qxsm9bsE3ysSwnRc7ZUd9w4G2FHh/d4j7DWPcHiN7WhEQJAayTqjuHw=
-=hQXs
+iQEcBAEBAgAGBQJamX0EAAoJEHCTjHgGee6Y++0IANVn4dUujbouF8SoZZp+DNhP
+OALYMMhhbqBA/ZpFA7lBaDPNEXrbBTGhoQBYM5MNLopLm8K8TdgYJE5AM9VITHme
+FR7oyosfh8CPT+eF2v6mw6IjLvDwbbIRRjxTeu6YKtGSA1QbZgWfq8EPLclSFCug
+vInW5Dm1vaBuy4UHG/3x3YRfed9nYEPlBrE7Z6SR/5Ks7laFcTaXDMuxIoAC0h17
+eX9x48HZoo/TjEMUADkmZfqJqlN4BPLh4xsr8SPjQzi0e7yPOcis3Al+VCNKFtJp
+Z56YcncjRHCQZiZyNzVtOJSyw/ipd7mUJ4ztUyubUngGbPxp8pHPWwVitq3OjNU=
+=DmLF
 -----END PGP SIGNATURE-----
