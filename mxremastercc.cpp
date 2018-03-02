@@ -75,6 +75,16 @@ QString mxremastercc::getVersion(QString name)
     return runCmd(cmd).output;
 }
 
+void mxremastercc::displayDoc(QString url)
+{
+    QString exec = "xdg-open";
+    QString user = runCmd("logname").output;
+    if (system("command -v mx-viewer") == 0) { // use mx-viewer if available
+        exec = "mx-viewer";
+    }
+    QString cmd = "su " + user + " -c \"" + exec + " " + url + "\"&";
+    system(cmd.toUtf8());
+}
 
 //// slots ////
 
@@ -92,7 +102,8 @@ void mxremastercc::on_buttonAbout_clicked()
     msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
     msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
     if (msgBox.exec() == QMessageBox::AcceptRole) {
-        system("mx-viewer file:///usr/share/doc/mx-remastercc/license.html '" + tr("MX RemasterCC").toUtf8() + " " + tr("License").toUtf8() + "'");
+        QString url ="file:///usr/share/doc/mx-remastercc/license.html";
+        displayDoc(url);
     }
     this->show();
 }
@@ -100,8 +111,6 @@ void mxremastercc::on_buttonAbout_clicked()
 // Help button clicked
 void mxremastercc::on_buttonHelp_clicked()
 {
-    this->hide();
-
     QLocale locale;
     QString lang = locale.bcp47Name();
 
@@ -110,11 +119,7 @@ void mxremastercc::on_buttonHelp_clicked()
     if (lang.startsWith("fr")) {
         url = "https://mxlinux.org/wiki/help-files/help-mx-r%C3%A9masterisation";
     }
-
-    QString cmd = QString("mx-viewer %1 '%2'").arg(url).arg(tr("MX RemasterCC"));
-    system(cmd.toUtf8());
-
-    this->show();
+    displayDoc(url);
 }
 
 void mxremastercc::on_buttonSetupPersistence_clicked()

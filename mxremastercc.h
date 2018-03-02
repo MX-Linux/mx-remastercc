@@ -53,11 +53,12 @@ public:
     QString version;
     QString output;
 
-    void setup();    
+    void displayDoc(QString url);
+    void setup();
 
 private slots:
     void on_buttonAbout_clicked();
-    void on_buttonHelp_clicked();    
+    void on_buttonHelp_clicked();
     void on_buttonSetupPersistence_clicked();
     void on_buttonConfigPersistence_clicked();
     void on_buttonSaveRootPersist_clicked();

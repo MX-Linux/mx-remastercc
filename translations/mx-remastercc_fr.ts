@@ -90,46 +90,43 @@
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="48"/>
-        <location filename="../mxremastercc.cpp" line="88"/>
+        <location filename="../mxremastercc.cpp" line="98"/>
         <source>MX Remaster Control Center</source>
         <translation>MX Centre de configuration de la Remastérisation</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="87"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>About MX Remaster Control Center</source>
         <translation>À propos de MX Centre de configuration de la Remastérisation</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="88"/>
+        <location filename="../mxremastercc.cpp" line="98"/>
         <source>Version: </source>
         <translation>Version: </translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="89"/>
+        <location filename="../mxremastercc.cpp" line="99"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation>Ce programme donne accès à différents outils de remastérisation et de persistance de MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="91"/>
+        <location filename="../mxremastercc.cpp" line="101"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="92"/>
-        <location filename="../mxremastercc.cpp" line="95"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>License</source>
         <translation>Licence</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="93"/>
+        <location filename="../mxremastercc.cpp" line="103"/>
         <source>Cancel</source>
         <translation>Annuler</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="95"/>
-        <location filename="../mxremastercc.cpp" line="114"/>
         <source>MX RemasterCC</source>
-        <translation>MX Remastercc</translation>
+        <translation type="vanished">MX Remastercc</translation>
     </message>
 </context>
 </TS>
