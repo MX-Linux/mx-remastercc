@@ -90,37 +90,37 @@
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="48"/>
-        <location filename="../mxremastercc.cpp" line="98"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>MX Remaster Control Center</source>
         <translation>MX Remaster Control Center</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="97"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>About MX Remaster Control Center</source>
         <translation>Über MX Remaster Control Center</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="98"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>Version: </source>
         <translation>Version:</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="99"/>
+        <location filename="../mxremastercc.cpp" line="98"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation>Dieses Programm bringt Sie zu den verschiedenen Remaster- und Persistenz-Tools in MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="100"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="102"/>
+        <location filename="../mxremastercc.cpp" line="101"/>
         <source>License</source>
         <translation>Lizenz</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="103"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>

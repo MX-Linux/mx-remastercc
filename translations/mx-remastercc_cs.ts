@@ -90,37 +90,37 @@
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="48"/>
-        <location filename="../mxremastercc.cpp" line="98"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>MX Remaster Control Center</source>
         <translation>MX Remaster Control Center</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="97"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>About MX Remaster Control Center</source>
         <translation>O programu MX Remaster Control Center</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="98"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>Version: </source>
         <translation>Verze:</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="99"/>
+        <location filename="../mxremastercc.cpp" line="98"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation>Tento program Vám poskytuje přístup k různým remástrům a persistentním nástrojům v systému MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="100"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Vlastnická práva (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="102"/>
+        <location filename="../mxremastercc.cpp" line="101"/>
         <source>License</source>
         <translation>Licence</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="103"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>Cancel</source>
         <translation>Zrušit</translation>
     </message>

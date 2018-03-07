@@ -78,11 +78,10 @@ QString mxremastercc::getVersion(QString name)
 void mxremastercc::displayDoc(QString url)
 {
     QString exec = "xdg-open";
-    QString user = runCmd("logname").output;
     if (system("command -v mx-viewer") == 0) { // use mx-viewer if available
         exec = "mx-viewer";
     }
-    QString cmd = "su " + user + " -c \"" + exec + " " + url + "\"&";
+    QString cmd = exec + " " + url + "&";
     system(cmd.toUtf8());
 }
 

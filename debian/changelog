@@ -1,3 +1,9 @@
+mx-remastercc (18.3+1) mx; urgency=medium
+
+  * fix help
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 07 Mar 2018 10:38:56 -0500
+
 mx-remastercc (18.3) mx; urgency=medium
 
   * new translations

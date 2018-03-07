@@ -90,37 +90,37 @@
     </message>
     <message>
         <location filename="../mxremastercc.cpp" line="48"/>
-        <location filename="../mxremastercc.cpp" line="98"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="97"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>About MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="98"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>Version: </source>
         <translation>Нұсқасы:</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="99"/>
+        <location filename="../mxremastercc.cpp" line="98"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="100"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="102"/>
+        <location filename="../mxremastercc.cpp" line="101"/>
         <source>License</source>
         <translation>Лицензиясы</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="103"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>Cancel</source>
         <translation>Бас тарту</translation>
     </message>

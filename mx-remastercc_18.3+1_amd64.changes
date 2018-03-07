@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 07 Mar 2018 10:38:56 -0500
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 18.3+1
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (18.3+1) mx; urgency=medium
+ .
+   * fix help
+Checksums-Sha1:
+ 100b10d14a38b7fbfd7ec4ccd8af89e4c1f9ff88 1119 mx-remastercc_18.3+1.dsc
+ 16f705d260d2ecd7ca2257df5fd6f857635b71fa 28012 mx-remastercc_18.3+1.tar.xz
+ 40c2ce636d0fa3ae1b9f4e15a8fa04684ebf2631 32080 mx-remastercc_18.3+1_amd64.deb
+Checksums-Sha256:
+ db0f00aa7d7a7f2e70c41036ac310fa01b54a0ec70d948a2047dda349110e47d 1119 mx-remastercc_18.3+1.dsc
+ 1effef0b289f056dd0926d59f22767840c56299cc471a425a497930e54705503 28012 mx-remastercc_18.3+1.tar.xz
+ e1878a182e05c43d719b5ee1f6b42e6812f455c62bbee2d4ea0860d5d18a9f35 32080 mx-remastercc_18.3+1_amd64.deb
+Files:
+ 84f5b412c0b51d0391681844c7bb1df1 1119 admin optional mx-remastercc_18.3+1.dsc
+ ae5788e46b45e014da82cc7fc82aacd6 28012 admin optional mx-remastercc_18.3+1.tar.xz
+ 3204ed517c817f018bc862bd627b7a89 32080 admin optional mx-remastercc_18.3+1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaoAf5AAoJEHCTjHgGee6Y3n8H/RMZm9Ou3XyJEo1l7Yc6X1xc
+bO/nS6jyptTurZ0rZZ+ErZYqL9wSinVKDMhRciJWf3KSWtlHVP9sAz7l0DcBgU3C
+2qDFSaPgjIFJ0rF/nx5S/tI4TtJzwgnseFTS6Um4j2CZp2AP9pE+mTVISx5erSOZ
+RC2AijmNvwYTvJMerqvWzoG9mjIQ2DbPX1p+sVNmIfospqlN4Go8fbHLx5q/GDz0
+F7+LgiPAFRGZwhRSjc+V1N+RxAZcPAQTTtAaNJatDzoJ+orWmYIRIwT+yUm70nOU
+SEKyJufikoeH5lwthkhJhfSRNze8PFu/VF+2gihQP5vZvcAB0ND0Pl43nKpR/3o=
+=tTKr
+-----END PGP SIGNATURE-----
