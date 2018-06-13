@@ -145,6 +145,6 @@ void mxremastercc::on_buttonSaveRootPersist_clicked()
 void mxremastercc::on_buttonRemaster_clicked()
 {
     this->hide();
-    system("su-to-root -X -c remaster-live");
+    system("su-to-root -X -c live-remaster");
     this->show();
 }
