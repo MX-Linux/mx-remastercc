@@ -2,7 +2,8 @@ Source: mx-remastercc
 Section: admin
 Priority: optional
 Maintainer: Adrian <adrian@mxlinux.org>
-Build-Depends: qt5-qmake,
+Build-Depends:	qt5-default,
+	qttools5-dev-tools,
 	debhelper (>=9)
 Standards-Version: 3.9.8
 Vcs-Git: git://github.com/AdrianTM/mx-remastercc
