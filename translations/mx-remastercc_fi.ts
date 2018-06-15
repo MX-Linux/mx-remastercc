@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
 <context>
     <name>mxremastercc</name>
     <message>
@@ -19,12 +19,12 @@
     <message>
         <location filename="mxremastercc.ui" line="135"/>
         <source>Display help </source>
-        <translation>Wyświetl pomoc</translation>
+        <translation>Näytä ohje</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="138"/>
         <source>Help</source>
-        <translation>Pomoc</translation>
+        <translation>Ohje</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="146"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="mxremastercc.ui" line="178"/>
         <source>About this application</source>
-        <translation>O programie</translation>
+        <translation>Tietoja tästä sovelluksesta</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="181"/>
         <source>About...</source>
-        <translation>O...</translation>
+        <translation>Tietoja...</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="189"/>
@@ -49,12 +49,12 @@
     <message>
         <location filename="mxremastercc.ui" line="221"/>
         <source>Quit application</source>
-        <translation>Zamknij apliikację</translation>
+        <translation>Sulje sovellus</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="224"/>
         <source>Close</source>
-        <translation>Zamknij</translation>
+        <translation>Sulje</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="232"/>
@@ -69,7 +69,7 @@
     <message>
         <location filename="mxremastercc.ui" line="279"/>
         <source>Remaster</source>
-        <translation>Remaster</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="307"/>
@@ -84,7 +84,7 @@
     <message>
         <location filename="mxremastercc.ui" line="332"/>
         <source>Configure live persistence</source>
-        <translation>Konfiguracja live persistence</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="48"/>
@@ -100,7 +100,7 @@
     <message>
         <location filename="mxremastercc.cpp" line="97"/>
         <source>Version: </source>
-        <translation>Wersja:</translation>
+        <translation>Versio: </translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="98"/>
@@ -115,12 +115,12 @@
     <message>
         <location filename="mxremastercc.cpp" line="101"/>
         <source>License</source>
-        <translation>Licencja</translation>
+        <translation>Lisenssi</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="102"/>
         <source>Cancel</source>
-        <translation>Anuluj</translation>
+        <translation>Peruuta</translation>
     </message>
 </context>
 </TS>

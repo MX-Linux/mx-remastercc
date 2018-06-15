@@ -41,7 +41,10 @@ TRANSLATIONS += translations/mx-remastercc_am.ts \
                 translations/mx-remastercc_de.ts \
                 translations/mx-remastercc_el.ts \
                 translations/mx-remastercc_es.ts \
+                translations/mx-remastercc_fi.ts \
                 translations/mx-remastercc_fr.ts \
+                translations/mx-remastercc_hi.ts \
+                translations/mx-remastercc_hr.ts \
                 translations/mx-remastercc_hu.ts \
                 translations/mx-remastercc_it.ts \
                 translations/mx-remastercc_ja.ts \
