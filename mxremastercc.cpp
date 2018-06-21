@@ -71,8 +71,7 @@ Result mxremastercc::runCmd(QString cmd)
 // Get version of the program
 QString mxremastercc::getVersion(QString name)
 {
-    QString cmd = QString("dpkg -l %1 | awk 'NR==6 {print $3}'").arg(name);
-    return runCmd(cmd).output;
+    return runCmd("dpkg-query -f '${Version}' -W " + name).output;
 }
 
 void mxremastercc::displayDoc(QString url)
