@@ -89,40 +89,50 @@
         <translation>Configura la persistència en autònom </translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="48"/>
-        <location filename="../mxremastercc.cpp" line="97"/>
+        <location filename="../mxremastercc.cpp" line="51"/>
+        <location filename="../mxremastercc.cpp" line="99"/>
         <source>MX Remaster Control Center</source>
         <translation>Centre de Control de MX Remaster</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="96"/>
+        <location filename="../mxremastercc.cpp" line="98"/>
         <source>About MX Remaster Control Center</source>
         <translation>Quant al Centre de Control de MX Remaster </translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="97"/>
+        <location filename="../mxremastercc.cpp" line="99"/>
         <source>Version: </source>
         <translation>Versió: </translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="98"/>
+        <location filename="../mxremastercc.cpp" line="100"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation>Aquest programa facilita l&apos;accés a diverses eines de remasteritzat i persistència a MX Linux </translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="103"/>
         <source>License</source>
         <translation>Llicència </translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="102"/>
+        <location filename="../mxremastercc.cpp" line="104"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxremastercc.cpp" line="105"/>
         <source>Cancel</source>
         <translation>Cancel·la </translation>
+    </message>
+    <message>
+        <location filename="../mxremastercc.cpp" line="121"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

@@ -89,40 +89,50 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="48"/>
-        <location filename="../mxremastercc.cpp" line="97"/>
+        <location filename="../mxremastercc.cpp" line="51"/>
+        <location filename="../mxremastercc.cpp" line="99"/>
         <source>MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="96"/>
+        <location filename="../mxremastercc.cpp" line="98"/>
         <source>About MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="97"/>
+        <location filename="../mxremastercc.cpp" line="99"/>
         <source>Version: </source>
         <translation>Versija: </translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="98"/>
+        <location filename="../mxremastercc.cpp" line="100"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Autorių teisės (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="103"/>
         <source>License</source>
         <translation>Licencija</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="102"/>
+        <location filename="../mxremastercc.cpp" line="104"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxremastercc.cpp" line="105"/>
         <source>Cancel</source>
         <translation>Atsisakyti</translation>
+    </message>
+    <message>
+        <location filename="../mxremastercc.cpp" line="121"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
