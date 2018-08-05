@@ -54,6 +54,7 @@ void mxremastercc::setup()
     ui->buttonConfigPersistence ->setStyleSheet("text-align:left;");
     ui->buttonSaveRootPersist->setStyleSheet("text-align:left;");
     ui->buttonRemaster->setStyleSheet("text-align:left;");
+    ui->buttonSaveRootPersist->setIcon(QIcon::fromTheme("filesave", QIcon(":/icons/filesave.svg")));
 }
 
 // Util function for getting bash command output and error code

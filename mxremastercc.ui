@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>760</width>
-    <height>288</height>
+    <height>294</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,8 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset theme="preferences-desktop">
-    <normaloff/>
-   </iconset>
+    <normaloff>.</normaloff>.</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="0" column="0">
@@ -66,8 +65,7 @@
        </property>
        <property name="icon">
         <iconset theme="applications-development">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="autoDefault">
         <bool>true</bool>
@@ -139,8 +137,7 @@
          </property>
          <property name="icon">
           <iconset theme="help-contents">
-           <normaloff/>
-          </iconset>
+           <normaloff>.</normaloff>.</iconset>
          </property>
          <property name="shortcut">
           <string>Alt+H</string>
@@ -182,8 +179,7 @@
          </property>
          <property name="icon">
           <iconset theme="help-about">
-           <normaloff/>
-          </iconset>
+           <normaloff>.</normaloff>.</iconset>
          </property>
          <property name="shortcut">
           <string>Alt+B</string>
@@ -225,8 +221,7 @@
          </property>
          <property name="icon">
           <iconset theme="window-close">
-           <normaloff/>
-          </iconset>
+           <normaloff>.</normaloff>.</iconset>
          </property>
          <property name="shortcut">
           <string>Alt+N</string>
@@ -279,9 +274,7 @@
         <string>Remaster</string>
        </property>
        <property name="icon">
-        <iconset theme="media-cdrom">
-         <normaloff/>
-        </iconset>
+        <iconset theme="gtk-cdrom"/>
        </property>
        <property name="autoDefault">
         <bool>true</bool>
@@ -307,9 +300,7 @@
         <string>Save root persistence</string>
        </property>
        <property name="icon">
-        <iconset theme="filesave">
-         <normaloff/>
-        </iconset>
+        <iconset theme="filesave"/>
        </property>
        <property name="autoDefault">
         <bool>true</bool>
@@ -333,8 +324,7 @@
        </property>
        <property name="icon">
         <iconset theme="applications-system">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="autoDefault">
         <bool>true</bool>
