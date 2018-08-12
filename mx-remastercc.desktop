@@ -57,7 +57,7 @@ Comment[zh_TW]=將正在運行的系統設為持續版或重製版
 Exec=mx-remastercc
 Terminal=false
 Type=Application
-Icon=preferences-desktop.png
+Icon=preferences-desktop
 Categories=GNOME;GTK;System;MX-Live
 NoDisplay=false
 
