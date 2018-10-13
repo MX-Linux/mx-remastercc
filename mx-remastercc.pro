@@ -38,6 +38,7 @@ FORMS    += mxremastercc.ui
 TRANSLATIONS += translations/mx-remastercc_am.ts \
                 translations/mx-remastercc_ca.ts \
                 translations/mx-remastercc_cs.ts \
+                translations/mx-remastercc_da.ts \
                 translations/mx-remastercc_de.ts \
                 translations/mx-remastercc_el.ts \
                 translations/mx-remastercc_es.ts \
@@ -57,6 +58,7 @@ TRANSLATIONS += translations/mx-remastercc_am.ts \
                 translations/mx-remastercc_ro.ts \
                 translations/mx-remastercc_ru.ts \
                 translations/mx-remastercc_sk.ts \
+                translations/mx-remastercc_sq.ts \
                 translations/mx-remastercc_sv.ts \
                 translations/mx-remastercc_tr.ts \
                 translations/mx-remastercc_uk.ts \

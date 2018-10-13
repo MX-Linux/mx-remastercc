@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ro" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sq" version="2.1">
 <context>
     <name>mxremastercc</name>
     <message>
@@ -19,27 +19,27 @@
     <message>
         <location filename="mxremastercc.ui" line="133"/>
         <source>Display help </source>
-        <translation>Afișează ajutor</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="136"/>
         <source>Help</source>
-        <translation>Ajutor</translation>
+        <translation>Ndihmë</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="143"/>
         <source>Alt+H</source>
-        <translation>Alt+H</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="175"/>
         <source>About this application</source>
-        <translation>Informații despre program</translation>
+        <translation>Rreth këtij aplikacioni</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="178"/>
         <source>About...</source>
-        <translation>Despre...</translation>
+        <translation>Rreth...</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="185"/>
@@ -49,12 +49,12 @@
     <message>
         <location filename="mxremastercc.ui" line="217"/>
         <source>Quit application</source>
-        <translation>Închide programul </translation>
+        <translation>Dil nga aplikacioni</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="220"/>
         <source>Close</source>
-        <translation>Închidere</translation>
+        <translation>Mbyll</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="227"/>
@@ -69,7 +69,7 @@
     <message>
         <location filename="mxremastercc.ui" line="274"/>
         <source>Remaster</source>
-        <translation>Remasterizare</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="300"/>
@@ -100,7 +100,7 @@
     <message>
         <location filename="mxremastercc.cpp" line="100"/>
         <source>Version: </source>
-        <translation>Versiune:</translation>
+        <translation>Versioni:</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="101"/>
@@ -110,27 +110,27 @@
     <message>
         <location filename="mxremastercc.cpp" line="103"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>Të drejtat e rezervuara (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="104"/>
         <source>License</source>
-        <translation>Licență</translation>
+        <translation>Liçensa</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="105"/>
         <source>Changelog</source>
-        <translation>Changelog</translation>
+        <translation>Ndryshimet</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="106"/>
         <source>Cancel</source>
-        <translation>Anulează</translation>
+        <translation>Anullo</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation>&amp;Închide</translation>
+        <translation>&amp;Mbyll</translation>
     </message>
 </context>
 </TS>
