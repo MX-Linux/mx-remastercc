@@ -1,30 +1,30 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="is" version="2.1">
 <context>
     <name>mxremastercc</name>
     <message>
         <location filename="mxremastercc.ui" line="14"/>
         <source>MX Remastercc</source>
-        <translation>MX RemasterCC</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="64"/>
         <source>Persistence</source>
-        <translation>Persistencia</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="81"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tento nástroj Vám umožňuje prepracovať ISO súbor počas behu systému v Live móde. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remástrovať&lt;/span&gt; pre zmeny súborov, aplikácií a nastavení s cieľom vytvoriť novú ISO kópiu systému pre zálohovanie alebo ďalšiu distribúciu. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistencia&lt;/span&gt; pre zachovanie dát, nastavení a nainštalovaných programov pre vlastnú potrebu aj po tom ako vypnente PC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="133"/>
         <source>Display help </source>
-        <translation>Zobraziť nápovedu</translation>
+        <translation>Birta hjálp</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="136"/>
         <source>Help</source>
-        <translation>Pomoc</translation>
+        <translation>Hjálp</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="143"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="mxremastercc.ui" line="175"/>
         <source>About this application</source>
-        <translation>O tejto aplikácii</translation>
+        <translation>Um þetta forrit</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="178"/>
         <source>About...</source>
-        <translation>O Programe</translation>
+        <translation>Um hugbúnaðinn...</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="185"/>
@@ -49,12 +49,12 @@
     <message>
         <location filename="mxremastercc.ui" line="217"/>
         <source>Quit application</source>
-        <translation>Zatvoriť aplikáciu</translation>
+        <translation>Hætta í forriti</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="220"/>
         <source>Close</source>
-        <translation>Zatvoriť</translation>
+        <translation>Hætta</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="227"/>
@@ -64,73 +64,73 @@
     <message>
         <location filename="mxremastercc.ui" line="264"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Základné operácie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="274"/>
         <source>Remaster</source>
-        <translation>Remástrovať</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="300"/>
         <source>Save root persistence</source>
-        <translation>Uložiť root persistenciu</translation>
+        <translation>Vista varanlega gagnageymslu kerfisstjóra/root</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="313"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Voliteľné operácie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="323"/>
         <source>Configure live persistence</source>
-        <translation>Konfigurovať live persistenciu</translation>
+        <translation>Stilla varanlega gagnageymslu í keyrsluumhverfi</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="51"/>
         <location filename="mxremastercc.cpp" line="100"/>
         <source>MX Remaster Control Center</source>
-        <translation>MX Remaster Control Center</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="99"/>
         <source>About MX Remaster Control Center</source>
-        <translation>O programe MX Remaster Control Center</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="100"/>
         <source>Version: </source>
-        <translation>Verzia:</translation>
+        <translation>Útgáfa:</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="101"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation>Tento program Vám umožní rôznymi spôsobmi vylepšiť a vytvoriť vlastnú kópiu systému a tiež vytvoriť persistencie tj. uchovávať zmeny prevedené v systéme MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="103"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>Höfundarréttur (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="104"/>
         <source>License</source>
-        <translation>Licencia</translation>
+        <translation>Notkunarleyfi</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="105"/>
         <source>Changelog</source>
-        <translation>História zmien</translation>
+        <translation>Breytingaskrá</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="106"/>
         <source>Cancel</source>
-        <translation>Zrušiť</translation>
+        <translation>Hætta við</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation>&amp;Zatvoriť</translation>
+        <translation>&amp;Loka</translation>
     </message>
 </context>
 </TS>
