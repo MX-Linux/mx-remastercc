@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 30 Nov 2018 14:05:17 -0500
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 18.11
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (18.11) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 8608b779cc4fa8b825df643dcad14046a40a1293 1178 mx-remastercc_18.11.dsc
+ 7e1aaec50e8fad09f2471d691becb75bc9ff13c9 30924 mx-remastercc_18.11.tar.xz
+ c35089ed10b64ffc77844be1714dea4ae49c5271 11196 mx-remastercc_18.11_amd64.buildinfo
+ 181dd0d0529458d28eb8afb4c82cf4b015a8f930 36840 mx-remastercc_18.11_amd64.deb
+Checksums-Sha256:
+ 94419df4ebf280df9846f46f5f2b5a98496f12cf31c3a1c7ddbe064fbfefde72 1178 mx-remastercc_18.11.dsc
+ 4371be0c197657a0cba2924b94445904f5bb5efe7b64a9d48275521787f8f768 30924 mx-remastercc_18.11.tar.xz
+ cf2ae3d235a5f5e5bb34e3cda37daf4443588014bd593375df28fcf5ed03ae52 11196 mx-remastercc_18.11_amd64.buildinfo
+ 014996b00901a9b307459591254794522dc8f44b777e9d333e35acad4e90619f 36840 mx-remastercc_18.11_amd64.deb
+Files:
+ cd179c6f6492ee2bed85d5be5528a8ff 1178 admin optional mx-remastercc_18.11.dsc
+ 5296e9dfec310418ffacb1e57c44e1c7 30924 admin optional mx-remastercc_18.11.tar.xz
+ 51662e53b1fd1b71cb01d4fbe5b93711 11196 admin optional mx-remastercc_18.11_amd64.buildinfo
+ def3d5758f8ae3143dbacaa5854f4d48 36840 admin optional mx-remastercc_18.11_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlwBiqsTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumGwJB/9hrPXTKO+JbnFp0QwdZYGchnDvk+gl
+nXcKbKC0R/tnLZtZWLTsl/kc7H25RS5BsrhlMyPWzkrEB7jfDm/V9T/HdL9R4tcU
+aNCjXr/UfenRfo4J2Gv5NxxX6TR1vIkOeOJ8K17aKd1Tss/teR4+1qRWwJElJUPn
+r3sIx9KIY3Y7NOfCfG2rvfzq5N2G0rE2e3gSkThAHkoqRp4JsBHQHg6cchL/EfFa
+vv2ASt8I39vxs4uWUn+fXpDu8La6Mr6TFpXPiYFJ0R3rOxxiyct4AzqJZFVGHKzS
+Bq2T8QqGeAk0vGcEhAG2lRp9tmWyvWIbzgjbpqomEPAZqBTNyX+/4WTO
+=icPR
+-----END PGP SIGNATURE-----
