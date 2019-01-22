@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ro" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nb" version="2.1">
 <context>
     <name>mxremastercc</name>
     <message>
@@ -19,12 +19,12 @@
     <message>
         <location filename="mxremastercc.ui" line="133"/>
         <source>Display help </source>
-        <translation>Afișează ajutor</translation>
+        <translation>Vis hjelp</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="136"/>
         <source>Help</source>
-        <translation>Ajutor</translation>
+        <translation>Hjelp</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="143"/>
@@ -34,12 +34,12 @@
     <message>
         <location filename="mxremastercc.ui" line="175"/>
         <source>About this application</source>
-        <translation>Informații despre program</translation>
+        <translation>Om applikasjonen</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="178"/>
         <source>About...</source>
-        <translation>Despre...</translation>
+        <translation>Om...</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="185"/>
@@ -49,12 +49,12 @@
     <message>
         <location filename="mxremastercc.ui" line="217"/>
         <source>Quit application</source>
-        <translation>Închide programul </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="220"/>
         <source>Close</source>
-        <translation>Închidere</translation>
+        <translation>Lukk</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="227"/>
@@ -69,12 +69,12 @@
     <message>
         <location filename="mxremastercc.ui" line="274"/>
         <source>Remaster</source>
-        <translation>Remasterizare</translation>
+        <translation>Remastre</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="300"/>
         <source>Save root persistence</source>
-        <translation type="unfinished"/>
+        <translation>Lagre root persistence</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="313"/>
@@ -84,7 +84,7 @@
     <message>
         <location filename="mxremastercc.ui" line="323"/>
         <source>Configure live persistence</source>
-        <translation type="unfinished"/>
+        <translation>Konfigurer live persistence</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="51"/>
@@ -100,7 +100,7 @@
     <message>
         <location filename="mxremastercc.cpp" line="100"/>
         <source>Version: </source>
-        <translation>Versiune:</translation>
+        <translation>Versjon:</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="101"/>
@@ -115,7 +115,7 @@
     <message>
         <location filename="mxremastercc.cpp" line="104"/>
         <source>License</source>
-        <translation>Licență</translation>
+        <translation>Lisens</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="105"/>
@@ -125,12 +125,12 @@
     <message>
         <location filename="mxremastercc.cpp" line="106"/>
         <source>Cancel</source>
-        <translation>Anulează</translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation>&amp;Închide</translation>
+        <translation>&amp;Lukk</translation>
     </message>
 </context>
 </TS>

@@ -36,22 +36,33 @@ HEADERS  += mxremastercc.h
 FORMS    += mxremastercc.ui
 
 TRANSLATIONS += translations/mx-remastercc_am.ts \
+                translations/mx-remastercc_ar.ts \
+                translations/mx-remastercc_bg.ts \
                 translations/mx-remastercc_ca.ts \
                 translations/mx-remastercc_cs.ts \
                 translations/mx-remastercc_da.ts \
                 translations/mx-remastercc_de.ts \
                 translations/mx-remastercc_el.ts \
                 translations/mx-remastercc_es.ts \
+                translations/mx-remastercc_et.ts \
+                translations/mx-remastercc_eu.ts \
+                translations/mx-remastercc_fa.ts \
                 translations/mx-remastercc_fi.ts \
                 translations/mx-remastercc_fr.ts \
+                translations/mx-remastercc_he_IL.ts \
                 translations/mx-remastercc_hi.ts \
                 translations/mx-remastercc_hr.ts \
                 translations/mx-remastercc_hu.ts \
+                translations/mx-remastercc_id.ts \
                 translations/mx-remastercc_is.ts \
                 translations/mx-remastercc_it.ts \
                 translations/mx-remastercc_ja.ts \
+                translations/mx-remastercc_ja_JP.ts \
                 translations/mx-remastercc_kk.ts \
+                translations/mx-remastercc_kots \
                 translations/mx-remastercc_lt.ts \
+                translations/mx-remastercc_mk.ts \
+                translations/mx-remastercc_nb.ts \
                 translations/mx-remastercc_nl.ts \
                 translations/mx-remastercc_pl.ts \
                 translations/mx-remastercc_pt.ts \
@@ -59,10 +70,13 @@ TRANSLATIONS += translations/mx-remastercc_am.ts \
                 translations/mx-remastercc_ro.ts \
                 translations/mx-remastercc_ru.ts \
                 translations/mx-remastercc_sk.ts \
+                translations/mx-remastercc_sl.ts \
                 translations/mx-remastercc_sq.ts \
+                translations/mx-remastercc_sr.ts \
                 translations/mx-remastercc_sv.ts \
                 translations/mx-remastercc_tr.ts \
                 translations/mx-remastercc_uk.ts \
+                translations/mx-remastercc_zh_CN.ts \
                 translations/mx-remastercc_zh_TW.ts
 
 RESOURCES += \
