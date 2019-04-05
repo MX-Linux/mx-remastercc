@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 05 Apr 2019 11:48:23 -0400
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 19.4
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (19.4) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 196c9dcdf0ef19cd51e62ea475fd27f443c6b735 1174 mx-remastercc_19.4.dsc
+ 14fff84c21caa6d7bf976209aa380b850abdc654 32944 mx-remastercc_19.4.tar.xz
+ bf5a6deef239fdfc44d8142a03e6af499298c358 11350 mx-remastercc_19.4_amd64.buildinfo
+ 579f6d558d5d9c85f5a23f2718f9765e90b41861 38778 mx-remastercc_19.4_amd64.deb
+Checksums-Sha256:
+ bb468037eb7f024461b32ea8794ff92d4426f4cf2f94982ab6891a91cb78e037 1174 mx-remastercc_19.4.dsc
+ f43730484bba8e9ce14867b4458b73d8bb0356f60ce7afa4b984f766ccde0347 32944 mx-remastercc_19.4.tar.xz
+ 3290e68ab0e0e56b93cb244e55c3601af21315c0bfb550b5d0932639e2bb0918 11350 mx-remastercc_19.4_amd64.buildinfo
+ 3fed3d56dc515d499ce09b12a6b12693bc75d0f13bb7b1d498a38c6e52fc23d2 38778 mx-remastercc_19.4_amd64.deb
+Files:
+ 3fd63737bc86bc2f9c5797ba60f96608 1174 admin optional mx-remastercc_19.4.dsc
+ a9b8705e2b8fbcb66a834276c8aff918 32944 admin optional mx-remastercc_19.4.tar.xz
+ 51de58d6986780299a628166b9478257 11350 admin optional mx-remastercc_19.4_amd64.buildinfo
+ 69dc557ccb20b67a6f1eea344c049f2f 38778 admin optional mx-remastercc_19.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlynebwTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumP4nB/9JjQYMuDohFn/VGmx0DVQP40uAilU9
+KWUANlKjmGEjKMfhv2ysFM7d78nmQGO0CN3DYgz8uKA+cyZIBZK0LN1r3GGpkWx4
+8J0wBZKvZs8rsLOQCzFadpG0GzMBTMOWA/9WSpyV3iosFrQ4+Tlo2MLUISf3twIo
+1e72YWFyeBpOu1QX/8Vmt7DOAjzN0lItTFRsVFBiGGOli3o1vA8dLIDI9CWsJbFB
+OxxZl7/otXri4gmQD9m5EmxhQQwX1+mI0UuCGeHdTD+YLkxjgc2p2DWga/V+5D/R
+kSJeqldjRymrQUzb50B0aM9YJjcMEl7QdkqX45h/wg+EeNd7EY+Lh2Mf
+=tRaA
+-----END PGP SIGNATURE-----
