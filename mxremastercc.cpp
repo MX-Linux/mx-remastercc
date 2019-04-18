@@ -63,10 +63,10 @@ Result mxremastercc::runCmd(QString cmd)
     QEventLoop loop;
     QProcess *proc = new QProcess(this);
     proc->setReadChannelMode(QProcess::MergedChannels);
-    connect(proc, SIGNAL(finished(int)), &loop, SLOT(quit()));
+    connect(proc, static_cast<void (QProcess::*)(int)>(&QProcess::finished), &loop, &QEventLoop::quit);
     proc->start("/bin/bash", QStringList() << "-c" << cmd);
     loop.exec();
-    disconnect(proc, SIGNAL(finished(int)), 0, 0);
+    disconnect(proc, static_cast<void (QProcess::*)(int)>(&QProcess::finished), 0, 0);
     Result result = {proc->exitCode(), proc->readAll().trimmed()};
     delete proc;
     return result;
