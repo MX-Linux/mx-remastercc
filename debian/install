@@ -1,6 +1,6 @@
-mx-remastercc		 usr/bin
-mx-remastercc.desktop	 usr/share/applications
-mx-remastercc.conf	 etc
-translations/*.qm	 usr/share/mx-remastercc/locale
-license.html		usr/share/doc/mx-remastercc
 icons/preferences-desktop.svg usr/share/icons/hicolor/scalable/apps
+license.html		usr/share/doc/mx-remastercc
+mx-remastercc		 usr/bin
+mx-remastercc.conf	 etc
+mx-remastercc.desktop	 usr/share/applications
+translations/*.qm	 usr/share/mx-remastercc/locale
