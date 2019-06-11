@@ -31,7 +31,8 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mxremastercc.cpp
 
-HEADERS  += mxremastercc.h
+HEADERS  += mxremastercc.h \
+    version.h
 
 FORMS    += mxremastercc.ui
 

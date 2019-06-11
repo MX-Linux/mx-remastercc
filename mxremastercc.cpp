@@ -25,16 +25,18 @@
 
 #include "mxremastercc.h"
 #include "ui_mxremastercc.h"
+#include "version.h"
 
 #include <QTextEdit>
 #include <QFileInfo>
 
-//#include <QDebug>
+#include <QDebug>
 
 mxremastercc::mxremastercc(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::mxremastercc)
 {
+    qDebug() << "Program Version:" << VERSION;
     ui->setupUi(this);
     setup();
 }
@@ -47,7 +49,6 @@ mxremastercc::~mxremastercc()
 // setup versious items first time program runs
 void mxremastercc::setup()
 {
-    version = getVersion("mx-remastercc");
     this->setWindowTitle(tr("MX Remaster Control Center"));
     this->adjustSize();
     ui->buttonSetupPersistence->setStyleSheet("text-align:left;");
@@ -72,12 +73,6 @@ Result mxremastercc::runCmd(QString cmd)
     return result;
 }
 
-// Get version of the program
-QString mxremastercc::getVersion(QString name)
-{
-    return runCmd("dpkg-query -f '${Version}' -W " + name).output;
-}
-
 void mxremastercc::displayDoc(QString url)
 {
     QString exec = "xdg-open";
@@ -97,7 +92,7 @@ void mxremastercc::on_buttonAbout_clicked()
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Remaster Control Center"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + version + "</p><p align=\"center\"><h3>" +
+                       tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
                        tr("This program provides access to different remaster and persistence tools in MX Linux") +
                        "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>", 0, this);

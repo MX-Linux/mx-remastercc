@@ -48,7 +48,6 @@ public:
     ~mxremastercc();
 
     Result runCmd(QString cmd);
-    QString getVersion(QString name);
 
     QString version;
     QString output;
