@@ -1,3 +1,9 @@
+mx-remastercc (19.8) mx; urgency=medium
+
+  * added offline help file
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 21 Aug 2019 14:17:13 -0400
+
 mx-remastercc (19.4) mx; urgency=medium
 
   * updated translations

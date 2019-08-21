@@ -21,17 +21,17 @@
     <message>
         <location filename="../mxremastercc.ui" line="133"/>
         <source>Display help </source>
-        <translation>ヘルプの表示</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="136"/>
         <source>Help</source>
-        <translation>ヘルプ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="143"/>
         <source>Alt+H</source>
-        <translation>Alt+H</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="175"/>
@@ -46,7 +46,7 @@
     <message>
         <location filename="../mxremastercc.ui" line="185"/>
         <source>Alt+B</source>
-        <translation>Alt+B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="217"/>
@@ -61,7 +61,7 @@
     <message>
         <location filename="../mxremastercc.ui" line="227"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="264"/>
@@ -89,48 +89,48 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="51"/>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="53"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="99"/>
+        <location filename="../mxremastercc.cpp" line="95"/>
         <source>About MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>Version: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="103"/>
+        <location filename="../mxremastercc.cpp" line="99"/>
         <source>Copyright (c) MX Linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="104"/>
+        <location filename="../mxremastercc.cpp" line="100"/>
         <source>License</source>
-        <translation>ライセンス</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="105"/>
+        <location filename="../mxremastercc.cpp" line="101"/>
         <source>Changelog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="106"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="122"/>
+        <location filename="../mxremastercc.cpp" line="118"/>
         <source>&amp;Close</source>
         <translation type="unfinished"></translation>
     </message>

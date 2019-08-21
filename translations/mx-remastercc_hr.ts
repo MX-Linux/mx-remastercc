@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="hr">
+<TS version="2.1" language="hr_HR">
 <context>
     <name>mxremastercc</name>
     <message>
@@ -21,47 +21,47 @@
     <message>
         <location filename="../mxremastercc.ui" line="133"/>
         <source>Display help </source>
-        <translation>Prikaži pomoć</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="136"/>
         <source>Help</source>
-        <translation>Pomoć</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="143"/>
         <source>Alt+H</source>
-        <translation>Alt+H</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="175"/>
         <source>About this application</source>
-        <translation>O ovoj aplikaciji</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="178"/>
         <source>About...</source>
-        <translation>O programu...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="185"/>
         <source>Alt+B</source>
-        <translation>Alt+B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="217"/>
         <source>Quit application</source>
-        <translation>Zatvori aplikaciju</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="220"/>
         <source>Close</source>
-        <translation>Zatvori</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="227"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="264"/>
@@ -89,50 +89,50 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="51"/>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="53"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="99"/>
+        <location filename="../mxremastercc.cpp" line="95"/>
         <source>About MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>Version: </source>
-        <translation>Inačica:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="103"/>
+        <location filename="../mxremastercc.cpp" line="99"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Autorska prava (c) MX Linux</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="104"/>
+        <location filename="../mxremastercc.cpp" line="100"/>
         <source>License</source>
-        <translation>Licenca</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="105"/>
+        <location filename="../mxremastercc.cpp" line="101"/>
         <source>Changelog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="106"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>Cancel</source>
-        <translation>Otkaži</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="122"/>
+        <location filename="../mxremastercc.cpp" line="118"/>
         <source>&amp;Close</source>
-        <translation>&amp;Zatvori</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

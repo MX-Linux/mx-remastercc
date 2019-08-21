@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="hi">
+<TS version="2.1" language="hi_IN">
 <context>
     <name>mxremastercc</name>
     <message>
@@ -21,47 +21,47 @@
     <message>
         <location filename="../mxremastercc.ui" line="133"/>
         <source>Display help </source>
-        <translation>मदद देखें</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="136"/>
         <source>Help</source>
-        <translation>सहायता</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="143"/>
         <source>Alt+H</source>
-        <translation>Alt+H</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="175"/>
         <source>About this application</source>
-        <translation>इस अनुप्रयोग के बारे में</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="178"/>
         <source>About...</source>
-        <translation>बारे में...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="185"/>
         <source>Alt+B</source>
-        <translation>Alt+B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="217"/>
         <source>Quit application</source>
-        <translation>अनुप्रयोग बंद करें</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="220"/>
         <source>Close</source>
-        <translation>बंद करें</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="227"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="264"/>
@@ -76,7 +76,7 @@
     <message>
         <location filename="../mxremastercc.ui" line="300"/>
         <source>Save root persistence</source>
-        <translation>रुट भी संरक्षित करें</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mxremastercc.ui" line="313"/>
@@ -86,53 +86,53 @@
     <message>
         <location filename="../mxremastercc.ui" line="323"/>
         <source>Configure live persistence</source>
-        <translation>लाइव संरक्षण विन्यस्त करें</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="51"/>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="53"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="99"/>
+        <location filename="../mxremastercc.cpp" line="95"/>
         <source>About MX Remaster Control Center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>Version: </source>
-        <translation>संस्करण :</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="103"/>
+        <location filename="../mxremastercc.cpp" line="99"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>प्रतिलिप्याधिकार (c) MX Linux</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="104"/>
+        <location filename="../mxremastercc.cpp" line="100"/>
         <source>License</source>
-        <translation>लाइसेंस</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="105"/>
+        <location filename="../mxremastercc.cpp" line="101"/>
         <source>Changelog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="106"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>Cancel</source>
-        <translation>रद्द</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="122"/>
+        <location filename="../mxremastercc.cpp" line="118"/>
         <source>&amp;Close</source>
-        <translation>&amp;बंद करें</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

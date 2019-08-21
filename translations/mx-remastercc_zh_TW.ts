@@ -89,48 +89,48 @@
         <translation>設定現場版的持續性</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="51"/>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="53"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>MX Remaster Control Center</source>
         <translation>MX 重製控制中心</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="99"/>
+        <location filename="../mxremastercc.cpp" line="95"/>
         <source>About MX Remaster Control Center</source>
         <translation>關於 MX 重製控制中心</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="100"/>
+        <location filename="../mxremastercc.cpp" line="96"/>
         <source>Version: </source>
         <translation>版本：</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="101"/>
+        <location filename="../mxremastercc.cpp" line="97"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation>本程式讓您可以利用 MX Linux 當中各種工具，以製作持續版及重製版</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="103"/>
+        <location filename="../mxremastercc.cpp" line="99"/>
         <source>Copyright (c) MX Linux</source>
         <translation>版權所有 (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="104"/>
+        <location filename="../mxremastercc.cpp" line="100"/>
         <source>License</source>
         <translation>授權條款</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="105"/>
+        <location filename="../mxremastercc.cpp" line="101"/>
         <source>Changelog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="106"/>
+        <location filename="../mxremastercc.cpp" line="102"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../mxremastercc.cpp" line="122"/>
+        <location filename="../mxremastercc.cpp" line="118"/>
         <source>&amp;Close</source>
         <translation>關閉（&amp;C）</translation>
     </message>

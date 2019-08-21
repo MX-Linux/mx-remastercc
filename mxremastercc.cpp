@@ -134,7 +134,7 @@ void mxremastercc::on_buttonHelp_clicked()
     QLocale locale;
     QString lang = locale.bcp47Name();
 
-    QString url = "https://mxlinux.org/wiki/help-files/help-mx-remaster";
+    QString url = "/usr/share/doc/mx-remastercc/help/mx-remastercc.html";
 
     if (lang.startsWith("fr")) {
         url = "https://mxlinux.org/wiki/help-files/help-mx-r%C3%A9masterisation";
