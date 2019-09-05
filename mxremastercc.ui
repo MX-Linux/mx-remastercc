@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>760</width>
-    <height>294</height>
+    <height>298</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -153,7 +153,7 @@
           <enum>Qt::Horizontal</enum>
          </property>
          <property name="sizeType">
-          <enum>QSizePolicy::Minimum</enum>
+          <enum>QSizePolicy::Expanding</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
@@ -195,7 +195,7 @@
           <enum>Qt::Horizontal</enum>
          </property>
          <property name="sizeType">
-          <enum>QSizePolicy::Minimum</enum>
+          <enum>QSizePolicy::Expanding</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
@@ -274,7 +274,8 @@
         <string>Remaster</string>
        </property>
        <property name="icon">
-        <iconset theme="gtk-cdrom"/>
+        <iconset theme="gtk-cdrom">
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="autoDefault">
         <bool>true</bool>
@@ -300,7 +301,8 @@
         <string>Save root persistence</string>
        </property>
        <property name="icon">
-        <iconset theme="filesave"/>
+        <iconset theme="filesave">
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="autoDefault">
         <bool>true</bool>
