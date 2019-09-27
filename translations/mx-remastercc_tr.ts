@@ -105,7 +105,7 @@
     <message>
         <location filename="mxremastercc.cpp" line="101"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>Bu program MX Linux&apos;taki farklı yeniden düzenleme ve kalıcı yapma araçlarına erişim sağlar</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="103"/>

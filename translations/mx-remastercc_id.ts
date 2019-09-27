@@ -29,7 +29,7 @@
     <message>
         <location filename="mxremastercc.ui" line="143"/>
         <source>Alt+H</source>
-        <translation type="unfinished"/>
+        <translation>Alt+H</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="175"/>
@@ -54,7 +54,7 @@
     <message>
         <location filename="mxremastercc.ui" line="220"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation>Tutup</translation>
     </message>
     <message>
         <location filename="mxremastercc.ui" line="227"/>
@@ -100,7 +100,7 @@
     <message>
         <location filename="mxremastercc.cpp" line="100"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>Versi:</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="101"/>
@@ -110,17 +110,17 @@
     <message>
         <location filename="mxremastercc.cpp" line="103"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="104"/>
         <source>License</source>
-        <translation type="unfinished"/>
+        <translation>Lisensi</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="105"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>Changelog</translation>
     </message>
     <message>
         <location filename="mxremastercc.cpp" line="106"/>
@@ -130,7 +130,7 @@
     <message>
         <location filename="mxremastercc.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tutup</translation>
     </message>
 </context>
 </TS>
