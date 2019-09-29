@@ -1,5 +1,5 @@
 /**********************************************************************
- *  mxremastercc.cpp
+ *  mainwindow.cpp
  **********************************************************************
  * Copyright (C) 2015 MX Authors
  *
@@ -23,8 +23,8 @@
  **********************************************************************/
 
 
-#include "mxremastercc.h"
-#include "ui_mxremastercc.h"
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
 #include "version.h"
 
 #include <QTextEdit>
@@ -32,23 +32,24 @@
 
 #include <QDebug>
 
-mxremastercc::mxremastercc(QWidget *parent) :
+MainWindow::MainWindow(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::mxremastercc)
+    ui(new Ui::MainWindow)
 {
-    qDebug() << "Program Version:" << VERSION;
+    qDebug().noquote() << QCoreApplication::applicationName() << "version:" << VERSION;
+
     ui->setupUi(this);
     setWindowFlags(Qt::Window); // for the close, min and max buttons
     setup();
 }
 
-mxremastercc::~mxremastercc()
+MainWindow::~MainWindow()
 {
     delete ui;
 }
 
 // setup versious items first time program runs
-void mxremastercc::setup()
+void MainWindow::setup()
 {
     this->setWindowTitle(tr("MX Remaster Control Center"));
     this->adjustSize();
@@ -60,7 +61,7 @@ void mxremastercc::setup()
 }
 
 // Util function for getting bash command output and error code
-Result mxremastercc::runCmd(QString cmd)
+Result MainWindow::runCmd(QString cmd)
 {
     QEventLoop loop;
     QProcess *proc = new QProcess(this);
@@ -74,7 +75,7 @@ Result mxremastercc::runCmd(QString cmd)
     return result;
 }
 
-void mxremastercc::displayDoc(QString url)
+void MainWindow::displayDoc(QString url)
 {
     QString exec = "xdg-open";
     if (system("command -v mx-viewer") == 0) { // use mx-viewer if available
@@ -88,7 +89,7 @@ void mxremastercc::displayDoc(QString url)
 
 
 // About button clicked
-void mxremastercc::on_buttonAbout_clicked()
+void MainWindow::on_buttonAbout_clicked()
 {
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
@@ -129,7 +130,7 @@ void mxremastercc::on_buttonAbout_clicked()
 }
 
 // Help button clicked
-void mxremastercc::on_buttonHelp_clicked()
+void MainWindow::on_buttonHelp_clicked()
 {
     QLocale locale;
     QString lang = locale.bcp47Name();
@@ -142,28 +143,28 @@ void mxremastercc::on_buttonHelp_clicked()
     displayDoc(url);
 }
 
-void mxremastercc::on_buttonSetupPersistence_clicked()
+void MainWindow::on_buttonSetupPersistence_clicked()
 {
     this->hide();
     system("su-to-root -X -c persist-makefs");
     this->show();
 }
 
-void mxremastercc::on_buttonConfigPersistence_clicked()
+void MainWindow::on_buttonConfigPersistence_clicked()
 {
     this->hide();
     system("su-to-root -X -c persist-config");
     this->show();
 }
 
-void mxremastercc::on_buttonSaveRootPersist_clicked()
+void MainWindow::on_buttonSaveRootPersist_clicked()
 {
     this->hide();
     system("su-to-root -X -c persist-save");
     this->show();
 }
 
-void mxremastercc::on_buttonRemaster_clicked()
+void MainWindow::on_buttonRemaster_clicked()
 {
     this->hide();
     system("su-to-root -X -c live-remaster");
