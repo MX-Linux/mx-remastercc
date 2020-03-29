@@ -22,7 +22,7 @@
  * along with mx-remastercc.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
 
-#include "mxremastercc.h"
+#include "mainwindow.h"
 #include <unistd.h>
 #include <QApplication>
 #include <QTranslator>
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
     appTran.load(QString("mx-remastercc_") + QLocale::system().name(), "/usr/share/mx-remastercc/locale");
     a.installTranslator(&appTran);
 
-    mxremastercc w;
+    MainWindow w;
     w.show();
     return a.exec();
 }

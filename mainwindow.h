@@ -1,5 +1,5 @@
 /**********************************************************************
- *  mxremastercc.h
+ *  mainwindow.h
  **********************************************************************
  * Copyright (C) 2015 MX Authors
  *
@@ -23,14 +23,14 @@
  **********************************************************************/
 
 
-#ifndef MXREMASTERCC_H
-#define MXREMASTERCC_H
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
 
 #include <QMessageBox>
 #include <QProcess>
 
 namespace Ui {
-class mxremastercc;
+class MainWindow;
 }
 
 struct Result {
@@ -39,13 +39,13 @@ struct Result {
 };
 
 
-class mxremastercc : public QDialog
+class MainWindow : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit mxremastercc(QWidget *parent = 0);
-    ~mxremastercc();
+    explicit MainWindow(QWidget *parent = 0);
+    ~MainWindow();
 
     Result runCmd(QString cmd);
 
@@ -64,7 +64,7 @@ private slots:
     void on_buttonRemaster_clicked();
 
 private:
-    Ui::mxremastercc *ui;
+    Ui::MainWindow *ui;
 };
 
 

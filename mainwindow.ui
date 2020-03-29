@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>mxremastercc</class>
- <widget class="QDialog" name="mxremastercc">
+ <class>MainWindow</class>
+ <widget class="QDialog" name="MainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -369,7 +369,7 @@
   <connection>
    <sender>buttonCancel</sender>
    <signal>pressed()</signal>
-   <receiver>mxremastercc</receiver>
+   <receiver>MainWindow</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">

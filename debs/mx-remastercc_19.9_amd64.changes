@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 29 Sep 2019 17:19:15 -0400
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 19.9
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (19.9) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 2485057adfb4adbc78f5188878b4460d703f2378 1174 mx-remastercc_19.9.dsc
+ 3aafdfe172467ecf30dd7a4e2ada5687fc61ba31 41136 mx-remastercc_19.9.tar.xz
+ 8df0f16e32566baa4f33c2148fcbb502a4e97caf 407134 mx-remastercc-dbgsym_19.9_amd64.deb
+ a30a92443070d690df56e6ac8c371ea6b3863deb 11287 mx-remastercc_19.9_amd64.buildinfo
+ 228dd3f858418717096869e860d32fa135361fc6 40642 mx-remastercc_19.9_amd64.deb
+Checksums-Sha256:
+ 2e3d73d0976ddc25e37bdf42dc4a3a9bcfe02afe5ede5bb1c68fc7863c0029c8 1174 mx-remastercc_19.9.dsc
+ b0108706a38f4325d677785ea8331835670725f70a329b42fc2fae6699208f9d 41136 mx-remastercc_19.9.tar.xz
+ 72ad9e577fb2b826751a691011d853c3556f646070d1268902dd0783a87c7693 407134 mx-remastercc-dbgsym_19.9_amd64.deb
+ d424fe48ad5c8d2acb8c19e58997e4dac1dbb50f0e695b739f8b09efedd47a64 11287 mx-remastercc_19.9_amd64.buildinfo
+ fdcf8347c7e1af2a265cc5a7861dfffa9ed03de2ba67aa478f2ff8786d814914 40642 mx-remastercc_19.9_amd64.deb
+Files:
+ 0925e7cac57242f0b083b32a82d8a0c3 1174 admin optional mx-remastercc_19.9.dsc
+ 169b2c9ffa38e8585b95254042af3f0e 41136 admin optional mx-remastercc_19.9.tar.xz
+ ad83963450439487dabbf64161687dd5 407134 debug optional mx-remastercc-dbgsym_19.9_amd64.deb
+ cf1d6cf4c2b83fd3a46d7e1eec50d152 11287 admin optional mx-remastercc_19.9_amd64.buildinfo
+ 5e9cf01215f4b62dec87974698ed2c50 40642 admin optional mx-remastercc_19.9_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl2RIG4THGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumCBDCAC8IvVJkvzbkmzCvog0m4Wix4r07H+o
+PTF3JtbrezvcSO9qcG93EOBdcPa2w/YO9Cigx/SuY7zVqDhPK+aaPyEed2sVNS9r
+WV7oW5tc2ip/OzhCIslS3iBgRC/eYuqngZHaiP9qgnpIJxhN1TcqdeewVqldxNY1
+RkcnfxhVPNcIDmLmjyrVQFMqSovIA0gooRR7TCmb2F9XwypKNy/5zONwcPar0qKt
+r3DFITpPNLConJiUElN0C0XBiejJx0ZAmYH7ERhPiyRNkL4qtZrSMcFXCxlQmyYQ
+gejCH0fj5BdY9S45RC1f/IIQ4jjE1PivU8QXf4vgx3JaOO1Hz14he6DA
+=6Eqv
+-----END PGP SIGNATURE-----

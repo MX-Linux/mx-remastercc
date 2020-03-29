@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="tr">
+<TS version="2.1" language="mr">
 <context>
     <name>MainWindow</name>
     <message>
@@ -21,12 +21,12 @@
     <message>
         <location filename="../mainwindow.ui" line="133"/>
         <source>Display help </source>
-        <translation type="unfinished">Yardımı görüntüle</translation>
+        <translation type="unfinished">मदत दाखवा</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="136"/>
         <source>Help</source>
-        <translation type="unfinished">Yardım</translation>
+        <translation type="unfinished">मदत</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="143"/>
@@ -36,12 +36,12 @@
     <message>
         <location filename="../mainwindow.ui" line="175"/>
         <source>About this application</source>
-        <translation type="unfinished">Uygulama hakkında</translation>
+        <translation type="unfinished">या अनुप्रयोगाबद्दल</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="178"/>
         <source>About...</source>
-        <translation type="unfinished">Hakkında...</translation>
+        <translation type="unfinished">विषयी</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="185"/>
@@ -51,12 +51,12 @@
     <message>
         <location filename="../mainwindow.ui" line="217"/>
         <source>Quit application</source>
-        <translation type="unfinished">Uygulamadan çık</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="220"/>
         <source>Close</source>
-        <translation type="unfinished">Kapat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="227"/>
@@ -71,12 +71,12 @@
     <message>
         <location filename="../mainwindow.ui" line="274"/>
         <source>Remaster</source>
-        <translation type="unfinished">Yeniden düzenle</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="301"/>
         <source>Save root persistence</source>
-        <translation type="unfinished">kalıcı root&apos;u kaydedin</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="315"/>
@@ -86,7 +86,7 @@
     <message>
         <location filename="../mainwindow.ui" line="325"/>
         <source>Configure live persistence</source>
-        <translation type="unfinished">live persistence Yapılandırma</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="54"/>
@@ -102,48 +102,48 @@
     <message>
         <location filename="../mainwindow.cpp" line="97"/>
         <source>Version: </source>
-        <translation type="unfinished">Sürüm</translation>
+        <translation type="unfinished">आवृत्ती</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="98"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="unfinished">Bu program MX Linux&apos;taki farklı yeniden düzenleme ve kalıcı yapma araçlarına erişim sağlar</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="100"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished">Copyright (c) MX Linux</translation>
+        <translation type="unfinished">कॉपीराइट (c) एमएक्स लिनक्स</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="101"/>
         <source>License</source>
-        <translation type="unfinished">Ruhsat</translation>
+        <translation type="unfinished">परवाना</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="102"/>
         <source>Changelog</source>
-        <translation type="unfinished">Değişim günlüğü</translation>
+        <translation type="unfinished">बदल सूची</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="103"/>
         <source>Cancel</source>
-        <translation type="unfinished">İptal</translation>
+        <translation type="unfinished">रद्द करा</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="119"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Kapat</translation>
+        <translation type="unfinished">बंद</translation>
     </message>
 </context>
 <context>
     <name>mxremastercc</name>
     <message>
         <source>Display help </source>
-        <translation type="vanished">Yardımı görüntüle</translation>
+        <translation type="vanished">मदत दाखवा</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="vanished">Yardım</translation>
+        <translation type="vanished">मदत</translation>
     </message>
     <message>
         <source>Alt+H</source>
@@ -151,67 +151,43 @@
     </message>
     <message>
         <source>About this application</source>
-        <translation type="vanished">Uygulama hakkında</translation>
+        <translation type="vanished">या अनुप्रयोगाबद्दल</translation>
     </message>
     <message>
         <source>About...</source>
-        <translation type="vanished">Hakkında...</translation>
+        <translation type="vanished">विषयी</translation>
     </message>
     <message>
         <source>Alt+B</source>
         <translation type="vanished">Alt+B</translation>
     </message>
     <message>
-        <source>Quit application</source>
-        <translation type="vanished">Uygulamadan çık</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation type="vanished">Kapat</translation>
-    </message>
-    <message>
         <source>Alt+N</source>
         <translation type="vanished">Alt+N</translation>
     </message>
     <message>
-        <source>Remaster</source>
-        <translation type="vanished">Yeniden düzenle</translation>
-    </message>
-    <message>
-        <source>Save root persistence</source>
-        <translation type="vanished">kalıcı root&apos;u kaydedin</translation>
-    </message>
-    <message>
-        <source>Configure live persistence</source>
-        <translation type="vanished">live persistence Yapılandırma</translation>
-    </message>
-    <message>
         <source>Version: </source>
-        <translation type="vanished">Sürüm</translation>
-    </message>
-    <message>
-        <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="vanished">Bu program MX Linux&apos;taki farklı yeniden düzenleme ve kalıcı yapma araçlarına erişim sağlar</translation>
+        <translation type="vanished">आवृत्ती</translation>
     </message>
     <message>
         <source>Copyright (c) MX Linux</source>
-        <translation type="vanished">Copyright (c) MX Linux</translation>
+        <translation type="vanished">कॉपीराइट (c) एमएक्स लिनक्स</translation>
     </message>
     <message>
         <source>License</source>
-        <translation type="vanished">Ruhsat</translation>
+        <translation type="vanished">परवाना</translation>
     </message>
     <message>
         <source>Changelog</source>
-        <translation type="vanished">Değişim günlüğü</translation>
+        <translation type="vanished">बदल सूची</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="vanished">İptal</translation>
+        <translation type="vanished">रद्द करा</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation type="vanished">&amp;Kapat</translation>
+        <translation type="vanished">बंद</translation>
     </message>
 </context>
 </TS>

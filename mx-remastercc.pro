@@ -28,13 +28,15 @@ TARGET = mx-remastercc
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mxremastercc.cpp
+SOURCES += main.cpp \
+    mainwindow.cpp
 
-HEADERS  += mxremastercc.h \
-    version.h
+HEADERS  += \
+    version.h \
+    mainwindow.h
 
-FORMS    += mxremastercc.ui
+FORMS    += \
+    mainwindow.ui
 
 TRANSLATIONS += translations/mx-remastercc_am.ts \
                 translations/mx-remastercc_ar.ts \
@@ -59,9 +61,10 @@ TRANSLATIONS += translations/mx-remastercc_am.ts \
                 translations/mx-remastercc_it.ts \
                 translations/mx-remastercc_ja.ts \
                 translations/mx-remastercc_kk.ts \
-                translations/mx-remastercc_kots \
+                translations/mx-remastercc_ko.ts \
                 translations/mx-remastercc_lt.ts \
                 translations/mx-remastercc_mk.ts \
+                translations/mx-remastercc_mr.ts \
                 translations/mx-remastercc_nb.ts \
                 translations/mx-remastercc_nl.ts \
                 translations/mx-remastercc_pl.ts \
