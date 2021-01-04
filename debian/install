@@ -1,4 +1,4 @@
-help				usr/share/doc/mx-remastercc
+help/*				usr/share/doc/mx-remastercc
 icons/preferences-desktop.svg	usr/share/icons/hicolor/scalable/apps
 mx-remastercc			usr/bin
 mx-remastercc.desktop		usr/share/applications
