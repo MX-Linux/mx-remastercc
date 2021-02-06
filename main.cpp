@@ -22,27 +22,35 @@
  * along with mx-remastercc.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
 
+#include <QApplication>
+#include <QIcon>
+#include <QLibraryInfo>
+#include <QLocale>
+#include <QTranslator>
+
 #include "mainwindow.h"
 #include <unistd.h>
-#include <QApplication>
-#include <QTranslator>
-#include <QLocale>
-#include <QIcon>
+
 
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
+    QApplication app(argc, argv);
+    app.setWindowIcon(QIcon::fromTheme(app.applicationName()));
 
     QTranslator qtTran;
-    qtTran.load(QString("qt_") + QLocale::system().name());
-    a.installTranslator(&qtTran);
+    if (qtTran.load(QLocale::system(), "qt", "_", QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
+        app.installTranslator(&qtTran);
+
+    QTranslator qtBaseTran;
+    if (qtBaseTran.load("qtbase_" + QLocale::system().name(), QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
+        app.installTranslator(&qtBaseTran);
 
     QTranslator appTran;
-    appTran.load(QString("mx-remastercc_") + QLocale::system().name(), "/usr/share/mx-remastercc/locale");
-    a.installTranslator(&appTran);
+    if (appTran.load(app.applicationName() + "_" + QLocale::system().name(), "/usr/share/" + app.applicationName() + "/locale"))
+        app.installTranslator(&appTran);
 
     MainWindow w;
     w.show();
-    return a.exec();
+    return app.exec();
 }

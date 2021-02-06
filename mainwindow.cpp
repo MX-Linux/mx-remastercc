@@ -22,15 +22,14 @@
  * along with mx-remastercc.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
 
+#include <QDebug>
+#include <QFileInfo>
+#include <QTextEdit>
 
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "version.h"
 
-#include <QTextEdit>
-#include <QFileInfo>
-
-#include <QDebug>
 
 MainWindow::MainWindow(QWidget *parent) :
     QDialog(parent),
@@ -69,7 +68,7 @@ Result MainWindow::runCmd(QString cmd)
     connect(proc, static_cast<void (QProcess::*)(int)>(&QProcess::finished), &loop, &QEventLoop::quit);
     proc->start("/bin/bash", QStringList() << "-c" << cmd);
     loop.exec();
-    disconnect(proc, static_cast<void (QProcess::*)(int)>(&QProcess::finished), 0, 0);
+    disconnect(proc, static_cast<void (QProcess::*)(int)>(&QProcess::finished), nullptr, nullptr);
     Result result = {proc->exitCode(), proc->readAll().trimmed()};
     delete proc;
     return result;
@@ -78,15 +77,11 @@ Result MainWindow::runCmd(QString cmd)
 void MainWindow::displayDoc(QString url)
 {
     QString exec = "xdg-open";
-    if (system("command -v mx-viewer") == 0) { // use mx-viewer if available
+    if (system("command -v mx-viewer") == 0) // use mx-viewer if available
         exec = "mx-viewer";
-    }
     QString cmd = exec + " " + url + "&";
     system(cmd.toUtf8());
 }
-
-//// slots ////
-
 
 // About button clicked
 void MainWindow::on_buttonAbout_clicked()
@@ -97,7 +92,7 @@ void MainWindow::on_buttonAbout_clicked()
                        tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
                        tr("This program provides access to different remaster and persistence tools in MX Linux") +
                        "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
-                       tr("Copyright (c) MX Linux") + "<br /><br /></p>", 0, this);
+                       tr("Copyright (c) MX Linux") + "<br /><br /></p>", nullptr, this);
     QPushButton *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
     QPushButton *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
     QPushButton *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
@@ -137,9 +132,8 @@ void MainWindow::on_buttonHelp_clicked()
 
     QString url = "/usr/share/doc/mx-remastercc/mx-remastercc.html";
 
-    if (lang.startsWith("fr")) {
+    if (lang.startsWith("fr"))
         url = "https://mxlinux.org/wiki/help-files/help-mx-r%C3%A9masterisation";
-    }
     displayDoc(url);
 }
 
