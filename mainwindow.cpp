@@ -140,27 +140,27 @@ void MainWindow::on_buttonHelp_clicked()
 void MainWindow::on_buttonSetupPersistence_clicked()
 {
     this->hide();
-    system("su-to-root -X -c persist-makefs");
+    system("su-to-root -X -c 'env GTK_THEME=Adwaita persist-makefs'");
     this->show();
 }
 
 void MainWindow::on_buttonConfigPersistence_clicked()
 {
     this->hide();
-    system("su-to-root -X -c persist-config");
+    system("su-to-root -X -c 'env GTK_THEME=Adwaita persist-config'");
     this->show();
 }
 
 void MainWindow::on_buttonSaveRootPersist_clicked()
 {
     this->hide();
-    system("su-to-root -X -c persist-save");
+    system("su-to-root -X -c 'env GTK_THEME=Adwaita persist-save'");
     this->show();
 }
 
 void MainWindow::on_buttonRemaster_clicked()
 {
     this->hide();
-    system("su-to-root -X -c live-remaster");
+    system("su-to-root -X -c 'env GTK_THEME=Adwaita live-remaster'");
     this->show();
 }
