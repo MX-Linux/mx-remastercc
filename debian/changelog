@@ -1,3 +1,9 @@
+mx-remastercc (22.1) mx; urgency=medium
+
+  * set gtk-theme Adwaita for live-remaster and persist tools
+
+ -- fehlix <fehlix@mxlinux.org>  Sun, 03 Apr 2022 15:59:54 -0400
+
 mx-remastercc (19.9) mx; urgency=medium
 
   * updated translations
