@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sun, 03 Apr 2022 15:59:54 -0400
+Source: mx-remastercc
+Architecture: source
+Version: 22.4
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Changes:
+ mx-remastercc (22.4) mx; urgency=medium
+ .
+   * set gtk-theme Adwaita for live-remaster and persist tools
+Checksums-Sha1:
+ 7cc382c5a0781043ad524aebe59369013753631c 613 mx-remastercc_22.4.dsc
+ 6e4753f0b5457d8cf76b04c7048a2601f50baf95 40880 mx-remastercc_22.4.tar.xz
+ ec100850c21c1a6e5f477d36ea6a965e69892a4d 10002 mx-remastercc_22.4_i386.buildinfo
+Checksums-Sha256:
+ c667f3f91a5d2498527ab6eb7aeb8131c5d0c289a0bcc515cc5f27efd05ba20d 613 mx-remastercc_22.4.dsc
+ 3507bb8904008997fefc4325dc2078fa6d227eede331c527bb7441cf94b2f654 40880 mx-remastercc_22.4.tar.xz
+ c21e4c4861213fc3ea6e31bf542c9c65f14034be3b74fd7df25393fba6e0686d 10002 mx-remastercc_22.4_i386.buildinfo
+Files:
+ 585aa6a041c56b51ba527c5fe6f5e64d 613 admin optional mx-remastercc_22.4.dsc
+ 2a8601a0349bf51b393fd852cfa7ad4b 40880 admin optional mx-remastercc_22.4.tar.xz
+ de8b172365cc3c06d764326ecdf5a885 10002 admin optional mx-remastercc_22.4_i386.buildinfo

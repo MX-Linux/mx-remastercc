@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 03 Apr 2022 15:59:54 -0400
+Source: mx-remastercc
+Binary: mx-remastercc
+Architecture: source amd64
+Version: 22.4
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ mx-remastercc - MX Remastercc
+Changes:
+ mx-remastercc (22.4) mx; urgency=medium
+ .
+   * set gtk-theme Adwaita for live-remaster and persist tools
+Checksums-Sha1:
+ 262f1d19440c013b63e05466af620bd82231f9c2 1175 mx-remastercc_22.4.dsc
+ 0ab891c4a65a3823275d8547620ee7a78e3ff5f5 40884 mx-remastercc_22.4.tar.xz
+ 920adc0f71e7a4ea4cdafe1ea4647d39ec80e9a5 10746 mx-remastercc_22.4_amd64.buildinfo
+ f72eee9d5b27b994bccd1b6d1bdff07b7e521e52 41188 mx-remastercc_22.4_amd64.deb
+Checksums-Sha256:
+ fa1d5120ba756edae62d331fee7819bf05ded87e9e332436012d38d3e1bc5a11 1175 mx-remastercc_22.4.dsc
+ fe7855aad6756c20832069c3135d5fdfaca3de7f01484f1fa5600b59a161ad28 40884 mx-remastercc_22.4.tar.xz
+ f1d62abdeb06fcfd13b31a1cbc03d5380accb11c5f9774ab4e6295b35ce8ca67 10746 mx-remastercc_22.4_amd64.buildinfo
+ cff4f83433d57948c08e228033092665fb25f4f0ea1bb0c7e45417635948c99c 41188 mx-remastercc_22.4_amd64.deb
+Files:
+ ee2d254ac2b68dc6fe78f39817b7eda1 1175 admin optional mx-remastercc_22.4.dsc
+ fc0d87cb4bee9e73cddd4a90713b93df 40884 admin optional mx-remastercc_22.4.tar.xz
+ 1cbb3df419d00c857b0313e6869ec25a 10746 admin optional mx-remastercc_22.4_amd64.buildinfo
+ 60a2b54697fe09f4144778aa4ad13e68 41188 admin optional mx-remastercc_22.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmJKXzMTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumPEvCACrsIUGujWidS/bePrkHFvvv0U38slc
+xS9V+1zkT9ZJtlPsO1XgC5gCPWZ/sDKksBZLa1IbRH+kuJJZHtL7rlSITD0Ta8om
+WLu5VciaXTxIaE5zwVX3m9ktcj7iR63ri61N394inYu3vXILVCq0BTv8uvgb3Bw9
+vZA4pbNTY3wPqcwy8s93ZwVFB+fUZkz+lj95U1/Sh4oJoI1DsrQTKM3C7ma0WiIC
+cNCquAayIRpohTq/YClHXUiZ54oBRAGEvwHAREPKssF2+pYm6b6d9ziZ+py3irzF
+SzZV54oFxRDKvJeUoW8K3fX5Iwjj2zaXIWIyBdhdr2whUu5tC74wrPV2
+=syan
+-----END PGP SIGNATURE-----

@@ -1,4 +1,4 @@
-mx-remastercc (22.1) mx; urgency=medium
+mx-remastercc (22.4) mx; urgency=medium
 
   * set gtk-theme Adwaita for live-remaster and persist tools
 
