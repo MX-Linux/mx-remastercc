@@ -38,6 +38,7 @@ MainWindow::MainWindow(QWidget *parent) :
     qDebug().noquote() << QCoreApplication::applicationName() << "version:" << VERSION;
 
     ui->setupUi(this);
+    setConnections();
     setWindowFlags(Qt::Window); // for the close, min and max buttons
     setup();
 }
@@ -52,11 +53,11 @@ void MainWindow::setup()
 {
     this->setWindowTitle(tr("MX Remaster Control Center"));
     this->adjustSize();
-    ui->buttonSetupPersistence->setStyleSheet("text-align:left;");
-    ui->buttonConfigPersistence ->setStyleSheet("text-align:left;");
-    ui->buttonSaveRootPersist->setStyleSheet("text-align:left;");
-    ui->buttonRemaster->setStyleSheet("text-align:left;");
-    ui->buttonSaveRootPersist->setIcon(QIcon::fromTheme("filesave", QIcon(":/icons/filesave.svg")));
+    ui->pushSetupPersistence->setStyleSheet("text-align:left;");
+    ui->pushConfigPersistence ->setStyleSheet("text-align:left;");
+    ui->pushSaveRootPersist->setStyleSheet("text-align:left;");
+    ui->pushRemaster->setStyleSheet("text-align:left;");
+    ui->pushSaveRootPersist->setIcon(QIcon::fromTheme("filesave", QIcon(":/icons/filesave.svg")));
 }
 
 // Util function for getting bash command output and error code
@@ -64,11 +65,11 @@ Result MainWindow::runCmd(QString cmd)
 {
     QEventLoop loop;
     QProcess *proc = new QProcess(this);
-    proc->setReadChannelMode(QProcess::MergedChannels);
-    connect(proc, static_cast<void (QProcess::*)(int)>(&QProcess::finished), &loop, &QEventLoop::quit);
+    proc->setProcessChannelMode(QProcess::MergedChannels);
+    connect(proc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), &loop, &QEventLoop::quit);
     proc->start("/bin/bash", QStringList() << "-c" << cmd);
     loop.exec();
-    disconnect(proc, static_cast<void (QProcess::*)(int)>(&QProcess::finished), nullptr, nullptr);
+    disconnect(proc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
     Result result = {proc->exitCode(), proc->readAll().trimmed()};
     delete proc;
     return result;
@@ -83,39 +84,50 @@ void MainWindow::displayDoc(QString url)
     system(cmd.toUtf8());
 }
 
+void MainWindow::setConnections()
+{
+    connect(ui->pushAbout, &QPushButton::clicked, this, &MainWindow::pushAbout_clicked);
+    connect(ui->pushHelp, &QPushButton::clicked, this, &MainWindow::pushHelp_clicked);
+    connect(ui->pushSetupPersistence, &QPushButton::clicked, this, &MainWindow::pushSetupPersistence_clicked);
+    connect(ui->pushConfigPersistence, &QPushButton::clicked, this, &MainWindow::pushConfigPersistence_clicked);
+    connect(ui->pushSaveRootPersist, &QPushButton::clicked, this, &MainWindow::pushSaveRootPersist_clicked);
+    connect(ui->pushRemaster, &QPushButton::clicked, this, &MainWindow::pushRemaster_clicked);
+}
+
 // About button clicked
-void MainWindow::on_buttonAbout_clicked()
+void MainWindow::pushAbout_clicked()
 {
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Remaster Control Center"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" + tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
+                       tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" +
+                       tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
                        tr("This program provides access to different remaster and persistence tools in MX Linux") +
                        "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
-                       tr("Copyright (c) MX Linux") + "<br /><br /></p>", nullptr, this);
-    QPushButton *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
-    QPushButton *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
-    QPushButton *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
+                       tr("Copyright (c) MX Linux") + "<br /><br /></p>");
+    auto btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
+    auto btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
+    auto btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
     btnCancel->setIcon(QIcon::fromTheme("window-close"));
 
     msgBox.exec();
 
     if (msgBox.clickedButton() == btnLicense) {
-        QString url ="file:///usr/share/doc/mx-remastercc/license.html";
+        const QString url ="file:///usr/share/doc/mx-remastercc/license.html";
         displayDoc(url);
     } else if (msgBox.clickedButton() == btnChangelog) {
-        QDialog *changelog = new QDialog(this);
+        auto changelog = new QDialog(this);
         changelog->resize(600, 500);
 
-        QTextEdit *text = new QTextEdit;
+        auto text = new QTextEdit;
         text->setReadOnly(true);
         text->setText(runCmd("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName()  + "/changelog.gz").output);
 
-        QPushButton *btnClose = new QPushButton(tr("&Close"));
+        auto btnClose = new QPushButton(tr("&Close"));
         btnClose->setIcon(QIcon::fromTheme("window-close"));
         connect(btnClose, &QPushButton::clicked, changelog, &QDialog::close);
 
-        QVBoxLayout *layout = new QVBoxLayout;
+        auto layout = new QVBoxLayout;
         layout->addWidget(text);
         layout->addWidget(btnClose);
         changelog->setLayout(layout);
@@ -125,10 +137,10 @@ void MainWindow::on_buttonAbout_clicked()
 }
 
 // Help button clicked
-void MainWindow::on_buttonHelp_clicked()
+void MainWindow::pushHelp_clicked()
 {
     QLocale locale;
-    QString lang = locale.bcp47Name();
+    const QString lang = locale.bcp47Name();
 
     QString url = "/usr/share/doc/mx-remastercc/mx-remastercc.html";
 
@@ -137,28 +149,28 @@ void MainWindow::on_buttonHelp_clicked()
     displayDoc(url);
 }
 
-void MainWindow::on_buttonSetupPersistence_clicked()
+void MainWindow::pushSetupPersistence_clicked()
 {
     this->hide();
     system("su-to-root -X -c 'env GTK_THEME=Adwaita persist-makefs'");
     this->show();
 }
 
-void MainWindow::on_buttonConfigPersistence_clicked()
+void MainWindow::pushConfigPersistence_clicked()
 {
     this->hide();
     system("su-to-root -X -c 'env GTK_THEME=Adwaita persist-config'");
     this->show();
 }
 
-void MainWindow::on_buttonSaveRootPersist_clicked()
+void MainWindow::pushSaveRootPersist_clicked()
 {
     this->hide();
     system("su-to-root -X -c 'env GTK_THEME=Adwaita persist-save'");
     this->show();
 }
 
-void MainWindow::on_buttonRemaster_clicked()
+void MainWindow::pushRemaster_clicked()
 {
     this->hide();
     system("su-to-root -X -c 'env GTK_THEME=Adwaita live-remaster'");

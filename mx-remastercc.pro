@@ -20,13 +20,11 @@
 # * along with mx-remastercc.  If not, see <http://www.gnu.org/licenses/>.
 # **********************************************************************/
 
-QT       += core gui
-
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+QT       += core gui widgets
+CONFIG   += c++17
 
 TARGET = mx-remastercc
 TEMPLATE = app
-
 
 SOURCES += main.cpp \
     mainwindow.cpp

@@ -53,15 +53,16 @@ public:
     QString output;
 
     void displayDoc(QString url);
+    void setConnections();
     void setup();
 
 private slots:
-    void on_buttonAbout_clicked();
-    void on_buttonHelp_clicked();
-    void on_buttonSetupPersistence_clicked();
-    void on_buttonConfigPersistence_clicked();
-    void on_buttonSaveRootPersist_clicked();
-    void on_buttonRemaster_clicked();
+    void pushAbout_clicked();
+    void pushHelp_clicked();
+    void pushSetupPersistence_clicked();
+    void pushConfigPersistence_clicked();
+    void pushSaveRootPersist_clicked();
+    void pushRemaster_clicked();
 
 private:
     Ui::MainWindow *ui;

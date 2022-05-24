@@ -53,7 +53,7 @@
       </spacer>
      </item>
      <item row="5" column="2">
-      <widget class="QPushButton" name="buttonSetupPersistence">
+      <widget class="QPushButton" name="pushSetupPersistence">
        <property name="minimumSize">
         <size>
          <width>212</width>
@@ -76,7 +76,7 @@
       </widget>
      </item>
      <item row="1" column="0" colspan="7">
-      <widget class="QLabel" name="label">
+      <widget class="QLabel" name="labelDesc">
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -122,7 +122,7 @@
         <number>5</number>
        </property>
        <item row="1" column="1">
-        <widget class="QPushButton" name="buttonHelp">
+        <widget class="QPushButton" name="pushHelp">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -164,7 +164,7 @@
         </spacer>
        </item>
        <item row="1" column="0">
-        <widget class="QPushButton" name="buttonAbout">
+        <widget class="QPushButton" name="pushAbout">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -206,7 +206,7 @@
         </spacer>
        </item>
        <item row="1" column="8">
-        <widget class="QPushButton" name="buttonCancel">
+        <widget class="QPushButton" name="pushCancel">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -259,7 +259,7 @@
       </layout>
      </item>
      <item row="4" column="2">
-      <widget class="QLabel" name="label_2">
+      <widget class="QLabel" name="labelBasicOp">
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -269,7 +269,7 @@
       </widget>
      </item>
      <item row="6" column="2">
-      <widget class="QPushButton" name="buttonRemaster">
+      <widget class="QPushButton" name="pushRemaster">
        <property name="text">
         <string>Remaster</string>
        </property>
@@ -296,7 +296,7 @@
       </spacer>
      </item>
      <item row="5" column="4">
-      <widget class="QPushButton" name="buttonSaveRootPersist">
+      <widget class="QPushButton" name="pushSaveRootPersist">
        <property name="text">
         <string>Save root persistence</string>
        </property>
@@ -310,7 +310,7 @@
       </widget>
      </item>
      <item row="4" column="4">
-      <widget class="QLabel" name="label_3">
+      <widget class="QLabel" name="labelOptionalOp">
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -320,7 +320,7 @@
       </widget>
      </item>
      <item row="6" column="4">
-      <widget class="QPushButton" name="buttonConfigPersistence">
+      <widget class="QPushButton" name="pushConfigPersistence">
        <property name="text">
         <string>Configure live persistence</string>
        </property>
@@ -354,20 +354,20 @@
   </layout>
  </widget>
  <tabstops>
-  <tabstop>buttonCancel</tabstop>
-  <tabstop>buttonSetupPersistence</tabstop>
-  <tabstop>buttonRemaster</tabstop>
-  <tabstop>buttonSaveRootPersist</tabstop>
-  <tabstop>buttonConfigPersistence</tabstop>
-  <tabstop>buttonAbout</tabstop>
-  <tabstop>buttonHelp</tabstop>
+  <tabstop>pushCancel</tabstop>
+  <tabstop>pushSetupPersistence</tabstop>
+  <tabstop>pushRemaster</tabstop>
+  <tabstop>pushSaveRootPersist</tabstop>
+  <tabstop>pushConfigPersistence</tabstop>
+  <tabstop>pushAbout</tabstop>
+  <tabstop>pushHelp</tabstop>
  </tabstops>
  <resources>
   <include location="images.qrc"/>
  </resources>
  <connections>
   <connection>
-   <sender>buttonCancel</sender>
+   <sender>pushCancel</sender>
    <signal>pressed()</signal>
    <receiver>MainWindow</receiver>
    <slot>close()</slot>
