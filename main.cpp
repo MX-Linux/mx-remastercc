@@ -31,15 +31,18 @@
 #include "mainwindow.h"
 #include <unistd.h>
 
-
-
 int main(int argc, char *argv[])
 {
+    if (getuid() == 0) {
+        qputenv("XDG_RUNTIME_DIR", "/run/user/0");
+        qputenv("HOME", "/root");
+    }
     QApplication app(argc, argv);
+
     app.setWindowIcon(QIcon::fromTheme(app.applicationName()));
 
     QTranslator qtTran;
-    if (qtTran.load(QLocale::system(), "qt", "_", QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
+    if (qtTran.load(QLocale::system(), QStringLiteral("qt"), QStringLiteral("_"), QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         app.installTranslator(&qtTran);
 
     QTranslator qtBaseTran;

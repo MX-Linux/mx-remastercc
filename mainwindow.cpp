@@ -53,21 +53,21 @@ void MainWindow::setup()
 {
     this->setWindowTitle(tr("MX Remaster Control Center"));
     this->adjustSize();
-    ui->pushSetupPersistence->setStyleSheet("text-align:left;");
-    ui->pushConfigPersistence ->setStyleSheet("text-align:left;");
-    ui->pushSaveRootPersist->setStyleSheet("text-align:left;");
-    ui->pushRemaster->setStyleSheet("text-align:left;");
-    ui->pushSaveRootPersist->setIcon(QIcon::fromTheme("filesave", QIcon(":/icons/filesave.svg")));
+    ui->pushSetupPersistence->setStyleSheet(QStringLiteral("text-align:left;"));
+    ui->pushConfigPersistence ->setStyleSheet(QStringLiteral("text-align:left;"));
+    ui->pushSaveRootPersist->setStyleSheet(QStringLiteral("text-align:left;"));
+    ui->pushRemaster->setStyleSheet(QStringLiteral("text-align:left;"));
+    ui->pushSaveRootPersist->setIcon(QIcon::fromTheme(QStringLiteral("filesave"), QIcon(":/icons/filesave.svg")));
 }
 
 // Util function for getting bash command output and error code
-Result MainWindow::runCmd(QString cmd)
+Result MainWindow::runCmd(const QString &cmd)
 {
     QEventLoop loop;
-    QProcess *proc = new QProcess(this);
+    auto *proc = new QProcess(this);
     proc->setProcessChannelMode(QProcess::MergedChannels);
     connect(proc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), &loop, &QEventLoop::quit);
-    proc->start("/bin/bash", QStringList() << "-c" << cmd);
+    proc->start(QStringLiteral("/bin/bash"), QStringList() << QStringLiteral("-c") << cmd);
     loop.exec();
     disconnect(proc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
     Result result = {proc->exitCode(), proc->readAll().trimmed()};
@@ -75,13 +75,13 @@ Result MainWindow::runCmd(QString cmd)
     return result;
 }
 
-void MainWindow::displayDoc(QString url)
+void MainWindow::displayDoc(const QString &url)
 {
-    QString exec = "xdg-open";
-    if (system("command -v mx-viewer") == 0) // use mx-viewer if available
-        exec = "mx-viewer";
-    QString cmd = exec + " " + url + "&";
-    system(cmd.toUtf8());
+    // prefer mx-viewer otherwise use xdg-open (use runuser to run that as logname user)
+    if (QFile::exists(QStringLiteral("/usr/bin/mx-viewer")))
+        QProcess::execute(QStringLiteral("mx-viewer"), {url, tr("MX RemasterCC")});
+    else
+        QProcess::execute(QStringLiteral("xdg-open"), {url});
 }
 
 void MainWindow::setConnections()
@@ -103,31 +103,33 @@ void MainWindow::pushAbout_clicked()
                        tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" +
                        tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
                        tr("This program provides access to different remaster and persistence tools in MX Linux") +
-                       "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
+                       R"(</h3></p><p align="center"><a href="http://mxlinux.org">http://mxlinux.org</a><br /></p><p align="center">)" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>");
-    auto btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
-    auto btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
-    auto btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
-    btnCancel->setIcon(QIcon::fromTheme("window-close"));
+    auto *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
+    auto *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
+    auto *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
+    btnCancel->setIcon(QIcon::fromTheme(QStringLiteral("window-close")));
 
     msgBox.exec();
 
     if (msgBox.clickedButton() == btnLicense) {
-        const QString url ="file:///usr/share/doc/mx-remastercc/license.html";
+        const QString url =QStringLiteral("file:///usr/share/doc/mx-remastercc/license.html");
         displayDoc(url);
     } else if (msgBox.clickedButton() == btnChangelog) {
-        auto changelog = new QDialog(this);
-        changelog->resize(600, 500);
+        auto *changelog = new QDialog(this);
+        const int width = 600;
+        const int height = 500;
+        changelog->resize(width, height);
 
-        auto text = new QTextEdit;
+        auto *text = new QTextEdit;
         text->setReadOnly(true);
         text->setText(runCmd("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName()  + "/changelog.gz").output);
 
-        auto btnClose = new QPushButton(tr("&Close"));
-        btnClose->setIcon(QIcon::fromTheme("window-close"));
+        auto *btnClose = new QPushButton(tr("&Close"));
+        btnClose->setIcon(QIcon::fromTheme(QStringLiteral("window-close")));
         connect(btnClose, &QPushButton::clicked, changelog, &QDialog::close);
 
-        auto layout = new QVBoxLayout;
+        auto *layout = new QVBoxLayout;
         layout->addWidget(text);
         layout->addWidget(btnClose);
         changelog->setLayout(layout);
@@ -142,37 +144,37 @@ void MainWindow::pushHelp_clicked()
     QLocale locale;
     const QString lang = locale.bcp47Name();
 
-    QString url = "/usr/share/doc/mx-remastercc/mx-remastercc.html";
+    QString url = QStringLiteral("/usr/share/doc/mx-remastercc/mx-remastercc.html");
 
-    if (lang.startsWith("fr"))
-        url = "https://mxlinux.org/wiki/help-files/help-mx-r%C3%A9masterisation";
+    if (lang.startsWith(QLatin1String("fr")))
+        url = QStringLiteral("https://mxlinux.org/wiki/help-files/help-mx-r%C3%A9masterisation");
     displayDoc(url);
 }
 
 void MainWindow::pushSetupPersistence_clicked()
 {
     this->hide();
-    system("pkexec /usr/local/bin/persist-makefs");
+    QProcess::execute(QStringLiteral("pkexec"), {"/usr/local/bin/persist-makefs"});
     this->show();
 }
 
 void MainWindow::pushConfigPersistence_clicked()
 {
     this->hide();
-    system("pkexec /usr/local/bin/persist-config");
+    QProcess::execute(QStringLiteral("pkexec"), {"/usr/local/bin/persist-config"});
     this->show();
 }
 
 void MainWindow::pushSaveRootPersist_clicked()
 {
     this->hide();
-    system("pkexec /usr/local/bin/persist-save");
+    QProcess::execute(QStringLiteral("pkexec"), {"/usr/local/bin/persist-save"});
     this->show();
 }
 
 void MainWindow::pushRemaster_clicked()
 {
     this->hide();
-    system("pkexec /usr/local/bin/live-remaster");
+    QProcess::execute(QStringLiteral("pkexec"), {"/usr/local/bin/live-remaster"});
     this->show();
 }

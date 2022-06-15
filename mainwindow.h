@@ -47,18 +47,18 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    Result runCmd(QString cmd);
+    Result runCmd(const QString &cmd);
 
     QString version;
     QString output;
 
-    void displayDoc(QString url);
+    static void displayDoc(const QString &url);
     void setConnections();
     void setup();
 
 private slots:
     void pushAbout_clicked();
-    void pushHelp_clicked();
+    static void pushHelp_clicked();
     void pushSetupPersistence_clicked();
     void pushConfigPersistence_clicked();
     void pushSaveRootPersist_clicked();
