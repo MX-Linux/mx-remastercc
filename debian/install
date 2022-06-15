@@ -4,4 +4,3 @@ mx-remastercc			usr/bin
 mx-remastercc.desktop		usr/share/applications
 translations/*.qm		usr/share/mx-remastercc/locale
 polkit/*				usr/share/polkit-1/actions
-mx-remastercc-launcher  usr/bin
