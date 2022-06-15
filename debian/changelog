@@ -1,3 +1,9 @@
+mx-remastercc (22.6) mx; urgency=medium
+
+  * use pkexec instead of su-to-root
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Tue, 14 Jun 2022 20:39:41 -0400
+
 mx-remastercc (22.4) mx; urgency=medium
 
   * set gtk-theme Adwaita for live-remaster and persist tools
