@@ -50,6 +50,7 @@ TRANSLATIONS += translations/mx-remastercc_am.ts \
                 translations/mx-remastercc_da.ts \
                 translations/mx-remastercc_de.ts \
                 translations/mx-remastercc_el.ts \
+                translations/mx-remastercc_en.ts \
                 translations/mx-remastercc_es.ts \
                 translations/mx-remastercc_et.ts \
                 translations/mx-remastercc_eu.ts \
