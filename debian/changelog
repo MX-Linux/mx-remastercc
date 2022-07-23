@@ -1,3 +1,9 @@
+mx-remastercc (22.7) mx; urgency=medium
+
+  * translation refresh 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 23 Jul 2022 11:33:03 -0400
+
 mx-remastercc (22.6) mx; urgency=medium
 
   * use pkexec instead of su-to-root
