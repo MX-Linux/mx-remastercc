@@ -57,6 +57,7 @@ TRANSLATIONS += translations/mx-remastercc_am.ts \
                 translations/mx-remastercc_fa.ts \
                 translations/mx-remastercc_fi.ts \
                 translations/mx-remastercc_fr.ts \
+                translations/mx-remastercc_fr_BE.ts \
                 translations/mx-remastercc_he_IL.ts \
                 translations/mx-remastercc_hi.ts \
                 translations/mx-remastercc_hr.ts \
