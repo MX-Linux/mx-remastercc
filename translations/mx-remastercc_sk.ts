@@ -1,250 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="sk">
-<context>
-    <name>MainWindow</name>
-    <message>
-        <location filename="../mainwindow.ui" line="14"/>
-        <source>MX Remastercc</source>
-        <translation type="unfinished">MX RemasterCC</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="64"/>
-        <source>Persistence</source>
-        <translation type="unfinished">Persistencia</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="81"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tento nástroj Vám umožňuje prepracovať ISO súbor počas behu systému v Live móde. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remástrovať&lt;/span&gt; pre zmeny súborov, aplikácií a nastavení s cieľom vytvoriť novú ISO kópiu systému pre zálohovanie alebo ďalšiu distribúciu. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistencia&lt;/span&gt; pre zachovanie dát, nastavení a nainštalovaných programov pre vlastnú potrebu aj po tom ako vypnente PC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="133"/>
-        <source>Display help </source>
-        <translation type="unfinished">Zobraziť nápovedu</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="136"/>
-        <source>Help</source>
-        <translation type="unfinished">Pomoc</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="143"/>
-        <source>Alt+H</source>
-        <translation type="unfinished">Alt+H</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="175"/>
-        <source>About this application</source>
-        <translation type="unfinished">O tejto aplikácii</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="178"/>
-        <source>About...</source>
-        <translation type="unfinished">O Programe</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="185"/>
-        <source>Alt+B</source>
-        <translation type="unfinished">Alt+B</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="217"/>
-        <source>Quit application</source>
-        <translation type="unfinished">Zatvoriť aplikáciu</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="220"/>
-        <source>Close</source>
-        <translation type="unfinished">Zatvoriť</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="227"/>
-        <source>Alt+N</source>
-        <translation type="unfinished">Alt+N</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="264"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Základné operácie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="274"/>
-        <source>Remaster</source>
-        <translation type="unfinished">Remástrovať</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="301"/>
-        <source>Save root persistence</source>
-        <translation type="unfinished">Uložiť root persistenciu</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="315"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Voliteľné operácie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="325"/>
-        <source>Configure live persistence</source>
-        <translation type="unfinished">Konfigurovať live persistenciu</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="54"/>
-        <location filename="../mainwindow.cpp" line="103"/>
-        <source>MX Remaster Control Center</source>
-        <translation type="unfinished">MX Remaster Control Center</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="82"/>
-        <source>MX RemasterCC</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="102"/>
-        <source>About MX Remaster Control Center</source>
-        <translation type="unfinished">O programe MX Remaster Control Center</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="104"/>
-        <source>Version: </source>
-        <translation type="unfinished">Verzia:</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="105"/>
-        <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="unfinished">Tento program Vám umožní rôznymi spôsobmi vylepšiť a vytvoriť vlastnú kópiu systému a tiež vytvoriť persistencie tj. uchovávať zmeny prevedené v systéme MX Linux</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="107"/>
-        <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished">Copyright (c) MX Linux</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="108"/>
-        <source>License</source>
-        <translation type="unfinished">Licencia</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="109"/>
-        <source>Changelog</source>
-        <translation type="unfinished">História zmien</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="110"/>
-        <source>Cancel</source>
-        <translation type="unfinished">Zrušiť</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="128"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Zatvoriť</translation>
-    </message>
-</context>
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="sk">
 <context>
     <name>mxremastercc</name>
     <message>
+        <location filename="mxremastercc.ui" line="14"/>
         <source>MX Remastercc</source>
-        <translation type="vanished">MX RemasterCC</translation>
+        <translation>MX RemasterCC</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="64"/>
         <source>Persistence</source>
-        <translation type="vanished">Persistencia</translation>
+        <translation>Persistencia</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="81"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tento nástroj Vám umožňuje prepracovať ISO súbor počas behu systému v Live móde. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remástrovať&lt;/span&gt; pre zmeny súborov, aplikácií a nastavení s cieľom vytvoriť novú ISO kópiu systému pre zálohovanie alebo ďalšiu distribúciu. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistencia&lt;/span&gt; pre zachovanie dát, nastavení a nainštalovaných programov pre vlastnú potrebu aj po tom ako vypnente PC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tento nástroj Vám umožňuje prepracovať ISO súbor počas behu systému v Live móde. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remástrovať&lt;/span&gt; pre zmeny súborov, aplikácií a nastavení s cieľom vytvoriť novú ISO kópiu systému pre zálohovanie alebo ďalšiu distribúciu. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistencia&lt;/span&gt; pre zachovanie dát, nastavení a nainštalovaných programov pre vlastnú potrebu aj po tom ako vypnente PC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="133"/>
         <source>Display help </source>
-        <translation type="vanished">Zobraziť nápovedu</translation>
+        <translation>Zobraziť nápovedu</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="136"/>
         <source>Help</source>
-        <translation type="vanished">Pomoc</translation>
+        <translation>Pomoc</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="143"/>
         <source>Alt+H</source>
-        <translation type="vanished">Alt+H</translation>
+        <translation>Alt+H</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="175"/>
         <source>About this application</source>
-        <translation type="vanished">O tejto aplikácii</translation>
+        <translation>O tejto aplikácii</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="178"/>
         <source>About...</source>
-        <translation type="vanished">O Programe</translation>
+        <translation>O Programe</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="185"/>
         <source>Alt+B</source>
-        <translation type="vanished">Alt+B</translation>
+        <translation>Alt+B</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="217"/>
         <source>Quit application</source>
-        <translation type="vanished">Zatvoriť aplikáciu</translation>
+        <translation>Zatvoriť aplikáciu</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="220"/>
         <source>Close</source>
-        <translation type="vanished">Zatvoriť</translation>
+        <translation>Zatvoriť</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="227"/>
         <source>Alt+N</source>
-        <translation type="vanished">Alt+N</translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="264"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Základné operácie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Základné operácie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="274"/>
         <source>Remaster</source>
-        <translation type="vanished">Remástrovať</translation>
+        <translation>Remástrovať</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="300"/>
         <source>Save root persistence</source>
-        <translation type="vanished">Uložiť root persistenciu</translation>
+        <translation>Uložiť root persistenciu</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="313"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Voliteľné operácie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Voliteľné operácie&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="323"/>
         <source>Configure live persistence</source>
-        <translation type="vanished">Konfigurovať live persistenciu</translation>
+        <translation>Konfigurovať live persistenciu</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="51"/>
+        <location filename="mxremastercc.cpp" line="100"/>
         <source>MX Remaster Control Center</source>
-        <translation type="vanished">MX Remaster Control Center</translation>
+        <translation>MX Remaster Control Center</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="99"/>
         <source>About MX Remaster Control Center</source>
-        <translation type="vanished">O programe MX Remaster Control Center</translation>
+        <translation>O programe MX Remaster Control Center</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="100"/>
         <source>Version: </source>
-        <translation type="vanished">Verzia:</translation>
+        <translation>Verzia:</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="101"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="vanished">Tento program Vám umožní rôznymi spôsobmi vylepšiť a vytvoriť vlastnú kópiu systému a tiež vytvoriť persistencie tj. uchovávať zmeny prevedené v systéme MX Linux</translation>
+        <translation>Tento program Vám umožní rôznymi spôsobmi vylepšiť a vytvoriť vlastnú kópiu systému a tiež vytvoriť persistencie tj. uchovávať zmeny prevedené v systéme MX Linux</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="103"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="vanished">Copyright (c) MX Linux</translation>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="104"/>
         <source>License</source>
-        <translation type="vanished">Licencia</translation>
+        <translation>Licencia</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="105"/>
         <source>Changelog</source>
-        <translation type="vanished">História zmien</translation>
+        <translation>História zmien</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="106"/>
         <source>Cancel</source>
-        <translation type="vanished">Zrušiť</translation>
+        <translation>Zrušiť</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation type="vanished">&amp;Zatvoriť</translation>
+        <translation>&amp;Zatvoriť</translation>
     </message>
 </context>
 </TS>

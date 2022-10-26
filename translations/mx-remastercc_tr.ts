@@ -1,222 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="tr">
-<context>
-    <name>MainWindow</name>
-    <message>
-        <location filename="../mainwindow.ui" line="14"/>
-        <source>MX Remastercc</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="64"/>
-        <source>Persistence</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="81"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="133"/>
-        <source>Display help </source>
-        <translation type="unfinished">Yardımı görüntüle</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="136"/>
-        <source>Help</source>
-        <translation type="unfinished">Yardım</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="143"/>
-        <source>Alt+H</source>
-        <translation type="unfinished">Alt+H</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="175"/>
-        <source>About this application</source>
-        <translation type="unfinished">Uygulama hakkında</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="178"/>
-        <source>About...</source>
-        <translation type="unfinished">Hakkında...</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="185"/>
-        <source>Alt+B</source>
-        <translation type="unfinished">Alt+B</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="217"/>
-        <source>Quit application</source>
-        <translation type="unfinished">Uygulamadan çık</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="220"/>
-        <source>Close</source>
-        <translation type="unfinished">Kapat</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="227"/>
-        <source>Alt+N</source>
-        <translation type="unfinished">Alt+N</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="264"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="274"/>
-        <source>Remaster</source>
-        <translation type="unfinished">Yeniden düzenle</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="301"/>
-        <source>Save root persistence</source>
-        <translation type="unfinished">kalıcı root&apos;u kaydedin</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="315"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="325"/>
-        <source>Configure live persistence</source>
-        <translation type="unfinished">live persistence Yapılandırma</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="54"/>
-        <location filename="../mainwindow.cpp" line="103"/>
-        <source>MX Remaster Control Center</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="82"/>
-        <source>MX RemasterCC</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="102"/>
-        <source>About MX Remaster Control Center</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="104"/>
-        <source>Version: </source>
-        <translation type="unfinished">Sürüm</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="105"/>
-        <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="unfinished">Bu program MX Linux&apos;taki farklı yeniden düzenleme ve kalıcı yapma araçlarına erişim sağlar</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="107"/>
-        <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished">Copyright (c) MX Linux</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="108"/>
-        <source>License</source>
-        <translation type="unfinished">Ruhsat</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="109"/>
-        <source>Changelog</source>
-        <translation type="unfinished">Değişim günlüğü</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="110"/>
-        <source>Cancel</source>
-        <translation type="unfinished">İptal</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="128"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Kapat</translation>
-    </message>
-</context>
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="tr">
 <context>
     <name>mxremastercc</name>
     <message>
+        <location filename="mxremastercc.ui" line="14"/>
+        <source>MX Remastercc</source>
+        <translation>MX Remastercc</translation>
+    </message>
+    <message>
+        <location filename="mxremastercc.ui" line="64"/>
+        <source>Persistence</source>
+        <translation>Kararlı</translation>
+    </message>
+    <message>
+        <location filename="mxremastercc.ui" line="81"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bu araç, Canlı çalıştırırken bir ISO üzerinde yeniden çalışmanıza olanak tanır. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Yeniden Düzenleme&lt;/span&gt; depolama veya dağıtım için yeni bir ana kopya oluşturmak amacıyla dosyaları, uygulamaları ve ayarları değiştirmenize olanak tanır. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Kararlı&lt;/span&gt; kişisel kullanımda makine kapatıldığında verileri, ayarları ve yüklü programları saklamanızı sağlar.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="mxremastercc.ui" line="133"/>
         <source>Display help </source>
-        <translation type="vanished">Yardımı görüntüle</translation>
+        <translation>Yardımı görüntüle</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="136"/>
         <source>Help</source>
-        <translation type="vanished">Yardım</translation>
+        <translation>Yardım</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="143"/>
         <source>Alt+H</source>
-        <translation type="vanished">Alt+H</translation>
+        <translation>Alt+H</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="175"/>
         <source>About this application</source>
-        <translation type="vanished">Uygulama hakkında</translation>
+        <translation>Uygulama hakkında</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="178"/>
         <source>About...</source>
-        <translation type="vanished">Hakkında...</translation>
+        <translation>Hakkında...</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="185"/>
         <source>Alt+B</source>
-        <translation type="vanished">Alt+B</translation>
+        <translation>Alt+B</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="217"/>
         <source>Quit application</source>
-        <translation type="vanished">Uygulamadan çık</translation>
+        <translation>Uygulamadan çık</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="220"/>
         <source>Close</source>
-        <translation type="vanished">Kapat</translation>
+        <translation>Kapat</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="227"/>
         <source>Alt+N</source>
-        <translation type="vanished">Alt+N</translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="264"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Temel işlemler&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="mxremastercc.ui" line="274"/>
         <source>Remaster</source>
-        <translation type="vanished">Yeniden düzenle</translation>
+        <translation>Yeniden düzenle</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="300"/>
         <source>Save root persistence</source>
-        <translation type="vanished">kalıcı root&apos;u kaydedin</translation>
+        <translation>kalıcı root&apos;u kaydedin</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="313"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;İsteğe bağlı işlemler&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="mxremastercc.ui" line="323"/>
         <source>Configure live persistence</source>
-        <translation type="vanished">live persistence Yapılandırma</translation>
+        <translation>live persistence Yapılandırma</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="51"/>
+        <location filename="mxremastercc.cpp" line="100"/>
+        <source>MX Remaster Control Center</source>
+        <translation>MX Yeniden Düzenleme Denetim Merkezi</translation>
+    </message>
+    <message>
+        <location filename="mxremastercc.cpp" line="99"/>
+        <source>About MX Remaster Control Center</source>
+        <translation>MX Yeniden Düzenleme Denetim Merkezi Hakkında</translation>
+    </message>
+    <message>
+        <location filename="mxremastercc.cpp" line="100"/>
         <source>Version: </source>
-        <translation type="vanished">Sürüm</translation>
+        <translation>Sürüm</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="101"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="vanished">Bu program MX Linux&apos;taki farklı yeniden düzenleme ve kalıcı yapma araçlarına erişim sağlar</translation>
+        <translation>Bu program MX Linux&apos;taki farklı yeniden düzenleme ve kalıcı yapma araçlarına erişim sağlar</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="103"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="vanished">Copyright (c) MX Linux</translation>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="104"/>
         <source>License</source>
-        <translation type="vanished">Ruhsat</translation>
+        <translation>Ruhsat</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="105"/>
         <source>Changelog</source>
-        <translation type="vanished">Değişim günlüğü</translation>
+        <translation>Değişim günlüğü</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="106"/>
         <source>Cancel</source>
-        <translation type="vanished">İptal</translation>
+        <translation>İptal</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation type="vanished">&amp;Kapat</translation>
+        <translation>&amp;Kapat</translation>
     </message>
 </context>
 </TS>

@@ -1,250 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="sl">
-<context>
-    <name>MainWindow</name>
-    <message>
-        <location filename="../mainwindow.ui" line="14"/>
-        <source>MX Remastercc</source>
-        <translation type="unfinished">MX Remastercc</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="64"/>
-        <source>Persistence</source>
-        <translation type="unfinished">Obstojnost</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="81"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;To orodje omogoča predelavo za ISO, medtem ko je Linux zagnan. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remasterizacija&lt;/span&gt; omogoča spreminjanje datotek, aplikacij in nastavitev z namenom ustvarjanja nove glavne kopije za shranjevanje ali distribucijo. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Obstojnost&lt;/span&gt; omogoča ohranjanje podatkov, nastavitev in nameščenih programov po izklopu računalnika.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="133"/>
-        <source>Display help </source>
-        <translation type="unfinished">Prikaži pomoč</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="136"/>
-        <source>Help</source>
-        <translation type="unfinished">Pomoč</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="143"/>
-        <source>Alt+H</source>
-        <translation type="unfinished">Alt+H</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="175"/>
-        <source>About this application</source>
-        <translation type="unfinished">O tem programu</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="178"/>
-        <source>About...</source>
-        <translation type="unfinished">O programu...</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="185"/>
-        <source>Alt+B</source>
-        <translation type="unfinished">Alt+B</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="217"/>
-        <source>Quit application</source>
-        <translation type="unfinished">Zapri aplikacijo</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="220"/>
-        <source>Close</source>
-        <translation type="unfinished">Zapri</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="227"/>
-        <source>Alt+N</source>
-        <translation type="unfinished">Alt+N</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="264"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Osnovne operacije&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="274"/>
-        <source>Remaster</source>
-        <translation type="unfinished">Remasterizacija</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="301"/>
-        <source>Save root persistence</source>
-        <translation type="unfinished">Shrani obstojnost roota</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="315"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Izbirne operacije&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="325"/>
-        <source>Configure live persistence</source>
-        <translation type="unfinished">Konfiguriraj živo obstojnost</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="54"/>
-        <location filename="../mainwindow.cpp" line="103"/>
-        <source>MX Remaster Control Center</source>
-        <translation type="unfinished">MX nadzorni center za remasterizacijo</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="82"/>
-        <source>MX RemasterCC</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="102"/>
-        <source>About MX Remaster Control Center</source>
-        <translation type="unfinished">O programu MX nadzorni center za remasterizacijo</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="104"/>
-        <source>Version: </source>
-        <translation type="unfinished">Različica:</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="105"/>
-        <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="unfinished">Ta program omogoča dostop do različnih orodji za remasterizacijo in obstojnost sistema MX Linux</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="107"/>
-        <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished">Copyright (c) MX Linux</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="108"/>
-        <source>License</source>
-        <translation type="unfinished">Licenca</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="109"/>
-        <source>Changelog</source>
-        <translation type="unfinished">Dnevnik sprememb</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="110"/>
-        <source>Cancel</source>
-        <translation type="unfinished">Prekini</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="128"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Zapri</translation>
-    </message>
-</context>
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="sl">
 <context>
     <name>mxremastercc</name>
     <message>
+        <location filename="mxremastercc.ui" line="14"/>
         <source>MX Remastercc</source>
-        <translation type="vanished">MX Remastercc</translation>
+        <translation>MX Predelava</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="64"/>
         <source>Persistence</source>
-        <translation type="vanished">Obstojnost</translation>
+        <translation>Obstojnost</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="81"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;To orodje omogoča predelavo za ISO, medtem ko je Linux zagnan. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remasterizacija&lt;/span&gt; omogoča spreminjanje datotek, aplikacij in nastavitev z namenom ustvarjanja nove glavne kopije za shranjevanje ali distribucijo. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Obstojnost&lt;/span&gt; omogoča ohranjanje podatkov, nastavitev in nameščenih programov po izklopu računalnika.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;To orodje omogoča predelavo za ISO, medtem ko je Linux zagnan. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Predelava&lt;/span&gt; omogoča spreminjanje datotek, aplikacij in nastavitev z namenom ustvarjanja nove glavne kopije za shranjevanje ali distribucijo. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Obstojnost&lt;/span&gt; omogoča ohranjanje podatkov, nastavitev in nameščenih programov po izklopu računalnika.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="133"/>
         <source>Display help </source>
-        <translation type="vanished">Prikaži pomoč</translation>
+        <translation>Prikaži pomoč</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="136"/>
         <source>Help</source>
-        <translation type="vanished">Pomoč</translation>
+        <translation>Pomoč</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="143"/>
         <source>Alt+H</source>
-        <translation type="vanished">Alt+H</translation>
+        <translation>Alt+H</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="175"/>
         <source>About this application</source>
-        <translation type="vanished">O tem programu</translation>
+        <translation>O tem programu</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="178"/>
         <source>About...</source>
-        <translation type="vanished">O programu...</translation>
+        <translation>O programu...</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="185"/>
         <source>Alt+B</source>
-        <translation type="vanished">Alt+B</translation>
+        <translation>Alt+B</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="217"/>
         <source>Quit application</source>
-        <translation type="vanished">Zapri aplikacijo</translation>
+        <translation>Zapri aplikacijo</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="220"/>
         <source>Close</source>
-        <translation type="vanished">Zapri</translation>
+        <translation>Zapri</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="227"/>
         <source>Alt+N</source>
-        <translation type="vanished">Alt+N</translation>
+        <translation>Alt+N</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="264"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Basic operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Osnovne operacije&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Osnovna opravila&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="274"/>
         <source>Remaster</source>
-        <translation type="vanished">Remasterizacija</translation>
+        <translation>Predelava</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="300"/>
         <source>Save root persistence</source>
-        <translation type="vanished">Shrani obstojnost roota</translation>
+        <translation>Shrani koresnko obstojnost</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="313"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Optional operations&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Izbirne operacije&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Izbirna opravila&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="mxremastercc.ui" line="323"/>
         <source>Configure live persistence</source>
-        <translation type="vanished">Konfiguriraj živo obstojnost</translation>
+        <translation>Konfiguriraj živo obstojnost</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="51"/>
+        <location filename="mxremastercc.cpp" line="100"/>
         <source>MX Remaster Control Center</source>
-        <translation type="vanished">MX nadzorni center za remasterizacijo</translation>
+        <translation>MX nadzorni center za predelavo</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="99"/>
         <source>About MX Remaster Control Center</source>
-        <translation type="vanished">O programu MX nadzorni center za remasterizacijo</translation>
+        <translation>O programu MX nadzorni center za predelavo</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="100"/>
         <source>Version: </source>
-        <translation type="vanished">Različica:</translation>
+        <translation>Različica:</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="101"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
-        <translation type="vanished">Ta program omogoča dostop do različnih orodji za remasterizacijo in obstojnost sistema MX Linux</translation>
+        <translation>Ta program omogoča dostop do različnih orodji za predelavo in obstojnost sistema MX Linux</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="103"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="vanished">Copyright (c) MX Linux</translation>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="104"/>
         <source>License</source>
-        <translation type="vanished">Licenca</translation>
+        <translation>Licenca</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="105"/>
         <source>Changelog</source>
-        <translation type="vanished">Dnevnik sprememb</translation>
+        <translation>Dnevnik sprememb</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="106"/>
         <source>Cancel</source>
-        <translation type="vanished">Prekini</translation>
+        <translation>Prekini</translation>
     </message>
     <message>
+        <location filename="mxremastercc.cpp" line="122"/>
         <source>&amp;Close</source>
-        <translation type="vanished">&amp;Zapri</translation>
+        <translation>&amp;Zapri</translation>
     </message>
 </context>
 </TS>
