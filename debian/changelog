@@ -1,3 +1,9 @@
+mx-remastercc (22.10.01) mx; urgency=medium
+
+  * fix source files 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 28 Oct 2022 15:55:50 -0400
+
 mx-remastercc (22.10) mx; urgency=medium
 
   * translation refresh
