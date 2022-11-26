@@ -22,14 +22,14 @@
  * along with mx-remastercc.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
 
-
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMessageBox>
 #include <QProcess>
 
-namespace Ui {
+namespace Ui
+{
 class MainWindow;
 }
 
@@ -37,7 +37,6 @@ struct Result {
     int exitCode;
     QString output;
 };
-
 
 class MainWindow : public QDialog
 {
@@ -68,6 +67,4 @@ private:
     Ui::MainWindow *ui;
 };
 
-
 #endif // MXSNAPSHOT_H
-

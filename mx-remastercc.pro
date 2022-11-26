@@ -20,7 +20,7 @@
 # * along with mx-remastercc.  If not, see <http://www.gnu.org/licenses/>.
 # **********************************************************************/
 
-QT       += core gui widgets
+QT       += widgets
 CONFIG   += c++1z
 
 TARGET = mx-remastercc

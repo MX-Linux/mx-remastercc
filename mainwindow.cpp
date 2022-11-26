@@ -21,19 +21,18 @@
  * You should have received a copy of the GNU General Public License
  * along with mx-remastercc.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
 
 #include <QDebug>
 #include <QFileInfo>
 #include <QTextEdit>
 
-#include "mainwindow.h"
-#include "ui_mainwindow.h"
 #include "version.h"
 
-
-MainWindow::MainWindow(QWidget *parent) :
-    QDialog(parent),
-    ui(new Ui::MainWindow)
+MainWindow::MainWindow(QWidget *parent)
+    : QDialog(parent)
+    , ui(new Ui::MainWindow)
 {
     qDebug().noquote() << QCoreApplication::applicationName() << "version:" << VERSION;
 
@@ -43,10 +42,7 @@ MainWindow::MainWindow(QWidget *parent) :
     setup();
 }
 
-MainWindow::~MainWindow()
-{
-    delete ui;
-}
+MainWindow::~MainWindow() { delete ui; }
 
 // setup versious items first time program runs
 void MainWindow::setup()
@@ -54,7 +50,7 @@ void MainWindow::setup()
     this->setWindowTitle(tr("MX Remaster Control Center"));
     this->adjustSize();
     ui->pushSetupPersistence->setStyleSheet(QStringLiteral("text-align:left;"));
-    ui->pushConfigPersistence ->setStyleSheet(QStringLiteral("text-align:left;"));
+    ui->pushConfigPersistence->setStyleSheet(QStringLiteral("text-align:left;"));
     ui->pushSaveRootPersist->setStyleSheet(QStringLiteral("text-align:left;"));
     ui->pushRemaster->setStyleSheet(QStringLiteral("text-align:left;"));
     ui->pushSaveRootPersist->setIcon(QIcon::fromTheme(QStringLiteral("filesave"), QIcon(":/icons/filesave.svg")));
@@ -98,13 +94,13 @@ void MainWindow::setConnections()
 void MainWindow::pushAbout_clicked()
 {
     this->hide();
-    QMessageBox msgBox(QMessageBox::NoIcon,
-                       tr("About MX Remaster Control Center"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">" +
-                       tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
-                       tr("This program provides access to different remaster and persistence tools in MX Linux") +
-                       R"(</h3></p><p align="center"><a href="http://mxlinux.org">http://mxlinux.org</a><br /></p><p align="center">)" +
-                       tr("Copyright (c) MX Linux") + "<br /><br /></p>");
+    QMessageBox msgBox(
+        QMessageBox::NoIcon, tr("About MX Remaster Control Center"),
+        "<p align=\"center\"><b><h2>" + tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">"
+            + tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>"
+            + tr("This program provides access to different remaster and persistence tools in MX Linux")
+            + R"(</h3></p><p align="center"><a href="http://mxlinux.org">http://mxlinux.org</a><br /></p><p align="center">)"
+            + tr("Copyright (c) MX Linux") + "<br /><br /></p>");
     auto *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
     auto *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
     auto *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
@@ -113,7 +109,7 @@ void MainWindow::pushAbout_clicked()
     msgBox.exec();
 
     if (msgBox.clickedButton() == btnLicense) {
-        const QString url =QStringLiteral("file:///usr/share/doc/mx-remastercc/license.html");
+        const QString url = QStringLiteral("file:///usr/share/doc/mx-remastercc/license.html");
         displayDoc(url);
     } else if (msgBox.clickedButton() == btnChangelog) {
         auto *changelog = new QDialog(this);
@@ -123,7 +119,9 @@ void MainWindow::pushAbout_clicked()
 
         auto *text = new QTextEdit;
         text->setReadOnly(true);
-        text->setText(runCmd("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName()  + "/changelog.gz").output);
+        text->setText(runCmd("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName()
+                             + "/changelog.gz")
+                          .output);
 
         auto *btnClose = new QPushButton(tr("&Close"));
         btnClose->setIcon(QIcon::fromTheme(QStringLiteral("window-close")));
