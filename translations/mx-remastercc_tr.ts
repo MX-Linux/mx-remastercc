@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="tr">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="tr">
 <context>
     <name>MainWindow</name>
     <message>
@@ -87,53 +89,53 @@
         <translation>Çalışan kalıcı Yapılandırma</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="54"/>
-        <location filename="../mainwindow.cpp" line="103"/>
+        <location filename="../mainwindow.cpp" line="50"/>
+        <location filename="../mainwindow.cpp" line="99"/>
         <source>MX Remaster Control Center</source>
         <translation>MX Yeniden Düzenleme Denetim Merkezi</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="82"/>
+        <location filename="../mainwindow.cpp" line="78"/>
         <source>MX RemasterCC</source>
-        <translation type="unfinished"/>
+        <translation>MX RemasterCC</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="102"/>
+        <location filename="../mainwindow.cpp" line="98"/>
         <source>About MX Remaster Control Center</source>
         <translation>MX Yeniden Düzenleme Denetim Merkezi Hakkında</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="104"/>
+        <location filename="../mainwindow.cpp" line="100"/>
         <source>Version: </source>
         <translation>Sürüm:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="105"/>
+        <location filename="../mainwindow.cpp" line="101"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation>Bu program MX Linux&apos;taki farklı yeniden düzenleme ve kalıcı yapma araçlarına erişim sağlar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="107"/>
+        <location filename="../mainwindow.cpp" line="103"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Telif Hakkı (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="108"/>
+        <location filename="../mainwindow.cpp" line="104"/>
         <source>License</source>
         <translation>Ruhsat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="109"/>
+        <location filename="../mainwindow.cpp" line="105"/>
         <source>Changelog</source>
         <translation>Değişim günlüğü</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="110"/>
+        <location filename="../mainwindow.cpp" line="106"/>
         <source>Cancel</source>
         <translation>İptal</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="128"/>
+        <location filename="../mainwindow.cpp" line="126"/>
         <source>&amp;Close</source>
         <translation>&amp;Kapat</translation>
     </message>

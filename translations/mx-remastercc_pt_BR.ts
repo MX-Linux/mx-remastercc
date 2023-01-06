@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="pt_BR">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="pt_BR">
 <context>
     <name>MainWindow</name>
     <message>
@@ -14,7 +16,7 @@
     <message>
         <location filename="../mainwindow.ui" line="81"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This tool allows you to rework an ISO while running Live. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remaster&lt;/span&gt; allows you to change files, applications and settings with the goal of producing a new master copy for storage or distribution. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistence&lt;/span&gt; allows you to retain data, settings and installed programs when the machine gets switched off for personal use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Esta ferramenta permite  que você retrabalhe uma imagem ISO de instalação externa enquanto o sistema está em execução. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remasterização&lt;/span&gt; a remasterização (remaster) permite que você altere arquivos, aplicativos e configurações para a produção de uma nova imagem ISO mestra (master) destinada a ser armazenada ou distribuída como uma nova versão modificada. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistência&lt;/span&gt; permite que você retenha  informações introduzidas em uma sessão externa (dados, configurações e programas instalados) quando o computador é desligado.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Esta ferramenta permite que você retrabalhe uma imagem ISO de uma instalação externa enquanto o sistema operacional está em execução.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Remasterização&lt;/span&gt; a remasterização (remaster) permite que você altere os arquivos, os programas aplicativos e as configurações para a produção de uma nova imagem ISO mestra (master) destinada a ser armazenada ou distribuída como uma nova versão modificada com as suas personalizações.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Persistência&lt;/span&gt; permite que você retenha ou mantenha as informações introduzidas em uma sessão externa (dados, configurações e programas aplicativos instalados) quando o computador é desligado.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="133"/>
@@ -87,53 +89,53 @@
         <translation>Configurar a persistência ao vivo (live)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="54"/>
-        <location filename="../mainwindow.cpp" line="103"/>
+        <location filename="../mainwindow.cpp" line="50"/>
+        <location filename="../mainwindow.cpp" line="99"/>
         <source>MX Remaster Control Center</source>
         <translation>Centro de Controle de Remasterização e Persistência do MX</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="82"/>
+        <location filename="../mainwindow.cpp" line="78"/>
         <source>MX RemasterCC</source>
-        <translation type="unfinished"/>
+        <translation>Remasterização e Persistência do MX</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="102"/>
+        <location filename="../mainwindow.cpp" line="98"/>
         <source>About MX Remaster Control Center</source>
         <translation>Sobre o Centro de Controle de Remasterização e Persistência do MX</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="104"/>
+        <location filename="../mainwindow.cpp" line="100"/>
         <source>Version: </source>
         <translation>Versão: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="105"/>
+        <location filename="../mainwindow.cpp" line="101"/>
         <source>This program provides access to different remaster and persistence tools in MX Linux</source>
         <translation>Este programa fornece acesso a diferentes ferramentas de remasterização (remaster) e de persistência do MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="107"/>
+        <location filename="../mainwindow.cpp" line="103"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Direitos de Autor (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="108"/>
+        <location filename="../mainwindow.cpp" line="104"/>
         <source>License</source>
         <translation>Licença</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="109"/>
+        <location filename="../mainwindow.cpp" line="105"/>
         <source>Changelog</source>
         <translation>Relatório de alterações</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="110"/>
+        <location filename="../mainwindow.cpp" line="106"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="128"/>
+        <location filename="../mainwindow.cpp" line="126"/>
         <source>&amp;Close</source>
         <translation>&amp;Fechar</translation>
     </message>

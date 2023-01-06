@@ -42,7 +42,7 @@ HEADERS  += \
 FORMS    += \
     mainwindow.ui
 
-    TRANSLATIONS += translations/translations/mx-remastercc_af.ts \
+    TRANSLATIONS += translations/mx-remastercc_af.ts \
     translations/mx-remastercc_ar.ts \
     translations/mx-remastercc_be.ts \
     translations/mx-remastercc_bg.ts \

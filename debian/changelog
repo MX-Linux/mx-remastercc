@@ -1,3 +1,9 @@
+mx-remastercc (23.1) mx; urgency=medium
+
+  * Translation refresh
+
+ -- Adrian <adrian@mxlinux.org>  Thu, 05 Jan 2023 19:09:31 -0500
+
 mx-remastercc (22.10.01) mx; urgency=medium
 
   * fix source files 
