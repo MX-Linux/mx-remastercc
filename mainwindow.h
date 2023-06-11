@@ -48,9 +48,6 @@ public:
 
     Result runCmd(const QString &cmd);
 
-    // QString version;
-    // QString output;
-
     static void displayDoc(const QString &url);
     void setConnections();
     void setup();
