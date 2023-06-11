@@ -44,12 +44,12 @@ class MainWindow : public QDialog
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    ~MainWindow() override;
 
     Result runCmd(const QString &cmd);
 
-    QString version;
-    QString output;
+    // QString version;
+    // QString output;
 
     static void displayDoc(const QString &url);
     void setConnections();
