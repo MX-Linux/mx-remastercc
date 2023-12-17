@@ -31,24 +31,27 @@
 #include "version.h"
 
 MainWindow::MainWindow(QWidget *parent)
-    : QDialog(parent)
-    , ui(new Ui::MainWindow)
+    : QDialog(parent),
+      ui(new Ui::MainWindow)
 {
     qDebug().noquote() << QCoreApplication::applicationName() << "version:" << VERSION;
 
     ui->setupUi(this);
     setConnections();
-    setWindowFlags(Qt::Window); // for the close, min and max buttons
+    setWindowFlags(Qt::Window); // For the close, min and max buttons
     setup();
 }
 
-MainWindow::~MainWindow() { delete ui; }
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
 
-// setup versious items first time program runs
+// Setup versious items first time program runs
 void MainWindow::setup()
 {
-    this->setWindowTitle(tr("MX Remaster Control Center"));
-    this->adjustSize();
+    setWindowTitle(tr("MX Remaster Control Center"));
+    adjustSize();
     ui->pushSetupPersistence->setStyleSheet(QStringLiteral("text-align:left;"));
     ui->pushConfigPersistence->setStyleSheet(QStringLiteral("text-align:left;"));
     ui->pushSaveRootPersist->setStyleSheet(QStringLiteral("text-align:left;"));
@@ -73,11 +76,12 @@ Result MainWindow::runCmd(const QString &cmd)
 
 void MainWindow::displayDoc(const QString &url)
 {
-    // prefer mx-viewer otherwise use xdg-open (use runuser to run that as logname user)
-    if (QFile::exists(QStringLiteral("/usr/bin/mx-viewer")))
+    // Prefer mx-viewer otherwise use xdg-open (use runuser to run that as logname user)
+    if (QFile::exists(QStringLiteral("/usr/bin/mx-viewer"))) {
         QProcess::execute(QStringLiteral("mx-viewer"), {url, tr("MX RemasterCC")});
-    else
+    } else {
         QProcess::execute(QStringLiteral("xdg-open"), {url});
+    }
 }
 
 void MainWindow::setConnections()
@@ -90,10 +94,9 @@ void MainWindow::setConnections()
     connect(ui->pushRemaster, &QPushButton::clicked, this, &MainWindow::pushRemaster_clicked);
 }
 
-// About button clicked
 void MainWindow::pushAbout_clicked()
 {
-    this->hide();
+    hide();
     QMessageBox msgBox(
         QMessageBox::NoIcon, tr("About MX Remaster Control Center"),
         "<p align=\"center\"><b><h2>" + tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">"
@@ -133,10 +136,9 @@ void MainWindow::pushAbout_clicked()
         changelog->setLayout(layout);
         changelog->exec();
     }
-    this->show();
+    show();
 }
 
-// Help button clicked
 void MainWindow::pushHelp_clicked()
 {
     QLocale locale;
@@ -144,35 +146,36 @@ void MainWindow::pushHelp_clicked()
 
     QString url = QStringLiteral("/usr/share/doc/mx-remastercc/mx-remastercc.html");
 
-    if (lang.startsWith(QLatin1String("fr")))
+    if (lang.startsWith(QLatin1String("fr"))) {
         url = QStringLiteral("https://mxlinux.org/wiki/help-files/help-mx-r%C3%A9masterisation");
+    }
     displayDoc(url);
 }
 
 void MainWindow::pushSetupPersistence_clicked()
 {
-    this->hide();
+    hide();
     QProcess::execute(QStringLiteral("pkexec"), {"/usr/local/bin/persist-makefs"});
-    this->show();
+    show();
 }
 
 void MainWindow::pushConfigPersistence_clicked()
 {
-    this->hide();
+    hide();
     QProcess::execute(QStringLiteral("pkexec"), {"/usr/local/bin/persist-config"});
-    this->show();
+    show();
 }
 
 void MainWindow::pushSaveRootPersist_clicked()
 {
-    this->hide();
+    hide();
     QProcess::execute(QStringLiteral("pkexec"), {"/usr/local/bin/persist-save"});
-    this->show();
+    show();
 }
 
 void MainWindow::pushRemaster_clicked()
 {
-    this->hide();
+    hide();
     QProcess::execute(QStringLiteral("pkexec"), {"/usr/local/bin/live-remaster"});
-    this->show();
+    show();
 }
