@@ -2,7 +2,7 @@
 <!DOCTYPE policyconfig PUBLIC
   "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
   "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
-<!-- 
+<!--
 	/usr/share/polkit-1/actions/org.mxlinux.mxpi-launcher.policy
 !-->
  <policyconfig>
@@ -17,6 +17,7 @@
       <allow_active>auth_admin</allow_active>
     </defaults>
     <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/persist-config</annotate>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/persist-config</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
   </action>
   <action id="org.mxlinux.pkexec.remastercc.persist-makefs">
@@ -28,6 +29,7 @@
       <allow_active>auth_admin</allow_active>
     </defaults>
     <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/persist-makefs</annotate>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/persist-makefs</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
   </action>
   <action id="org.mxlinux.pkexec.remastercc.persist-save">
@@ -39,6 +41,7 @@
       <allow_active>auth_admin</allow_active>
     </defaults>
     <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/persist-save</annotate>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/persist-save</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
   </action>
   <action id="org.mxlinux.pkexec.remastercc.live-remaster">
@@ -50,6 +53,7 @@
       <allow_active>auth_admin</allow_active>
     </defaults>
     <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/live-remaster</annotate>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/live-remaster</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
   </action>
 </policyconfig>
