@@ -16,7 +16,6 @@
       <allow_inactive>auth_admin</allow_inactive>
       <allow_active>auth_admin</allow_active>
     </defaults>
-    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/persist-config</annotate>
     <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/persist-config</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
   </action>
@@ -28,7 +27,6 @@
       <allow_inactive>auth_admin</allow_inactive>
       <allow_active>auth_admin</allow_active>
     </defaults>
-    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/persist-makefs</annotate>
     <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/persist-makefs</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
   </action>
@@ -40,7 +38,6 @@
       <allow_inactive>auth_admin</allow_inactive>
       <allow_active>auth_admin</allow_active>
     </defaults>
-    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/persist-save</annotate>
     <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/persist-save</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
   </action>
@@ -52,8 +49,53 @@
       <allow_inactive>auth_admin</allow_inactive>
       <allow_active>auth_admin</allow_active>
     </defaults>
-    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/live-remaster</annotate>
     <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/live-remaster</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+  <vendor>MX Linux</vendor>
+  <vendor_url>https://mxlinux.org</vendor_url>
+  <action id="org.mxlinux.pkexec.remastercc.persist-config-local">
+  <message>Persist-config:  Authentication is required to proceed</message>
+    <description>Run perist-config</description>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/persist-config</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+  <action id="org.mxlinux.pkexec.remastercc.persist-makefs-local">
+  <message>Persist-makefs:  Authentication is required to proceed</message>
+    <description>Run perist-makefs</description>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/persist-makefs</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+  <action id="org.mxlinux.pkexec.remastercc.persist-save-local">
+  <message>Persist-save:  Authentication is required to proceed</message>
+    <description>Run perist-save</description>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/persist-save</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+  <action id="org.mxlinux.pkexec.remastercc.live-remaster-local">
+  <message>Live-remaster:  Authentication is required to proceed</message>
+    <description>Run live-remaster</description>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/local/bin/live-remaster</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
   </action>
 </policyconfig>
