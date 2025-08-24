@@ -28,7 +28,9 @@
 #include <QFileInfo>
 #include <QTextEdit>
 
-#include "version.h"
+#ifndef VERSION
+    #define VERSION "?.?.?.?"
+#endif
 
 MainWindow::MainWindow(QWidget *parent)
     : QDialog(parent),

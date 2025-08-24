@@ -137,6 +137,7 @@ endif()
 target_compile_definitions(mx-remastercc PRIVATE
     QT_DEPRECATED_WARNINGS
     QT_DISABLE_DEPRECATED_BEFORE=0x060000
+    VERSION="${PROJECT_VERSION}"
 )
 
 # Release-specific optimizations
@@ -160,21 +161,11 @@ qt6_add_translations(mx-remastercc
     QM_FILES_OUTPUT_VARIABLE qm_files
 )
 
-# Generate version.h file
-configure_file(
-    "${CMAKE_SOURCE_DIR}/src/version.h.in"
-    "${CMAKE_BINARY_DIR}/src/version.h"
-    @ONLY
-)
-
 # Set target properties
 set_target_properties(mx-remastercc PROPERTIES
     OUTPUT_NAME "mx-remastercc"
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}
 )
-
-# Add build directory to include path for generated version.h
-target_include_directories(mx-remastercc PRIVATE ${CMAKE_BINARY_DIR}/src)
 
 # Install target (required by Debian build system)
 # Other files are handled by debian/install
