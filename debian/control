@@ -16,7 +16,6 @@ Homepage: https://github.com/MX-Linux/mx-remastercc
 Package: mx-remastercc
 Architecture: any
 Depends: mx-remaster,
-         mx-viewer | xdg-utils,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Remaster Control Center for MX Linux

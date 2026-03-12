@@ -83,10 +83,12 @@ set(CMAKE_AUTORCC ON)
 # Define source files
 set(SOURCES
     src/main.cpp
+    src/about.cpp
     src/mainwindow.cpp
 )
 
 set(HEADERS
+    src/about.h
     src/mainwindow.h
 )
 

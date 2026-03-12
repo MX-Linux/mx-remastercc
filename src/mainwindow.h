@@ -23,8 +23,8 @@
  **********************************************************************/
 #pragma once
 
+#include <QDialog>
 #include <QMessageBox>
-#include <QProcess>
 
 namespace Ui
 {
@@ -44,12 +44,11 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow() override;
 
-    static void displayDoc(const QString &url);
     void setConnections();
     void setup();
 
 private slots:
-    static void pushHelp_clicked();
+    void pushHelp_clicked();
     void pushAbout_clicked();
     void pushConfigPersistence_clicked();
     void pushRemaster_clicked();

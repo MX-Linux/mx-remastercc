@@ -21,12 +21,13 @@
  * You should have received a copy of the GNU General Public License
  * along with mx-remastercc.  If not, see <http://www.gnu.org/licenses/>.
  **********************************************************************/
+#include "about.h"
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
 #include <QDebug>
 #include <QFileInfo>
-#include <QTextEdit>
+#include <QProcess>
 
 #ifndef VERSION
     #define VERSION "?.?.?.?"
@@ -59,16 +60,6 @@ void MainWindow::setup()
     ui->pushSaveRootPersist->setIcon(QIcon::fromTheme("filesave", QIcon(":/icons/filesave.svg")));
 }
 
-void MainWindow::displayDoc(const QString &url)
-{
-    // Prefer mx-viewer otherwise use xdg-open (use runuser to run that as logname user)
-    if (QFile::exists("/usr/bin/mx-viewer")) {
-        QProcess::startDetached("mx-viewer", {url, tr("MX RemasterCC")});
-    } else {
-        QProcess::startDetached("xdg-open", {url});
-    }
-}
-
 void MainWindow::setConnections()
 {
     connect(ui->pushAbout, &QPushButton::clicked, this, &MainWindow::pushAbout_clicked);
@@ -83,64 +74,20 @@ void MainWindow::setConnections()
 void MainWindow::pushAbout_clicked()
 {
     hide();
-    QMessageBox msgBox(
-        QMessageBox::NoIcon, tr("About MX Remaster Control Center"),
+    displayAboutMsgBox(
+        tr("About MX Remaster Control Center"),
         "<p align=\"center\"><b><h2>" + tr("MX Remaster Control Center") + "</h2></b></p><p align=\"center\">"
             + tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>"
             + tr("This program provides access to different remaster and persistence tools in MX Linux")
             + R"(</h3></p><p align="center"><a href="http://mxlinux.org">http://mxlinux.org</a><br /></p><p align="center">)"
-            + tr("Copyright (c) MX Linux") + "<br /><br /></p>");
-    auto *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
-    auto *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
-    auto *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
-    btnCancel->setIcon(QIcon::fromTheme("window-close"));
-
-    msgBox.exec();
-
-    if (msgBox.clickedButton() == btnLicense) {
-        const QString url = "file:///usr/share/doc/mx-remastercc/license.html";
-        displayDoc(url);
-    } else if (msgBox.clickedButton() == btnChangelog) {
-        auto *changelog = new QDialog(this);
-        const int width = 600;
-        const int height = 500;
-        changelog->resize(width, height);
-
-        auto *text = new QTextEdit;
-        text->setReadOnly(true);
-
-        QProcess proc;
-        proc.start(
-            "zless",
-            {"/usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName() + "/changelog.gz"},
-            QIODevice::ReadOnly);
-        proc.waitForFinished();
-        text->setText(proc.readAllStandardOutput());
-
-        auto *btnClose = new QPushButton(tr("&Close"));
-        btnClose->setIcon(QIcon::fromTheme("window-close"));
-        connect(btnClose, &QPushButton::clicked, changelog, &QDialog::close);
-
-        auto *layout = new QVBoxLayout;
-        layout->addWidget(text);
-        layout->addWidget(btnClose);
-        changelog->setLayout(layout);
-        changelog->exec();
-    }
+            + tr("Copyright (c) MX Linux") + "<br /><br /></p>",
+        "/usr/share/doc/mx-remastercc/license.html", tr("%1 License").arg(windowTitle()));
     show();
 }
 
 void MainWindow::pushHelp_clicked()
 {
-    QLocale locale;
-    const QString lang = locale.bcp47Name();
-
-    QString url = "/usr/share/doc/mx-remastercc/mx-remastercc.html";
-
-    if (lang.startsWith("fr")) {
-        url = "https://mxlinux.org/wiki/help-files/help-mx-r%C3%A9masterisation";
-    }
-    displayDoc(url);
+    displayHelpDoc("/usr/share/doc/mx-remastercc/mx-remastercc.html", tr("%1 Help").arg(windowTitle()));
 }
 
 void MainWindow::pushSetupPersistence_clicked()
