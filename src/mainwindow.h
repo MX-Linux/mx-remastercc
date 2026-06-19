@@ -24,17 +24,11 @@
 #pragma once
 
 #include <QDialog>
-#include <QMessageBox>
 
 namespace Ui
 {
 class MainWindow;
 }
-
-struct Result {
-    int exitCode;
-    QString output;
-};
 
 class MainWindow : public QDialog
 {

@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
         qputenv("HOME", "/root");
     }
 
-    QApplication::setWindowIcon(QIcon::fromTheme(QApplication::applicationName()));
+    QApplication::setWindowIcon(QIcon::fromTheme("preferences-desktop"));
 
     QTranslator qtTran;
     if (qtTran.load(QLocale::system(), "qt", "_", QLibraryInfo::path(QLibraryInfo::TranslationsPath))) {

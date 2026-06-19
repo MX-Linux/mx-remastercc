@@ -53,10 +53,10 @@ void MainWindow::setup()
 {
     setWindowTitle(tr("MX Remaster Control Center"));
     adjustSize();
-    ui->pushSetupPersistence->setStyleSheet("text-align:left;");
-    ui->pushConfigPersistence->setStyleSheet("text-align:left;");
-    ui->pushSaveRootPersist->setStyleSheet("text-align:left;");
-    ui->pushRemaster->setStyleSheet("text-align:left;");
+    for (auto *btn : {ui->pushSetupPersistence, ui->pushConfigPersistence,
+                      ui->pushSaveRootPersist, ui->pushRemaster}) {
+        btn->setStyleSheet("text-align:left;");
+    }
     ui->pushSaveRootPersist->setIcon(QIcon::fromTheme("filesave", QIcon(":/icons/filesave.svg")));
 }
 

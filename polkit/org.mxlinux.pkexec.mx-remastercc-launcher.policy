@@ -3,7 +3,7 @@
   "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
   "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <!--
-	/usr/share/polkit-1/actions/org.mxlinux.mxpi-launcher.policy
+	/usr/share/polkit-1/actions/org.mxlinux.mx-remastercc-launcher.policy
 !-->
  <policyconfig>
   <vendor>MX Linux</vendor>
@@ -52,8 +52,6 @@
     <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/live-remaster</annotate>
     <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
   </action>
-  <vendor>MX Linux</vendor>
-  <vendor_url>https://mxlinux.org</vendor_url>
   <action id="org.mxlinux.pkexec.remastercc.persist-config-local">
   <message>Persist-config:  Authentication is required to proceed</message>
     <description>Run perist-config</description>
