@@ -121,7 +121,6 @@ target_link_libraries(mx-remastercc
 # Set compiler flags
 target_compile_options(mx-remastercc PRIVATE
     -Wpedantic
-    -pedantic
     -Werror=return-type
     -Werror=switch
     -Werror=uninitialized
