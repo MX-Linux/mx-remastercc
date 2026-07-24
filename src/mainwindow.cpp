@@ -40,6 +40,15 @@ QString resolveCommand(const QString &name)
     const QString localPath = "/usr/local/bin/" + name;
     return QFile::exists(localPath) ? localPath : "/usr/bin/" + name;
 }
+
+void runElevated(const QString &name)
+{
+    const QString cmd = resolveCommand(name);
+    const int exitCode = QProcess::execute("pkexec", {cmd});
+    if (exitCode != 0) {
+        qWarning() << "pkexec" << cmd << "exited with code" << exitCode;
+    }
+}
 } // namespace
 
 MainWindow::MainWindow(QWidget *parent)
@@ -102,27 +111,27 @@ void MainWindow::pushHelp_clicked()
 void MainWindow::pushSetupPersistence_clicked()
 {
     hide();
-    QProcess::execute("pkexec", {resolveCommand("persist-makefs")});
+    runElevated("persist-makefs");
     show();
 }
 
 void MainWindow::pushConfigPersistence_clicked()
 {
     hide();
-    QProcess::execute("pkexec", {resolveCommand("persist-config")});
+    runElevated("persist-config");
     show();
 }
 
 void MainWindow::pushSaveRootPersist_clicked()
 {
     hide();
-    QProcess::execute("pkexec", {resolveCommand("persist-save")});
+    runElevated("persist-save");
     show();
 }
 
 void MainWindow::pushRemaster_clicked()
 {
     hide();
-    QProcess::execute("pkexec", {resolveCommand("live-remaster")});
+    runElevated("live-remaster");
     show();
 }
