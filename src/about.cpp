@@ -67,9 +67,8 @@ void showHtmlDoc(const QString &url, const QString &title, const bool largeWindo
     setupDocDialog(dialog, browser, title, largeWindow);
 
     const QUrl sourceUrl = QUrl::fromUserInput(url);
-    const QString localPath = sourceUrl.isLocalFile() ? sourceUrl.toLocalFile() : url;
-    if (QFileInfo::exists(localPath)) {
-        browser->setSource(sourceUrl.isLocalFile() ? sourceUrl : QUrl::fromLocalFile(url));
+    if (sourceUrl.isLocalFile() && QFileInfo::exists(sourceUrl.toLocalFile())) {
+        browser->setSource(sourceUrl);
     } else {
         browser->setText(QObject::tr("Could not load %1").arg(url));
         qDebug() << "Could not load HTML document" << url;

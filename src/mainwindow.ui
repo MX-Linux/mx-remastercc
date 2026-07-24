@@ -285,7 +285,7 @@
         <string>Remaster</string>
        </property>
        <property name="icon">
-        <iconset theme="gtk-cdrom"/>
+        <iconset theme="media-optical"/>
        </property>
        <property name="autoDefault">
         <bool>true</bool>
