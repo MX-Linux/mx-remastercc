@@ -48,7 +48,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-// Setup versious items first time program runs
+// Setup various items first time program runs
 void MainWindow::setup()
 {
     setWindowTitle(tr("MX Remaster Control Center"));

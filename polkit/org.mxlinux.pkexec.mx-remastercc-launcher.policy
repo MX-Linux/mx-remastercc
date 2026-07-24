@@ -10,7 +10,7 @@
   <vendor_url>https://mxlinux.org</vendor_url>
   <action id="org.mxlinux.pkexec.remastercc.persist-config">
   <message>Persist-config:  Authentication is required to proceed</message>
-    <description>Run perist-config</description>
+    <description>Run persist-config</description>
     <defaults>
       <allow_any>auth_admin</allow_any>
       <allow_inactive>auth_admin</allow_inactive>
@@ -21,7 +21,7 @@
   </action>
   <action id="org.mxlinux.pkexec.remastercc.persist-makefs">
   <message>Persist-makefs:  Authentication is required to proceed</message>
-    <description>Run perist-makefs</description>
+    <description>Run persist-makefs</description>
     <defaults>
       <allow_any>auth_admin</allow_any>
       <allow_inactive>auth_admin</allow_inactive>
@@ -32,7 +32,7 @@
   </action>
   <action id="org.mxlinux.pkexec.remastercc.persist-save">
   <message>Persist-save:  Authentication is required to proceed</message>
-    <description>Run perist-save</description>
+    <description>Run persist-save</description>
     <defaults>
       <allow_any>auth_admin</allow_any>
       <allow_inactive>auth_admin</allow_inactive>
@@ -54,7 +54,7 @@
   </action>
   <action id="org.mxlinux.pkexec.remastercc.persist-config-local">
   <message>Persist-config:  Authentication is required to proceed</message>
-    <description>Run perist-config</description>
+    <description>Run persist-config</description>
     <defaults>
       <allow_any>auth_admin</allow_any>
       <allow_inactive>auth_admin</allow_inactive>
@@ -65,7 +65,7 @@
   </action>
   <action id="org.mxlinux.pkexec.remastercc.persist-makefs-local">
   <message>Persist-makefs:  Authentication is required to proceed</message>
-    <description>Run perist-makefs</description>
+    <description>Run persist-makefs</description>
     <defaults>
       <allow_any>auth_admin</allow_any>
       <allow_inactive>auth_admin</allow_inactive>
@@ -76,7 +76,7 @@
   </action>
   <action id="org.mxlinux.pkexec.remastercc.persist-save-local">
   <message>Persist-save:  Authentication is required to proceed</message>
-    <description>Run perist-save</description>
+    <description>Run persist-save</description>
     <defaults>
       <allow_any>auth_admin</allow_any>
       <allow_inactive>auth_admin</allow_inactive>
