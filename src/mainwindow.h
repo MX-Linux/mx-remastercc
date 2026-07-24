@@ -38,9 +38,6 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow() override;
 
-    void setConnections();
-    void setup();
-
 private slots:
     void pushHelp_clicked();
     void pushAbout_clicked();
@@ -50,5 +47,8 @@ private slots:
     void pushSetupPersistence_clicked();
 
 private:
+    void setConnections();
+    void setup();
+
     Ui::MainWindow *ui;
 };
