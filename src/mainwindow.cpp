@@ -33,6 +33,15 @@
     #define VERSION "?.?.?.?"
 #endif
 
+namespace
+{
+QString resolveCommand(const QString &name)
+{
+    const QString localPath = "/usr/local/bin/" + name;
+    return QFile::exists(localPath) ? localPath : "/usr/bin/" + name;
+}
+} // namespace
+
 MainWindow::MainWindow(QWidget *parent)
     : QDialog(parent),
       ui(new Ui::MainWindow)
@@ -93,35 +102,27 @@ void MainWindow::pushHelp_clicked()
 void MainWindow::pushSetupPersistence_clicked()
 {
     hide();
-    QString cmd = QFile::exists("/usr/local/bin/persist-makefs") ?
-                 "/usr/local/bin/persist-makefs" : "/usr/bin/persist-makefs";
-    QProcess::execute("pkexec", {cmd});
+    QProcess::execute("pkexec", {resolveCommand("persist-makefs")});
     show();
 }
 
 void MainWindow::pushConfigPersistence_clicked()
 {
     hide();
-    QString cmd = QFile::exists("/usr/local/bin/persist-config") ?
-                 "/usr/local/bin/persist-config" : "/usr/bin/persist-config";
-    QProcess::execute("pkexec", {cmd});
+    QProcess::execute("pkexec", {resolveCommand("persist-config")});
     show();
 }
 
 void MainWindow::pushSaveRootPersist_clicked()
 {
     hide();
-    QString cmd = QFile::exists("/usr/local/bin/persist-save") ?
-                 "/usr/local/bin/persist-save" : "/usr/bin/persist-save";
-    QProcess::execute("pkexec", {cmd});
+    QProcess::execute("pkexec", {resolveCommand("persist-save")});
     show();
 }
 
 void MainWindow::pushRemaster_clicked()
 {
     hide();
-    QString cmd = QFile::exists("/usr/local/bin/live-remaster") ?
-                 "/usr/local/bin/live-remaster" : "/usr/bin/live-remaster";
-    QProcess::execute("pkexec", {cmd});
+    QProcess::execute("pkexec", {resolveCommand("live-remaster")});
     show();
 }
